@@ -37,3 +37,10 @@ Rollback: restaurar os dois nameservers da BanaHosting e, conforme o estado, rem
 Na conferência posterior à troca, o diagnóstico DNS do GitHub ainda retornava a resolução antiga e nenhum certificado emitido. HTTPS obrigatório ainda não pode ser ativado. Uma tentativa de TLS diretamente no GitHub confirmou certificado sem lafmat.com; a verificação de TLS não foi desativada. A resolução local também manteve o IP antigo em cache, embora os dois resolvedores públicos já apresentassem os quatro IPs novos.
 
 Estado: DNS_APPLIED_HTTPS_PENDING. Não considerar a migração integralmente concluída até o certificado cobrir lafmat.com e www.lafmat.com, HTTPS obrigatório estar ativo e as duas URLs públicas passarem nos testes normais. Não solicitar nova autorização para concluir essa etapa já autorizada; consultar o estado e ativar HTTPS assim que disponível. Não cancelar a hospedagem antiga nem a renovação do domínio.
+
+
+## Nova tentativa de finalização de HTTPS — 18/11/2026
+
+A pedido do usuário, a configuração do domínio foi reaplicada e depois removida/reinserida uma vez, conforme o procedimento oficial de solução de problemas de HTTPS do GitHub. O CNAME foi restaurado à formatação exata do manifesto validado, sem mudar o conteúdo do site. A publicação resultante é 372167a36e14b472278609383e1dbf5ca691dc23; build/deploy 44414783704 concluído com sucesso. Um build intermediário obsoleto foi cancelado para liberar a fila.
+
+A tentativa explícita de ativar https_enforced=true foi recusada pelo GitHub com HTTP 404 e “The certificate does not exist yet”. Após a nova publicação, https_certificate continua null e https_enforced=false. DNS público e os dois servidores oficiais permanecem corretos, mas a validação do GitHub ainda retornou a resolução antiga. A verificação TLS não foi desativada. Estado continua HTTPS_PENDING_PROVIDER; não anunciar conclusão integral. Evidência estruturada em https-activation-attempt-2026-11-18.json.

@@ -60,3 +60,6 @@ ESTADO: DNS_APPLIED_HTTPS_PENDING. A confirmação do certificado e HTTPS obriga
 PO_MAGICO_CHECKPOINT: change (migração DNS autorizada)
 PO_MAGICO_LAST_CHECKED: 2026-11-18
 PO_MAGICO_DELTA_ADOPTED: no
+
+
+Retomada de finalização HTTPS, 18/11/2026: reaplicado domínio e executado um ciclo de remoção/reinserção recomendado pelo GitHub. Publicação mais recente 372167a36e14b472278609383e1dbf5ca691dc23, run 44414783704 success, mesma árvore validada de dist. Ativação explícita de HTTPS obrigatório retornou HTTP 404 “The certificate does not exist yet”; certificado ainda null após o deploy. Não repetir ciclos de domínio sem nova evidência. Consultar o estado e concluir quando o provedor emitir o certificado. Detalhes em docs/https-activation-attempt-2026-11-18.json.

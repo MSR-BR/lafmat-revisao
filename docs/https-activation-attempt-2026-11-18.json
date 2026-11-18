@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-18",
+  "action": "Reapplied custom domain, then removed/re-added it once following GitHub HTTPS troubleshooting. Restored the exact verified deployment tree after GitHub rewrote CNAME formatting.",
+  "cname": "lafmat.com",
+  "certificate": null,
+  "https_enforced": false,
+  "github_activation_error": {
+    "status": 404,
+    "message": "The certificate does not exist yet"
+  },
+  "publication": "372167a36e14b472278609383e1dbf5ca691dc23",
+  "site_manifest": "LAFMAT-20261118-F6344655EC91",
+  "state": "HTTPS_PENDING_PROVIDER",
+  "deployment_run": 44414783704,
+  "deployment_result": "success",
+  "obsolete_run": 44414506052,
+  "obsolete_run_result": "cancelled after ordinary cancellation; force-cancel returned 409 because the run had completed"
+}
