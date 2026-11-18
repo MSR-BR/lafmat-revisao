@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-18",
+  "scope": "Public DNS snapshot; not a complete zone export. User confirmed no mailboxes or forwarding in use.",
+  "records": [
+    {
+      "name": "lafmat.com",
+      "type": "NS",
+      "answer": "lafmat.com.\t\t86400\tIN\tNS\tns4929.banahosting.com.\nlafmat.com.\t\t86400\tIN\tNS\tns4928.banahosting.com."
+    },
+    {
+      "name": "lafmat.com",
+      "type": "SOA",
+      "answer": "lafmat.com.\t\t85382\tIN\tSOA\tns4928.banahosting.com. support.banahosting.com. 2026111601 86400 7200 1600000 86400"
+    },
+    {
+      "name": "lafmat.com",
+      "type": "A",
+      "answer": "lafmat.com.\t\t11486\tIN\tA\t66.225.201.137"
+    },
+    {
+      "name": "lafmat.com",
+      "type": "AAAA",
+      "answer": ""
+    },
+    {
+      "name": "lafmat.com",
+      "type": "MX",
+      "answer": "lafmat.com.\t\t14400\tIN\tMX\t0 lafmat.com."
+    },
+    {
+      "name": "lafmat.com",
+      "type": "TXT",
+      "answer": "lafmat.com.\t\t14400\tIN\tTXT\t\"v=spf1 +a +mx +ip4:66.225.201.130 +include:relay.mailchannels.net ~all\""
+    },
+    {
+      "name": "lafmat.com",
+      "type": "CAA",
+      "answer": ""
+    },
+    {
+      "name": "lafmat.com",
+      "type": "DS",
+      "answer": ""
+    },
+    {
+      "name": "www.lafmat.com",
+      "type": "CNAME",
+      "answer": "www.lafmat.com.\t\t11490\tIN\tCNAME\tlafmat.com."
+    },
+    {
+      "name": "mail.lafmat.com",
+      "type": "CNAME",
+      "answer": "mail.lafmat.com.\t14400\tIN\tCNAME\tlafmat.com."
+    },
+    {
+      "name": "mail.lafmat.com",
+      "type": "A",
+      "answer": "mail.lafmat.com.\t14400\tIN\tCNAME\tlafmat.com.\nlafmat.com.\t\t11485\tIN\tA\t66.225.201.137"
+    },
+    {
+      "name": "_dmarc.lafmat.com",
+      "type": "TXT",
+      "answer": ""
+    },
+    {
+      "name": "default._domainkey.lafmat.com",
+      "type": "TXT",
+      "answer": "default._domainkey.lafmat.com. 14400 IN\tTXT\t\"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0q+X4//xKf+PoPw3+N7g4DnXjYKf+8XT3dtYDHYq00ozPV6lajOvDAnGAJWIWORcVlC2ESRudF1u48UvgN2AB02MuWPjZg3MtRggnQhvG28HPRGTY7XJiKh0p74QW3lrytxn/ttK7//9gjPPzy1xDVmO3iO0MwTVqTtwI0N2lHuD4wVuHa0kX8qziqZkD/LjP\" \"mzuVjN3STyfIbobtMEZqayrH1F50BjSYrCR2FdeLXtUVBghLkH3jGwuf40uEJJQw5YkEb1vqrLFu/xAeSZ8P4qcqVoXKuicaZbfdQnyU6JRku/1kiRpfCMeaTpPSeHixM+nYU+eysathpIGRvj/sQIDAQAB;\""
+    },
+    {
+      "name": "_github-pages-challenge-msr-br.lafmat.com",
+      "type": "TXT",
+      "answer": ""
+    },
+    {
+      "name": "ftp.lafmat.com",
+      "type": "A",
+      "answer": "ftp.lafmat.com.\t\t14400\tIN\tCNAME\tlafmat.com.\nlafmat.com.\t\t11484\tIN\tA\t66.225.201.137"
+    },
+    {
+      "name": "cpanel.lafmat.com",
+      "type": "A",
+      "answer": "cpanel.lafmat.com.\t14400\tIN\tA\t66.225.201.137"
+    },
+    {
+      "name": "webmail.lafmat.com",
+      "type": "A",
+      "answer": "webmail.lafmat.com.\t14400\tIN\tA\t66.225.201.137"
+    },
+    {
+      "name": "autoconfig.lafmat.com",
+      "type": "A",
+      "answer": ""
+    },
+    {
+      "name": "autodiscover.lafmat.com",
+      "type": "A",
+      "answer": ""
+    }
+  ]
+}
