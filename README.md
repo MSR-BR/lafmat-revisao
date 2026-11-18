@@ -35,6 +35,6 @@ O menu **Conferências** abre uma lista de anos. Para acrescentar uma edição, 
 
 ## Domínio lafmat.com
 
-O domínio personalizado é declarado em `dist/CNAME`. O DNS passou para Namecheap BasicDNS em 18/11/2026, após confirmação de que não há contas de e-mail ou encaminhamentos em uso. Consulte `docs/domain-cutover-2026-11-18.md` para a configuração, o rollback e o estado do certificado HTTPS. Preserve `dist/CNAME` em toda publicação. A hospedagem antiga não foi cancelada.
+O domínio personalizado é declarado em `dist/CNAME`. O DNS passou para Namecheap BasicDNS em 18/11/2026, após confirmação de que não há contas de e-mail ou encaminhamentos em uso. Consulte `docs/domain-cutover-2026-11-18.md` para a configuração, o rollback e o estado do certificado HTTPS. Preserve `dist/CNAME` e `dist/.nojekyll` em toda publicação. O segundo arquivo impede o processamento Jekyll e mantém rotas históricas com sublinhado, como `/home/__trashed/`. A hospedagem antiga não foi cancelada.
 
 `python3 scripts/build_legacy_routes.py` reconstrói os atalhos das antigas páginas WordPress, incluindo `/home/`, sem depender do backend antigo.

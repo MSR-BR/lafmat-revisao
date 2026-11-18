@@ -44,3 +44,7 @@ Estado: DNS_APPLIED_HTTPS_PENDING. Não considerar a migração integralmente co
 A pedido do usuário, a configuração do domínio foi reaplicada e depois removida/reinserida uma vez, conforme o procedimento oficial de solução de problemas de HTTPS do GitHub. O CNAME foi restaurado à formatação exata do manifesto validado, sem mudar o conteúdo do site. A publicação resultante é 372167a36e14b472278609383e1dbf5ca691dc23; build/deploy 44414783704 concluído com sucesso. Um build intermediário obsoleto foi cancelado para liberar a fila.
 
 A tentativa explícita de ativar https_enforced=true foi recusada pelo GitHub com HTTP 404 e “The certificate does not exist yet”. Após a nova publicação, https_certificate continua null e https_enforced=false. DNS público e os dois servidores oficiais permanecem corretos, mas a validação do GitHub ainda retornou a resolução antiga. A verificação TLS não foi desativada. Estado continua HTTPS_PENDING_PROVIDER; não anunciar conclusão integral. Evidência estruturada em https-activation-attempt-2026-11-18.json.
+
+## Verificação integral e rota histórica
+
+A verificação HTTP dos 281 arquivos públicos detectou que `/home/__trashed/index.html` não era servido por causa do processamento padrão Jekyll. Adicionado `dist/.nojekyll` para publicar o conteúdo estático sem excluir diretórios com sublinhado. Manifesto atualizado: `LAFMAT-20261118-6D2C6003288B`. As 22 páginas de arquivo/rotas da conferência passaram novamente na verificação local. A emissão HTTPS continua pendente e é acompanhada nesta execução.
