@@ -44,3 +44,7 @@ Fonte: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-git
 Rollback de DNS: reaplicar os apontamentos web anteriores, conferir o plano de e-mail e remover o domínio personalizado do Pages quando necessário. Manter a hospedagem antiga até a validação da troca.
 
 Nenhuma alteração de domínio, DNS, e-mail ou hospedagem foi executada nesta preparação.
+
+## Atualização de execução — 18/11/2026
+
+Este documento foi o plano anterior à troca. A migração foi autorizada e os apontamentos DNS já foram aplicados na Namecheap após o usuário confirmar ausência de e-mail e encaminhamentos. A conclusão técnica e o rollback estão em `domain-cutover-2026-11-18.md`; snapshots anterior/posterior e validação HTTP estão no mesmo diretório. A emissão do certificado e a ativação de HTTPS obrigatório ainda estão pendentes na última conferência. As afirmações de “nenhuma alteração executada” acima descrevem a preparação inicial, não o estado atual.

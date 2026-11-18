@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-18",
+  "records": [
+    {
+      "server": "dns1.registrar-servers.com",
+      "name": "lafmat.com",
+      "type": "NS",
+      "answer": "lafmat.com.\t\t1800\tIN\tNS\tdns1.registrar-servers.com.\nlafmat.com.\t\t1800\tIN\tNS\tdns2.registrar-servers.com."
+    },
+    {
+      "server": "dns1.registrar-servers.com",
+      "name": "lafmat.com",
+      "type": "A",
+      "answer": "lafmat.com.\t\t300\tIN\tA\t185.199.110.153\nlafmat.com.\t\t300\tIN\tA\t185.199.108.153\nlafmat.com.\t\t300\tIN\tA\t185.199.111.153\nlafmat.com.\t\t300\tIN\tA\t185.199.109.153"
+    },
+    {
+      "server": "dns1.registrar-servers.com",
+      "name": "www.lafmat.com",
+      "type": "CNAME",
+      "answer": "www.lafmat.com.\t\t300\tIN\tCNAME\tmsr-br.github.io."
+    },
+    {
+      "server": "dns1.registrar-servers.com",
+      "name": "lafmat.com",
+      "type": "MX",
+      "answer": ""
+    },
+    {
+      "server": "dns2.registrar-servers.com",
+      "name": "lafmat.com",
+      "type": "NS",
+      "answer": "lafmat.com.\t\t1800\tIN\tNS\tdns1.registrar-servers.com.\nlafmat.com.\t\t1800\tIN\tNS\tdns2.registrar-servers.com."
+    },
+    {
+      "server": "dns2.registrar-servers.com",
+      "name": "lafmat.com",
+      "type": "A",
+      "answer": "lafmat.com.\t\t300\tIN\tA\t185.199.108.153\nlafmat.com.\t\t300\tIN\tA\t185.199.109.153\nlafmat.com.\t\t300\tIN\tA\t185.199.111.153\nlafmat.com.\t\t300\tIN\tA\t185.199.110.153"
+    },
+    {
+      "server": "dns2.registrar-servers.com",
+      "name": "www.lafmat.com",
+      "type": "CNAME",
+      "answer": "www.lafmat.com.\t\t300\tIN\tCNAME\tmsr-br.github.io."
+    },
+    {
+      "server": "dns2.registrar-servers.com",
+      "name": "lafmat.com",
+      "type": "MX",
+      "answer": ""
+    },
+    {
+      "server": "1.1.1.1",
+      "name": "lafmat.com",
+      "type": "NS",
+      "answer": "lafmat.com.\t\t1800\tIN\tNS\tdns1.registrar-servers.com.\nlafmat.com.\t\t1800\tIN\tNS\tdns2.registrar-servers.com."
+    },
+    {
+      "server": "1.1.1.1",
+      "name": "lafmat.com",
+      "type": "A",
+      "answer": "lafmat.com.\t\t300\tIN\tA\t185.199.110.153\nlafmat.com.\t\t300\tIN\tA\t185.199.109.153\nlafmat.com.\t\t300\tIN\tA\t185.199.111.153\nlafmat.com.\t\t300\tIN\tA\t185.199.108.153"
+    },
+    {
+      "server": "1.1.1.1",
+      "name": "www.lafmat.com",
+      "type": "CNAME",
+      "answer": "www.lafmat.com.\t\t300\tIN\tCNAME\tmsr-br.github.io."
+    },
+    {
+      "server": "1.1.1.1",
+      "name": "lafmat.com",
+      "type": "MX",
+      "answer": ""
+    },
+    {
+      "server": "8.8.8.8",
+      "name": "lafmat.com",
+      "type": "NS",
+      "answer": "lafmat.com.\t\t1800\tIN\tNS\tdns2.registrar-servers.com.\nlafmat.com.\t\t1800\tIN\tNS\tdns1.registrar-servers.com."
+    },
+    {
+      "server": "8.8.8.8",
+      "name": "lafmat.com",
+      "type": "A",
+      "answer": "lafmat.com.\t\t300\tIN\tA\t185.199.111.153\nlafmat.com.\t\t300\tIN\tA\t185.199.109.153\nlafmat.com.\t\t300\tIN\tA\t185.199.110.153\nlafmat.com.\t\t300\tIN\tA\t185.199.108.153"
+    },
+    {
+      "server": "8.8.8.8",
+      "name": "www.lafmat.com",
+      "type": "CNAME",
+      "answer": "www.lafmat.com.\t\t300\tIN\tCNAME\tmsr-br.github.io."
+    },
+    {
+      "server": "8.8.8.8",
+      "name": "lafmat.com",
+      "type": "MX",
+      "answer": ""
+    }
+  ]
+}

@@ -32,3 +32,9 @@ A seção Conferências abre `dist/conferences/2023/event-home/index.html`, com 
 As fontes públicas imutáveis estão em `sources/conference-2023/`. Para reconstruir após instalar `beautifulsoup4==4.15.0`, execute `python3 scripts/archive_conference.py` (sem rede). `--download` recupera os arquivos locais da origem e exige rede. Execute `python3 scripts/verify_conference.py` para conferir paridade e links. Leia `docs/conference-2023-validation.md` para as exceções da origem e `docs/domain-migration-plan.md` para preparar o domínio sem afetar e-mails.
 
 O menu **Conferências** abre uma lista de anos. Para acrescentar uma edição, inclua `{year: AAAA, url: 'caminho/da/edicao/index.html'}` em `conferences` no arquivo `dist/assets/content.js`. A lista alimenta o submenu e a página de conferências; as edições abrem em outra aba. Após alterações intencionais, execute `python3 scripts/update_manifest.py` e `python3 scripts/verify.py`.
+
+## Domínio lafmat.com
+
+O domínio personalizado é declarado em `dist/CNAME`. O DNS passou para Namecheap BasicDNS em 18/11/2026, após confirmação de que não há contas de e-mail ou encaminhamentos em uso. Consulte `docs/domain-cutover-2026-11-18.md` para a configuração, o rollback e o estado do certificado HTTPS. Preserve `dist/CNAME` em toda publicação. A hospedagem antiga não foi cancelada.
+
+`python3 scripts/build_legacy_routes.py` reconstrói os atalhos das antigas páginas WordPress, incluindo `/home/`, sem depender do backend antigo.

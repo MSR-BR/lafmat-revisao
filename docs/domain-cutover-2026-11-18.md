@@ -22,4 +22,18 @@ Publicação preparada com dist/CNAME e oito rotas antigas de navegação, além
 
 Rollback: restaurar os dois nameservers da BanaHosting e, conforme o estado, remover o domínio personalizado do Pages e republicar a árvore de 5fcff81662a12e00062edafa99e1d6164eade2ca. Não apagar a história Git. Aguardar caches DNS antes de concluir falha ou sucesso global.
 
-Estado deste registro: candidato preparado; conclusão e evidências serão acrescentadas depois da execução.
+## Execução confirmada
+
+- Nameservers alterados para dns1.registrar-servers.com e dns2.registrar-servers.com. A operação em lote inicial não provisionou a zona; a troca foi concluída no controle direto e os registros foram gravados no editor Advanced DNS.
+- Os oito registros preparados foram conferidos após recarregar e expandir “Show More”: quatro A de @, CNAME de www e A de cpanel/webmail/ftp. TTL de 300 segundos. Nenhum URL Redirect de estacionamento permaneceu.
+- Mail Settings definido como No Email Service, conforme confirmação de ausência de contas e encaminhamentos.
+- GitHub Pages configurado com cname lafmat.com. Fonte 2eca68c; publicação 5c6d8c2ebfc24ee576ea183a35438d86dfec385d. Build 44410633742: success.
+- Novos servidores autoritativos e resolvedores 1.1.1.1/8.8.8.8 conferidos. Snapshot posterior em dns-after-migration-2026-11-18.json.
+- Nove arquivos de produção conferidos pelo domínio, diretamente no IP do GitHub por HTTP, com hashes iguais aos locais: entrada, aliases antigos, arquivo de 2023, PDF, ZIP e JavaScript. O CNAME foi conferido na árvore Git publicada; é metadado de hospedagem, não um download servido pelo Pages. Evidências em domain-http-validation-2026-11-18.json.
+- Manifesto LAFMAT-20261118-F6344655EC91, SHA-256 f6344655ec910f9b11002b23c54fe5870e88dd37fee4e6bcf1b9a3d3fa4022e7.
+
+## Pendência externa
+
+Na conferência posterior à troca, o diagnóstico DNS do GitHub ainda retornava a resolução antiga e nenhum certificado emitido. HTTPS obrigatório ainda não pode ser ativado. Uma tentativa de TLS diretamente no GitHub confirmou certificado sem lafmat.com; a verificação de TLS não foi desativada. A resolução local também manteve o IP antigo em cache, embora os dois resolvedores públicos já apresentassem os quatro IPs novos.
+
+Estado: DNS_APPLIED_HTTPS_PENDING. Não considerar a migração integralmente concluída até o certificado cobrir lafmat.com e www.lafmat.com, HTTPS obrigatório estar ativo e as duas URLs públicas passarem nos testes normais. Não solicitar nova autorização para concluir essa etapa já autorizada; consultar o estado e ativar HTTPS assim que disponível. Não cancelar a hospedagem antiga nem a renovação do domínio.

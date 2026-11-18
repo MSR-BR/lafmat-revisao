@@ -1,0 +1,47 @@
+{
+  "method": "HTTP requests to GitHub IP with Host lafmat.com, bypassing only stale resolver cache; no TLS verification was disabled. HTTPS still pending.",
+  "code": "LAFMAT-20261118-F6344655EC91",
+  "checks": [
+    {
+      "path": "index.html",
+      "match": true
+    },
+    {
+      "path": "home/index.html",
+      "match": true
+    },
+    {
+      "path": "home/know-us/index.html",
+      "match": true
+    },
+    {
+      "path": "home/conferences/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/event-home/index.html",
+      "match": true
+    },
+    {
+      "path": "home/program/index.html",
+      "match": true
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/resumen.pdf",
+      "match": true
+    },
+    {
+      "path": "home/wp-content/uploads/2023/05/Resumen.zip",
+      "match": true
+    },
+    {
+      "path": "assets/site.js",
+      "match": true
+    }
+  ],
+  "hosting_metadata": {
+    "path": "CNAME",
+    "result": "PASS",
+    "method": "Verified in the publication Git tree; Pages does not serve this configuration file as a public download."
+  }
+}
