@@ -1,0 +1,31 @@
+[
+  {
+    "url": "http://www.consulado.pe/Documents/visas/Requerimientos_de_visa_para_ciudadanos_extranjeros.pdf",
+    "error": "HTTPConnectionPool(host='www.consulado.pe', port=80): Max retries exceeded with url: /Documents/visas/Requerimientos_de_visa_para_ciudadanos_extranjeros.pdf (Caused by ConnectTimeoutError(<HTTPConnection(host='www.consulado.pe', port=80) at 0x106b8aac0>, 'Connection to www.consulado.pe timed out. (connect timeout=25)'))"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/National_University_of_San_Marcos",
+    "status": 403,
+    "final_url": "https://en.wikipedia.org/wiki/National_University_of_San_Marcos"
+  },
+  {
+    "url": "https://maps.app.goo.gl/m16c9dQZ2kFMAgG87",
+    "status": 200,
+    "final_url": "https://www.google.com.pe/maps/place/Unidad+de+Posgrado+de+Ciencias+F%C3%ADsicas/@-12.0595739,-77.0824394,18z/data=!4m7!3m6!1s0x9105c93ef3cf0bf3:0xbe48b75467e6b1a!8m2!3d-12.0592205!4d-77.0814421!15sCmVsYWJvcmF0b3Jpb3MgZGUgbGEgRmFjdWx0YWQgZGUgQ2llbmNpYXMgRsOtc2ljYXMgLSBVTk1TTSwgQXZlbmlkYSBSZXDDumJsaWNhIGRlIFZlbmV6dWVsYSwgTGltYSwgUGVydZIBFXVuaXZlcnNpdHlfZGVwYXJ0bWVudOABAA!16s%2Fg%2F11q33kwv4w?entry=tts"
+  },
+  {
+    "url": "https://unmsm.edu.pe/",
+    "status": 200,
+    "final_url": "https://www.unmsm.edu.pe/"
+  },
+  {
+    "url": "https://www.springer.com/journal/10948",
+    "status": 200,
+    "final_url": "https://link.springer.com/journal/10948"
+  },
+  {
+    "url": "https://www.springer.com/journal/10948/how-to-publish-with-us",
+    "status": 200,
+    "final_url": "https://link.springer.com/journal/10948/how-to-publish-with-us"
+  }
+]

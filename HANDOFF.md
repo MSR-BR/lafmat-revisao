@@ -29,3 +29,19 @@ e confirme que o último build de Pages terminou com sucesso.
 Para continuar no Codex, abra a pasta do projeto e peça para ler HANDOFF.md e README.md.
 Após alterações, regenere o manifesto antes de publicar uma nova versão.
 A branch main guarda o projeto completo. Publique dist/ na raiz da branch gh-pages.
+
+## Atualização de 18/11/2026 — arquivo 2023 preparado
+
+As 11 páginas públicas da conferência de 2023 foram copiadas para dist/conferences/2023/, com 11 rotas legadas em dist/home/. A entrada Conferências do site aponta ao arquivo local. Fontes públicas, inventário, testes e limitações: docs/conference-2023-validation.md. Um logotipo que já estava ausente na origem foi substituído por versão da biblioteca do WordPress; dois vídeos permanecem externos.
+
+O grupo aprovou a migração do domínio. O DNS público usa ns4928/ns4929.banahosting.com. MX e mail apontam para o domínio principal: não trocar o A sem resolver antes eventual dependência de e-mail. Plano em docs/domain-migration-plan.md. Nenhum DNS alterado, nenhum CNAME de produção ativado, nenhum serviço cancelado.
+
+Próxima ação: revisar e autorizar a versão preparada para publicação no GitHub Pages existente. Depois conferir a publicação e coordenar o DNS com o colega, confirmando primeiro o uso de e-mail.
+
+PO_MAGICO_SOURCE: ../po-magico (somente leitura)
+PO_MAGICO_VERSION_USED: v20261111.001
+PO_MAGICO_LAST_CHECKED: 2026-11-18
+PO_MAGICO_CHECKPOINT: delivery (candidato local do arquivo 2023)
+PO_MAGICO_DELTA_ADOPTED: no
+PO_MAGICO_LESSON_CANDIDATE: MX e mail podem depender do mesmo A que o site; preservar o valor do MX sem revisar a resolução não preserva o e-mail.
+Pó Mágico local bb32f274 e remoto 3a50be1d diferiam na conferência anterior desta sessão. Sem atualização do arquivo ou declaração de conformidade integral. Rota SITE_EXISTING_REVISION + SITE_STATIC, overlay S0_STATIC. Modelo efetivo informado pelo runtime: gpt-6.1-sol; esforço e custo não expostos.

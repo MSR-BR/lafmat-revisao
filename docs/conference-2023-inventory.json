@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-18",
+  "scope": "All 11 pages in the conference navigation and every locally hosted image/download referenced by their content. Public content only.",
+  "pages": [
+    {
+      "slug": "event-home",
+      "title": "Event Home",
+      "source": "https://www.lafmat.com/home/event-home/",
+      "source_sha256": "4abe52fefaa629b1859b768a5dbb282a65c4162c85d6b7a865ce837fead26664",
+      "text_sha256": "0eba359a31446ba8b9d558e6208dd93c151ca1a14cfd095a1d66bd93ea5d1f0c",
+      "text_characters": 4211,
+      "images": 2,
+      "embeds": 0,
+      "tables": 0,
+      "text_parity": "PASS",
+      "legacy_path": "home/event-home/index.html",
+      "output": "conferences/2023/event-home/index.html"
+    },
+    {
+      "slug": "venue",
+      "title": "Venue",
+      "source": "https://www.lafmat.com/home/venue/",
+      "source_sha256": "6815a7b0cde51c900ca9b598f1bca05398ba8bf3d3746a97b07d3760448b40dd",
+      "text_sha256": "b13db5ba78ef89fc120e18f60d1373a90c8b5fdb7ee8c208a43c7dd5c936a1a1",
+      "text_characters": 3617,
+      "images": 3,
+      "embeds": 2,
+      "tables": 0,
+      "text_parity": "PASS",
+      "legacy_path": "home/venue/index.html",
+      "output": "conferences/2023/venue/index.html"
+    },
+    {
+      "slug": "topics",
+      "title": "Topics",
+      "source": "https://www.lafmat.com/home/topics/",
+      "source_sha256": "431919caa7865569cf047c4ca7fe30f439e35ca2ab5950980bc291fc5111cbf4",
+      "text_sha256": "0b277c70fb25a0cf9b5a16dd8b538663fb4e31790d78087b7df9328936e6ddd3",
+      "text_characters": 1710,
+      "images": 2,
+      "embeds": 0,
+      "tables": 0,
+      "text_parity": "PASS",
+      "legacy_path": "home/topics/index.html",
+      "output": "conferences/2023/topics/index.html"
+    },
+    {
+      "slug": "commitee",
+      "title": "Commitee",
+      "source": "https://www.lafmat.com/home/commitee/",
+      "source_sha256": "b4b4087347fe6f299e9ace221ff2609192ded582f7ab8b1e4da1bed8b5838ebf",
+      "text_sha256": "70752c9d43cea506f7f21e23b1500390b1d886db61e55f8fb6bb3a3b5db7fe0a",
+      "text_characters": 605,
+      "images": 2,
+      "embeds": 0,
+      "tables": 0,
+      "text_parity": "PASS",
+      "legacy_path": "home/commitee/index.html",
+      "output": "conferences/2023/commitee/index.html"
+    },
+    {
+      "slug": "poster-2",
+      "title": "Poster",
+      "source": "https://www.lafmat.com/home/poster-2/",
+      "source_sha256": "52222114904fa52d0f2a81416dc15daaaff00c560c41020a9ceb47cb3a7b9698",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_characters": 0,
+      "images": 1,
+      "embeds": 0,
+      "tables": 0,
+      "text_parity": "PASS",
+      "legacy_path": "home/poster-2/index.html",
+      "output": "conferences/2023/poster-2/index.html"
+    },
+    {
+      "slug": "publications",
+      "title": "Publications",
+      "source": "https://www.lafmat.com/home/publications/",
+      "source_sha256": "cf18dc6a523a7aff0d0976867d8cfedc46449d0891ef90206d582d0c14df1993",
+      "text_sha256": "85ea29f4c7a55ba5848537d8fadfd08c7c73d965111824591460c563b1f47263",
+      "text_characters": 920,
+      "images": 1,
+      "embeds": 0,
+      "tables": 0,
+      "text_parity": "PASS",
+      "legacy_path": "home/publications/index.html",
+      "output": "conferences/2023/publications/index.html"
+    },
+    {
+      "slug": "registration",
+      "title": "Registration",
+      "source": "https://www.lafmat.com/home/registration/",
+      "source_sha256": "e77aed853892d3695168b8f74ee3479954884d3471c7f30c410f024d5bc0e55e",
+      "text_sha256": "380f4633d8fc6d34ba0d481429f7fc167ed265fc978fe49620a5038da86c4bb5",
+      "text_characters": 3260,
+      "images": 1,
+      "embeds": 0,
+      "tables": 1,
+      "text_parity": "PASS",
+      "legacy_path": "home/registration/index.html",
+      "output": "conferences/2023/registration/index.html"
+    },
+    {
+      "slug": "2757-2",
+      "title": "Invited Speakers",
+      "source": "https://www.lafmat.com/home/2757-2/",
+      "source_sha256": "0aa70210af2639acab419ab03e70172ed7a2082de6a6f0146d5f0c4ef9dfb36c",
+      "text_sha256": "3cfc03a2fb9aab89914e316c12740e225d552a0c576669f847a27b63c62a5c45",
+      "text_characters": 1427,
+      "images": 2,
+      "embeds": 0,
+      "tables": 0,
+      "text_parity": "PASS",
+      "legacy_path": "home/2757-2/index.html",
+      "output": "conferences/2023/2757-2/index.html"
+    },
+    {
+      "slug": "event-contact",
+      "title": "Event Contact",
+      "source": "https://www.lafmat.com/home/event-contact/",
+      "source_sha256": "2e0dcb12485e8efdcc6b28c6ed6ca58d5cc607ff2ec7111a5e881f615fb11818",
+      "text_sha256": "abee0f1799ac4774f2e341b665e410bf13ded63dd2e880e2712c8ca072634512",
+      "text_characters": 85,
+      "images": 1,
+      "embeds": 0,
+      "tables": 0,
+      "text_parity": "PASS",
+      "legacy_path": "home/event-contact/index.html",
+      "output": "conferences/2023/event-contact/index.html"
+    },
+    {
+      "slug": "important-dates",
+      "title": "Important Dates",
+      "source": "https://www.lafmat.com/home/important-dates/",
+      "source_sha256": "88acfd665a44b5ce640919e5b54b77a7f336f86cad592f84c6d07a995501781a",
+      "text_sha256": "a4540080eaf929ec1bbb31425bc2a6d100f687b9f44b55abc4a09d67bc1baeb1",
+      "text_characters": 355,
+      "images": 0,
+      "embeds": 0,
+      "tables": 0,
+      "text_parity": "PASS",
+      "legacy_path": "home/important-dates/index.html",
+      "output": "conferences/2023/important-dates/index.html"
+    },
+    {
+      "slug": "program",
+      "title": "Program",
+      "source": "https://www.lafmat.com/home/program/",
+      "source_sha256": "1cf0a0736550f8e3672638f625cb1e6a0040e548136a4aa0262c3ff863c76b28",
+      "text_sha256": "d188725f14632e51ea5162e949741726e866cb7e5e1cfce4eba8a3d05372384b",
+      "text_characters": 12118,
+      "images": 2,
+      "embeds": 0,
+      "tables": 0,
+      "text_parity": "PASS",
+      "legacy_path": "home/program/index.html",
+      "output": "conferences/2023/program/index.html"
+    }
+  ],
+  "assets": [
+    {
+      "source": "https://www.lafmat.com/home/wp-content/uploads/2023/02/Head-1080x555.png",
+      "path": "home/wp-content/uploads/2023/02/Head-1080x555.png",
+      "bytes": 894807,
+      "sha256": "cf58ee267d29387d8a20638c94e06192773a713913f174613e233bbe516a67fb"
+    },
+    {
+      "source": "https://www.lafmat.com/home/wp-content/uploads/2023/02/Head.png",
+      "path": "home/wp-content/uploads/2023/02/Head.png",
+      "bytes": 17400462,
+      "sha256": "6a31ab933afa6a0633edc9fd2a8cd9214f8fa9f631363e5f8608f3d6eee17c74"
+    },
+    {
+      "source": "https://www.lafmat.com/home/wp-content/uploads/2023/02/PosterSM.jpeg",
+      "path": "home/wp-content/uploads/2023/02/PosterSM.jpeg",
+      "bytes": 629129,
+      "sha256": "e584db2ccf89a7e9f7ce8e59c18123ff13bd5707a83be7d70b1dc8a62f78fcae"
+    },
+    {
+      "source": "https://www.lafmat.com/home/wp-content/uploads/2023/02/UNSM.png",
+      "path": "home/wp-content/uploads/2023/02/UNSM.png",
+      "bytes": 485390,
+      "sha256": "1a9c5083b56d92875d9a2a44ede3f214c340eec3898abb5d7fb6adbed617e824"
+    },
+    {
+      "source": "https://www.lafmat.com/home/wp-content/uploads/2023/02/logoevent-removebg-preview.png",
+      "path": "home/wp-content/uploads/2023/02/logoevent-removebg-preview.png",
+      "bytes": 91899,
+      "sha256": "cd6802fcb778a234252bb705542395804d33950554d5b358b9049fa85e3c0369"
+    },
+    {
+      "source": "https://www.lafmat.com/home/wp-content/uploads/2023/02/resumen.pdf",
+      "path": "home/wp-content/uploads/2023/02/resumen.pdf",
+      "bytes": 80234,
+      "sha256": "d59d2e86de518aff23ecf1d0e18661dc657a31c2edb2093fc5a1ebd50bdc80dc"
+    },
+    {
+      "source": "https://www.lafmat.com/home/wp-content/uploads/2023/02/spons.png",
+      "path": "home/wp-content/uploads/2023/02/spons.png",
+      "bytes": 367234,
+      "sha256": "3eb6a48dda4961fd1177422de8dcdb88f3ec3593063785c598bb1068536dfa96"
+    },
+    {
+      "source": "https://www.lafmat.com/home/wp-content/uploads/2023/03/SuperMagRev.jpeg",
+      "path": "home/wp-content/uploads/2023/03/SuperMagRev.jpeg",
+      "bytes": 39902,
+      "sha256": "ed4a632cf5788d149b76dfc0beb2043d18243e4fb9e08cd380c6c44cfbd16394"
+    },
+    {
+      "source": "https://www.lafmat.com/home/wp-content/uploads/2023/05/Resumen.zip",
+      "path": "home/wp-content/uploads/2023/05/Resumen.zip",
+      "bytes": 101823,
+      "sha256": "d1d9e81faa2e55e7d771859a5bb2cb8ae26e5e98f3f8c40a734dc849da5b78ed"
+    },
+    {
+      "source": "https://www.lafmat.com/home/wp-content/uploads/2023/10/Img.png",
+      "path": "home/wp-content/uploads/2023/10/Img.png",
+      "bytes": 60198,
+      "sha256": "8a4042ba773168d80d58f79abc36cb3b96f9806202ec43ba79a532c2519c91f1"
+    }
+  ],
+  "external_links": [
+    "http://www.consulado.pe/Documents/visas/Requerimientos_de_visa_para_ciudadanos_extranjeros.pdf",
+    "https://en.wikipedia.org/wiki/National_University_of_San_Marcos",
+    "https://maps.app.goo.gl/m16c9dQZ2kFMAgG87",
+    "https://unmsm.edu.pe/",
+    "https://www.springer.com/journal/10948",
+    "https://www.springer.com/journal/10948/how-to-publish-with-us"
+  ],
+  "external_embeds": [
+    "https://www.youtube.com/embed/MlrzLYqIsE8?feature=oembed",
+    "https://www.youtube.com/embed/g_igODn9Mbs?feature=oembed"
+  ],
+  "limitations": [
+    "External YouTube videos are embedded, not downloaded.",
+    "Institutional, map, journal and consular reference links remain external.",
+    "Historical spelling, dates, fees and public contact information are preserved verbatim; the source contains differing event date ranges.",
+    "WordPress database, administrative records, theme and unrelated site pages are outside this conference archive."
+  ],
+  "source_repairs": [
+    {
+      "missing": "/home/wp-content/uploads/2023/02/logoevent-e1677099273566.jpeg",
+      "replacement": "/home/wp-content/uploads/2023/02/logoevent-removebg-preview.png",
+      "reason": "Original image returns HTTP 404; event logo recovered from the WordPress public media library, attachment 1603."
+    }
+  ]
+}

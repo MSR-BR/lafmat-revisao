@@ -24,3 +24,9 @@ O GitHub Pages publica a branch gh-pages, contendo somente os arquivos de dist/.
 Leia HANDOFF.md para retomar em outro computador e execute python3 scripts/verify.py.
 O arquivo público verification.json permite comparar o conteúdo local com a publicação.
 A prévia da Vercel está pausada desde a migração para o GitHub Pages.
+
+## Arquivo da conferência de 2023
+
+A seção Conferências abre `dist/conferences/2023/event-home/index.html`, com as 11 páginas públicas da conferência. As rotas antigas `/home/event-home/`, `/home/program/` e os outros nove caminhos também foram preservados em HTML estático. Imagens, PDF de resumo e ZIP LaTeX estão locais; os dois vídeos continuam no YouTube.
+
+As fontes públicas imutáveis estão em `sources/conference-2023/`. Para reconstruir após instalar `beautifulsoup4==4.15.0`, execute `python3 scripts/archive_conference.py` (sem rede). `--download` recupera os arquivos locais da origem e exige rede. Execute `python3 scripts/verify_conference.py` para conferir paridade e links. Leia `docs/conference-2023-validation.md` para as exceções da origem e `docs/domain-migration-plan.md` para preparar o domínio sem afetar e-mails.

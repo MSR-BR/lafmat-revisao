@@ -177,7 +177,7 @@ function seminars() {
 }
 function conferences() {
   return `<div class="shell inner">${pageTitle(t.nav[5],t.confIntro)}
-  <div class="actions">${external(data.conference2023,t.conf2023,'button primary')}</div></div>`;
+  <div class="actions"><a class="button primary" href="${esc(data.conference2023)}">${t.conf2023}</a></div></div>`;
 }
 function contact() {
   const {name,email,phone,tel} = data.contact;
