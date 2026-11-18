@@ -11,7 +11,9 @@ window.siteContent = {
   },
   contact: {name: 'Luis De Los Santos Valladares, PhD', email: 'ld301@cam.ac.uk', phone: '+44 (0) 7512825533', tel: '+447512825533'},
   youtube: 'https://www.youtube.com/@Lafmatnetwork',
-  conference2023: 'https://www.lafmat.com/home/program/',
+  conferences: [
+    {year: 2023, url: 'conferences/2023/event-home/index.html'},
+  ],
   // country code | name | affiliation | index of preserved biography (optional)
   members: `GB|Luis De Los Santos Valladares|University of Cambridge|0
 BR|J. Albino Aguiar|Universidade Federal de Pernambuco|1

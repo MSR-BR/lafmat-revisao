@@ -177,7 +177,7 @@ function seminars() {
 }
 function conferences() {
   return `<div class="shell inner">${pageTitle(t.nav[5],t.confIntro)}
-  <div class="actions">${external(data.conference2023,t.conf2023,'button primary')}</div></div>`;
+  <div class="actions">${data.conferences.map(edition=>`<a class="button primary" href="${esc(edition.url)}" target="_blank" rel="noopener noreferrer">${edition.year === 2023 ? t.conf2023 : esc(edition.year)}</a>`).join('')}</div></div>`;
 }
 function contact() {
   const {name,email,phone,tel} = data.contact;
@@ -197,6 +197,14 @@ function contact() {
 function setMenu(open) {
   menu.setAttribute('aria-expanded',String(open));
   nav.classList.toggle('open',open);
+  if (!open) setConferenceMenu(false);
+}
+function setConferenceMenu(open) {
+  const button = nav.querySelector('.conference-toggle');
+  const submenu = nav.querySelector('#conference-years');
+  if (!button || !submenu) return;
+  button.setAttribute('aria-expanded',String(open));
+  submenu.hidden = !open;
 }
 function render({focus = false} = {}) {
   t = languages[state.lang];
@@ -213,7 +221,9 @@ function render({focus = false} = {}) {
   menu.setAttribute('aria-label',t.menu);
   nav.setAttribute('aria-label',t.menu);
   document.querySelector('.languages').setAttribute('aria-label',t.language);
-  nav.innerHTML = routes.map((path,i)=>`<a href="#${path}"${path === route ? ' aria-current="page"' : ''}>${t.nav[i]}</a>`).join('');
+  nav.innerHTML = routes.map((path,i)=>path === 'conferences'
+    ? `<div class="nav-dropdown"><button type="button" class="conference-toggle${route === path ? ' current' : ''}" aria-expanded="false" aria-controls="conference-years">${t.nav[i]} <span aria-hidden="true">⌄</span></button><ul id="conference-years" class="nav-submenu" hidden>${data.conferences.map(edition=>`<li><a href="${esc(edition.url)}" target="_blank" rel="noopener noreferrer">${esc(edition.year)}</a></li>`).join('')}</ul></div>`
+    : `<a href="#${path}"${path === route ? ' aria-current="page"' : ''}>${t.nav[i]}</a>`).join('');
   document.querySelectorAll('[data-lang]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.lang === state.lang)));
   const views = {home,members,gallery,news,seminars,conferences,contact};
   main.innerHTML = views[route](sub);
@@ -232,11 +242,31 @@ function render({focus = false} = {}) {
 }
 
 nav.addEventListener('click',event=>{
+  const toggle = event.target.closest('.conference-toggle');
+  if (toggle) setConferenceMenu(toggle.getAttribute('aria-expanded') !== 'true');
   if (event.target.closest('a')) setMenu(false);
+});
+nav.addEventListener('keydown',event=>{
+  if (event.key === 'ArrowDown' && event.target.closest('.conference-toggle')) {
+    event.preventDefault();
+    setConferenceMenu(true);
+    nav.querySelector('#conference-years a')?.focus();
+  }
+});
+nav.addEventListener('focusout',event=>{
+  if (event.target.closest('.nav-dropdown') && !event.relatedTarget?.closest('.nav-dropdown')) setConferenceMenu(false);
+});
+document.addEventListener('click',event=>{
+  if (!event.target.closest('.nav-dropdown')) setConferenceMenu(false);
 });
 menu.addEventListener('click',()=>setMenu(menu.getAttribute('aria-expanded') !== 'true'));
 document.addEventListener('keydown',event=>{
-  if (event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') { setMenu(false); menu.focus(); }
+  if (event.key !== 'Escape') return;
+  const conferenceButton = nav.querySelector('.conference-toggle');
+  if (conferenceButton?.getAttribute('aria-expanded') === 'true') {
+    setConferenceMenu(false);
+    conferenceButton.focus();
+  } else if (menu.getAttribute('aria-expanded') === 'true') { setMenu(false); menu.focus(); }
 });
 document.querySelector('.languages').addEventListener('click',event=>{
   const button = event.target.closest('[data-lang]');
