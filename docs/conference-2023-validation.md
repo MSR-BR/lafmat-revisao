@@ -34,3 +34,9 @@ Destino proposto: GitHub Pages existente, `MSR-BR/lafmat-revisao`, branch `gh-pa
 A versão pública anterior é `4d811bbae0b13bc00e5beabb7d4172f4384030fd`; conteúdo anterior identificado por `LAFMAT-20261117-2B1B0764BEA2`. Rollback: publicar novamente a árvore dessa revisão por um novo commit na branch de publicação. Não fazer force-push nem apagar a história.
 
 Decisão técnica: PASS para a cópia estática, com as limitações documentadas acima. A identidade da produção nova só poderá ser conferida depois de publicada. A mudança do domínio não integra esta publicação.
+
+## Submenu e autorização de publicação — 18/11/2026
+
+O usuário autorizou atualizar o GitHub Pages e publicar o arquivo com o submenu anual. O menu Conferências revela 2023 por clique, Enter/Espaço ou seta para baixo; Escape fecha e devolve o foco. Clique fora fecha o submenu. As edições abrem em nova aba. A lista de anos fica em siteContent.conferences, pronta para novas edições.
+
+Validação em navegador: clique e abertura efetiva de outra aba, foco por seta, Escape, clique fora e submenu em celular a 390 px sem transbordamento. CSS e JavaScript alterados têm versão na URL para evitar conteúdo antigo do cache. Nenhum DNS foi alterado.

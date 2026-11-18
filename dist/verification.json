@@ -1,6 +1,6 @@
 {
-  "code": "LAFMAT-20261118-78364FC9DC84",
-  "sha256": "78364fc9dc84b323542e8b56cecc0fb0dd1ec82518cdda705c0ff8e1cd594332",
+  "code": "LAFMAT-20261118-43C708ED85A2",
+  "sha256": "43c708ed85a2bea6da8138ce9b13227986808d475aa4eacb331348fa5027bae1",
   "files": {
     "assets/0276f017209276.png": "47c9878b367af8f70dfe8a11de7f75736a705743437092ef3276e71cbcc80b29",
     "assets/04d214136d77db.jpeg": "fe7a4efffce52f8c613807f48db287f5796f88e7cef39f96bbfae9a6c36ff559",
@@ -186,7 +186,7 @@
     "assets/cf12c34f7211f9.png": "16dc223b506f7b37638895790bb40a30c336f808d70d0f07d8fe3131f7abf13f",
     "assets/cf2b3e674ef633.png": "92eb293c0f143cf49d6b92849fbd8537dbb8fa8cf5102391df90ca5d51baaccc",
     "assets/cfcbe12bc95f74.png": "026e53ec9d4fe27dc9c3f29dd25f700a839f382d7989dc312af3c6f26428eeda",
-    "assets/content.js": "298d1dc7a880bfbbadf510a4c0a74f01817506369cad2d67e29da9a4a1fe8a33",
+    "assets/content.js": "3ae93ffcd7cd6b6af0e904553a039a1e91a95eb6e5a7c595b367a8435ec913c9",
     "assets/d29689b2258000.png": "7e513e6baaad1e403509f18ac38943e393e1119621757011db353998c294136f",
     "assets/d380b2675b1636.png": "70215b7995e5f52717fd50c77b71a65dd92ba288ad347d24440b021e6193e88d",
     "assets/d4a03805e039f7.jpeg": "4aa7cebbe4189658ba20566bb473d92348096710e218509be20431284d3d5af0",
@@ -237,8 +237,8 @@
     "assets/lafmat-kunming-2026.jpg": "11a3904606b621d56d759a189592397142f1248826d74f9efc5656e6496ad0f1",
     "assets/lafmat.mp4": "55cca2c334a3a46379b98e8769d722a829a6efcd4ab45a476cb80864d2ff6c67",
     "assets/logo.png": "12420f9d36cd96a032e213c0c3ba94dda0a28bc6d1c45653c84e7646697f941d",
-    "assets/site.css": "dfa1912a7e249c573f4f2ed458ed2beec691ab3aee1cdba33a164795baed4bbb",
-    "assets/site.js": "52e76465121b103d3c7da12cbbd422ac1e2dea5437e8057674559cc88f986980",
+    "assets/site.css": "908f05bee7f08771a26169bdb0dd5eae1e58a3a002b8989718ea7827b16eb910",
+    "assets/site.js": "3e862e5b015c3ea0302ece55fc24744642428f9336fceb2fac1c7c663c3e2e97",
     "assets/sponsors.jpeg": "17e38938af95da1509ebf29d37ee3439aef5a247627870b6fad4d0f419e7ffb6",
     "conferences/2023/2757-2/index.html": "9a1fc42ed8404da58bc0bbcc64a00ff92ac1244ddd7ac01f58d80eed75f1962d",
     "conferences/2023/archive.css": "3d10d56c479322f85d60cd99a4066336c19699fbae74ed0c0ba9d1d7ec139185",
@@ -274,6 +274,6 @@
     "home/wp-content/uploads/2023/03/SuperMagRev.jpeg": "ed4a632cf5788d149b76dfc0beb2043d18243e4fb9e08cd380c6c44cfbd16394",
     "home/wp-content/uploads/2023/05/Resumen.zip": "d1d9e81faa2e55e7d771859a5bb2cb8ae26e5e98f3f8c40a734dc849da5b78ed",
     "home/wp-content/uploads/2023/10/Img.png": "8a4042ba773168d80d58f79abc36cb3b96f9806202ec43ba79a532c2519c91f1",
-    "index.html": "52ed46217b175d4c03a57bfc3241420d609f6e3858063ccf7cc810e71a25e2cd"
+    "index.html": "aecb2985947a54bcc7e91457bc9edc5441a7cb303767d153b21463f463c9a2a6"
   }
 }

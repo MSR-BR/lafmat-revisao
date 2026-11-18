@@ -36,7 +36,7 @@ As 11 páginas públicas da conferência de 2023 foram copiadas para dist/confer
 
 O grupo aprovou a migração do domínio. O DNS público usa ns4928/ns4929.banahosting.com. MX e mail apontam para o domínio principal: não trocar o A sem resolver antes eventual dependência de e-mail. Plano em docs/domain-migration-plan.md. Nenhum DNS alterado, nenhum CNAME de produção ativado, nenhum serviço cancelado.
 
-Próxima ação: revisar e autorizar a versão preparada para publicação no GitHub Pages existente. Depois conferir a publicação e coordenar o DNS com o colega, confirmando primeiro o uso de e-mail.
+Publicação do arquivo de 2023 e do submenu anual autorizada pelo usuário em 18/11/2026. O menu Conferências abre uma lista expansível; 2023 abre o arquivo em outra aba. Novos anos são acrescentados em siteContent.conferences. Próxima ação após a publicação: coordenar o DNS com o colega, confirmando primeiro o uso de e-mail.
 
 PO_MAGICO_SOURCE: ../po-magico (somente leitura)
 PO_MAGICO_VERSION_USED: v20261111.001
