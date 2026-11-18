@@ -8,11 +8,14 @@
     "status": 404,
     "message": "The certificate does not exist yet"
   },
-  "publication": "372167a36e14b472278609383e1dbf5ca691dc23",
-  "site_manifest": "LAFMAT-20261118-F6344655EC91",
+  "publication": "8c3f7b223e03b49d3ce978906f294eaf4979792d",
+  "site_manifest": "LAFMAT-20261118-6D2C6003288B",
   "state": "HTTPS_PENDING_PROVIDER",
-  "deployment_run": 44414783704,
+  "deployment_run": 44417044929,
   "deployment_result": "success",
   "obsolete_run": 44414506052,
-  "obsolete_run_result": "cancelled after ordinary cancellation; force-cancel returned 409 because the run had completed"
+  "obsolete_run_result": "cancelled after ordinary cancellation; force-cancel returned 409 because the run had completed",
+  "last_checked_at": "2026-11-18T20:14:24.861116",
+  "public_files_http_verified": 281,
+  "remaining_blocker": "GitHub validation still returns old DNS; no TLS certificate exists; enforcing HTTPS rejected with HTTP 404. Public authoritative and Google/Cloudflare/OpenDNS resolve correctly. Local cached A has 7958 seconds remaining; local cached old NS has 82872 seconds remaining. These local TTL values do not determine GitHub cache expiration."
 }

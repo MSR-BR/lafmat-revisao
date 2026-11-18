@@ -63,3 +63,11 @@ PO_MAGICO_DELTA_ADOPTED: no
 
 
 Retomada de finalização HTTPS, 18/11/2026: reaplicado domínio e executado um ciclo de remoção/reinserção recomendado pelo GitHub. Publicação mais recente 372167a36e14b472278609383e1dbf5ca691dc23, run 44414783704 success, mesma árvore validada de dist. Ativação explícita de HTTPS obrigatório retornou HTTP 404 “The certificate does not exist yet”; certificado ainda null após o deploy. Não repetir ciclos de domínio sem nova evidência. Consultar o estado e concluir quando o provedor emitir o certificado. Detalhes em docs/https-activation-attempt-2026-11-18.json.
+
+### Retomada de finalização — 18/11/2026 20h
+
+- Corrigida a omissão de `/home/__trashed/index.html` causada pelo processamento Jekyll: `dist/.nojekyll` presente.
+- Main `b6d4baa`; publicação `8c3f7b223e03b49d3ce978906f294eaf4979792d`; deploy `44417044929` concluído com sucesso.
+- Manifesto atual `LAFMAT-20261118-6D2C6003288B`. Os 281 arquivos públicos conferidos por HTTP com Host lafmat.com têm os hashes locais; CNAME e .nojekyll são metadados conferidos na árvore Git.
+- Google, Cloudflare e OpenDNS retornam os quatro IPs novos. O resolvedor local e o diagnóstico do GitHub ainda retornam os dados antigos. A zona antiga BanaHosting continua respondendo IP antigo, TTL 14400. Cache de delegação/resolução é a hipótese sustentada pela divergência; não afirmar que é possível limpá-lo remotamente no GitHub.
+- HTTPS continua pendente de emissão. PUT https_enforced=true retorna 404 The certificate does not exist yet. Não anunciar conclusão e não reiniciar domínio repetidamente. Finalização permanece autorizada sem nova confirmação.

@@ -1,9 +1,1048 @@
 {
-  "method": "HTTP requests to GitHub IP with Host lafmat.com, bypassing only stale resolver cache; no TLS verification was disabled. HTTPS still pending.",
-  "code": "LAFMAT-20261118-F6344655EC91",
+  "date": "2026-11-18T20:04:02.691964",
+  "method": "HTTP to GitHub IP with Host lafmat.com; does not establish HTTPS readiness",
+  "code": "LAFMAT-20261118-6D2C6003288B",
   "checks": [
     {
-      "path": "index.html",
+      "path": "assets/0276f017209276.png",
+      "match": true
+    },
+    {
+      "path": "assets/04d214136d77db.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/063662d184545e.png",
+      "match": true
+    },
+    {
+      "path": "assets/091f8614ff0ca3.png",
+      "match": true
+    },
+    {
+      "path": "assets/0bc7f8883900d7.png",
+      "match": true
+    },
+    {
+      "path": "assets/0c24cb229eea58.png",
+      "match": true
+    },
+    {
+      "path": "assets/0d0d760bdc369e.png",
+      "match": true
+    },
+    {
+      "path": "assets/0eb826e22334c5.png",
+      "match": true
+    },
+    {
+      "path": "assets/0f1bb6f528dffb.png",
+      "match": true
+    },
+    {
+      "path": "assets/11d3765c462ae2.png",
+      "match": true
+    },
+    {
+      "path": "assets/11e6ad12fe4a3f.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/125cc9ca04f1ef.png",
+      "match": true
+    },
+    {
+      "path": "assets/1306e476793e99.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/1329479f2a0671.png",
+      "match": true
+    },
+    {
+      "path": "assets/13467d4d8085e2.png",
+      "match": true
+    },
+    {
+      "path": "assets/14e30daeb51302.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/154851918f3578.png",
+      "match": true
+    },
+    {
+      "path": "assets/15fc46accc934c.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/17b13afd124838.png",
+      "match": true
+    },
+    {
+      "path": "assets/180e03209e21ab.png",
+      "match": true
+    },
+    {
+      "path": "assets/1b2ad9c0ceb98c.png",
+      "match": true
+    },
+    {
+      "path": "assets/1e3e852a5c45aa.png",
+      "match": true
+    },
+    {
+      "path": "assets/1f4ed1e4046c7e.png",
+      "match": true
+    },
+    {
+      "path": "assets/1ff04ac627b5ea.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/21895a9834e00a.png",
+      "match": true
+    },
+    {
+      "path": "assets/21df7b9aae82ab.png",
+      "match": true
+    },
+    {
+      "path": "assets/260fe869bb3add.png",
+      "match": true
+    },
+    {
+      "path": "assets/2c5ec9c95d0470.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/2dcf1c7e02ec56.png",
+      "match": true
+    },
+    {
+      "path": "assets/2e0408402ea27d.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/2f6b8cb740d71e.png",
+      "match": true
+    },
+    {
+      "path": "assets/2fcb0528d09d2d.png",
+      "match": true
+    },
+    {
+      "path": "assets/31beaed972eeda.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/3210883634d0f3.png",
+      "match": true
+    },
+    {
+      "path": "assets/32d97849a5fe41.png",
+      "match": true
+    },
+    {
+      "path": "assets/32df89a2a998f2.png",
+      "match": true
+    },
+    {
+      "path": "assets/32e9e66b08a395.png",
+      "match": true
+    },
+    {
+      "path": "assets/34a5d6667f323e.png",
+      "match": true
+    },
+    {
+      "path": "assets/351d1b978cc9de.png",
+      "match": true
+    },
+    {
+      "path": "assets/369b984905d376.png",
+      "match": true
+    },
+    {
+      "path": "assets/37a445afba97be.png",
+      "match": true
+    },
+    {
+      "path": "assets/3a7c523afafeef.png",
+      "match": true
+    },
+    {
+      "path": "assets/3a909a39d9da6a.jpg",
+      "match": true
+    },
+    {
+      "path": "assets/3b0456f19aa570.png",
+      "match": true
+    },
+    {
+      "path": "assets/3b5fa8e95c8e9b.png",
+      "match": true
+    },
+    {
+      "path": "assets/3ba420afeb4832.jpg",
+      "match": true
+    },
+    {
+      "path": "assets/3c2962ce1e6c16.png",
+      "match": true
+    },
+    {
+      "path": "assets/3c874701d82d7f.png",
+      "match": true
+    },
+    {
+      "path": "assets/3d1cce40bb9293.png",
+      "match": true
+    },
+    {
+      "path": "assets/3d5afd556fb7e9.png",
+      "match": true
+    },
+    {
+      "path": "assets/3e8ad65de1576e.png",
+      "match": true
+    },
+    {
+      "path": "assets/3f0e78b9876227.png",
+      "match": true
+    },
+    {
+      "path": "assets/40296147fa042e.png",
+      "match": true
+    },
+    {
+      "path": "assets/4040fe4545adb6.png",
+      "match": true
+    },
+    {
+      "path": "assets/42d09bdf4880c3.png",
+      "match": true
+    },
+    {
+      "path": "assets/439f56aee1de44.png",
+      "match": true
+    },
+    {
+      "path": "assets/455bef1b90b162.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/467f74bc849d42.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/46d56be5876f0d.png",
+      "match": true
+    },
+    {
+      "path": "assets/4753f3a4e9f72e.png",
+      "match": true,
+      "recheck": "PASS after corrected deployment (legacy alias) or retry (transient HTTP 503)"
+    },
+    {
+      "path": "assets/47758932336aae.png",
+      "match": true
+    },
+    {
+      "path": "assets/48a4d07a66e84f.png",
+      "match": true
+    },
+    {
+      "path": "assets/48f159a8dfeded.png",
+      "match": true
+    },
+    {
+      "path": "assets/4a0a08ccb275e0.png",
+      "match": true
+    },
+    {
+      "path": "assets/4af4e140c89f18.png",
+      "match": true
+    },
+    {
+      "path": "assets/4b5f706473d44e.png",
+      "match": true
+    },
+    {
+      "path": "assets/4c1e68f8292838.png",
+      "match": true
+    },
+    {
+      "path": "assets/4cf30028196031.png",
+      "match": true
+    },
+    {
+      "path": "assets/4cfc8547c4c16c.png",
+      "match": true
+    },
+    {
+      "path": "assets/4e61e07935ee3b.png",
+      "match": true
+    },
+    {
+      "path": "assets/51d8340345f5bb.png",
+      "match": true
+    },
+    {
+      "path": "assets/52503a2ff1896e.png",
+      "match": true
+    },
+    {
+      "path": "assets/5433a9d8857e2b.png",
+      "match": true
+    },
+    {
+      "path": "assets/55d5ddd47ec0aa.png",
+      "match": true
+    },
+    {
+      "path": "assets/58940689b03667.png",
+      "match": true
+    },
+    {
+      "path": "assets/59aed88cb9b34e.png",
+      "match": true
+    },
+    {
+      "path": "assets/5a021582049f19.png",
+      "match": true
+    },
+    {
+      "path": "assets/5ae08503aa7c3b.png",
+      "match": true
+    },
+    {
+      "path": "assets/5aebe07e75b23b.png",
+      "match": true
+    },
+    {
+      "path": "assets/5d774d1b623ea0.png",
+      "match": true
+    },
+    {
+      "path": "assets/5dbb5af22d2a20.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/5e8ce2631003a2.png",
+      "match": true
+    },
+    {
+      "path": "assets/5f5870e196b9ba.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/60ba45192205c0.png",
+      "match": true
+    },
+    {
+      "path": "assets/60f00eb6d1c421.png",
+      "match": true
+    },
+    {
+      "path": "assets/62301b5043341d.png",
+      "match": true
+    },
+    {
+      "path": "assets/6242fc40df9fcb.png",
+      "match": true
+    },
+    {
+      "path": "assets/62693d8e781889.png",
+      "match": true
+    },
+    {
+      "path": "assets/6345aa038fd96d.png",
+      "match": true
+    },
+    {
+      "path": "assets/64563b6ac94e59.png",
+      "match": true
+    },
+    {
+      "path": "assets/650c067b255d48.png",
+      "match": true
+    },
+    {
+      "path": "assets/65bec225ad7833.png",
+      "match": true
+    },
+    {
+      "path": "assets/65d7385b13ad04.png",
+      "match": true
+    },
+    {
+      "path": "assets/65e91adc27e0a0.png",
+      "match": true
+    },
+    {
+      "path": "assets/6b8861196bdfdb.png",
+      "match": true
+    },
+    {
+      "path": "assets/6bbf6057536a17.png",
+      "match": true
+    },
+    {
+      "path": "assets/6e4bb3bc0b5c02.png",
+      "match": true
+    },
+    {
+      "path": "assets/6e4eb0b72745fe.png",
+      "match": true
+    },
+    {
+      "path": "assets/7002e66f6446ca.png",
+      "match": true
+    },
+    {
+      "path": "assets/707696c7531581.png",
+      "match": true
+    },
+    {
+      "path": "assets/70c50641c9deac.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/7196adeaaa9a15.png",
+      "match": true
+    },
+    {
+      "path": "assets/71c3066d6ff7d7.png",
+      "match": true
+    },
+    {
+      "path": "assets/734afce1450020.png",
+      "match": true
+    },
+    {
+      "path": "assets/74acd8c5a3ea0d.png",
+      "match": true
+    },
+    {
+      "path": "assets/75182f9183939a.png",
+      "match": true
+    },
+    {
+      "path": "assets/76facfde02d0ea.png",
+      "match": true
+    },
+    {
+      "path": "assets/77f3eb870deca8.png",
+      "match": true
+    },
+    {
+      "path": "assets/78e746339473fc.png",
+      "match": true
+    },
+    {
+      "path": "assets/79d0f7a3f864dd.png",
+      "match": true
+    },
+    {
+      "path": "assets/7a07b4d41ccfd4.png",
+      "match": true
+    },
+    {
+      "path": "assets/7b8f90b65d073e.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/7cfbeb797f2b3e.png",
+      "match": true
+    },
+    {
+      "path": "assets/7f15eef0fdf4b7.png",
+      "match": true
+    },
+    {
+      "path": "assets/801b17fc1ec328.png",
+      "match": true
+    },
+    {
+      "path": "assets/8031fa66bd09e9.png",
+      "match": true
+    },
+    {
+      "path": "assets/83702bb15a733f.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/86dd037289a91d.png",
+      "match": true
+    },
+    {
+      "path": "assets/89a65264af81dd.png",
+      "match": true
+    },
+    {
+      "path": "assets/89e36d4c2be7d0.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/8aa6cd39056f82.png",
+      "match": true
+    },
+    {
+      "path": "assets/8aacc9cdb717d5.png",
+      "match": true
+    },
+    {
+      "path": "assets/8aba7dfc3689c2.png",
+      "match": true
+    },
+    {
+      "path": "assets/8abed90dc045e0.png",
+      "match": true
+    },
+    {
+      "path": "assets/8d4c0d819e7938.png",
+      "match": true
+    },
+    {
+      "path": "assets/8e2b68bbfd3d08.png",
+      "match": true
+    },
+    {
+      "path": "assets/8ec6a4eb159e1e.png",
+      "match": true
+    },
+    {
+      "path": "assets/8f258a95db7490.png",
+      "match": true
+    },
+    {
+      "path": "assets/8fb963b1029e9d.png",
+      "match": true
+    },
+    {
+      "path": "assets/9214f782cf9b72.png",
+      "match": true
+    },
+    {
+      "path": "assets/92f12933816899.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/9512f8cac0ef71.jpg",
+      "match": true
+    },
+    {
+      "path": "assets/95e9551fc7e0df.png",
+      "match": true
+    },
+    {
+      "path": "assets/9618507333e11c.png",
+      "match": true
+    },
+    {
+      "path": "assets/976acb68c54c7c.png",
+      "match": true
+    },
+    {
+      "path": "assets/9937822b08120a.png",
+      "match": true
+    },
+    {
+      "path": "assets/99eb88ba2e72b1.png",
+      "match": true
+    },
+    {
+      "path": "assets/9c75f940b551dd.png",
+      "match": true
+    },
+    {
+      "path": "assets/a0bc4a45c525ec.png",
+      "match": true
+    },
+    {
+      "path": "assets/a0e3afe873772a.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/a140fe115e47e0.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/a47e82a5688996.png",
+      "match": true
+    },
+    {
+      "path": "assets/a687da6b1f2c51.png",
+      "match": true
+    },
+    {
+      "path": "assets/a7830d63711ae2.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/a80fd669addcaf.png",
+      "match": true
+    },
+    {
+      "path": "assets/a9ad1870729388.png",
+      "match": true
+    },
+    {
+      "path": "assets/aa29bce60dac0e.png",
+      "match": true
+    },
+    {
+      "path": "assets/ac68bdd43a4fe7.png",
+      "match": true
+    },
+    {
+      "path": "assets/aea50c8361fbe5.png",
+      "match": true
+    },
+    {
+      "path": "assets/aea8d8fecb5d6c.png",
+      "match": true
+    },
+    {
+      "path": "assets/af572205e979ad.png",
+      "match": true
+    },
+    {
+      "path": "assets/archive.js",
+      "match": true
+    },
+    {
+      "path": "assets/b04bdb797e335e.png",
+      "match": true
+    },
+    {
+      "path": "assets/b0f99d32bf4b3f.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/b10fbd482c2405.png",
+      "match": true
+    },
+    {
+      "path": "assets/b1862cd955812f.png",
+      "match": true
+    },
+    {
+      "path": "assets/b205bd2eac71f9.png",
+      "match": true
+    },
+    {
+      "path": "assets/b4b16dd13e1b8d.png",
+      "match": true
+    },
+    {
+      "path": "assets/b622c02209695e.png",
+      "match": true
+    },
+    {
+      "path": "assets/b62b4b8ebd354f.png",
+      "match": true
+    },
+    {
+      "path": "assets/b6ac7ab48072cf.png",
+      "match": true
+    },
+    {
+      "path": "assets/b903cbef8b6093.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/b9b0158d866e71.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/bc0cf8a12a6dda.png",
+      "match": true
+    },
+    {
+      "path": "assets/bfe71a29733f8f.png",
+      "match": true
+    },
+    {
+      "path": "assets/c17a6e8baf7e94.png",
+      "match": true
+    },
+    {
+      "path": "assets/c2a73b73489124.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/c2dca2e6956300.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/c340c0a0bc116b.png",
+      "match": true
+    },
+    {
+      "path": "assets/c39b064e60365f.png",
+      "match": true
+    },
+    {
+      "path": "assets/c44838de6e3cc3.png",
+      "match": true
+    },
+    {
+      "path": "assets/c4cd70c8fd0ce6.png",
+      "match": true
+    },
+    {
+      "path": "assets/c52cee28479a72.png",
+      "match": true
+    },
+    {
+      "path": "assets/c58f86532596a8.png",
+      "match": true
+    },
+    {
+      "path": "assets/c6bc978cc66d10.png",
+      "match": true
+    },
+    {
+      "path": "assets/c7d286f3f08775.png",
+      "match": true
+    },
+    {
+      "path": "assets/c7e445af6c59a9.png",
+      "match": true
+    },
+    {
+      "path": "assets/c841caa4b4b77c.png",
+      "match": true
+    },
+    {
+      "path": "assets/cac57cd0b1488f.png",
+      "match": true
+    },
+    {
+      "path": "assets/cedee525d92a4e.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/cf0aefc4228681.png",
+      "match": true
+    },
+    {
+      "path": "assets/cf12c34f7211f9.png",
+      "match": true
+    },
+    {
+      "path": "assets/cf2b3e674ef633.png",
+      "match": true
+    },
+    {
+      "path": "assets/cfcbe12bc95f74.png",
+      "match": true
+    },
+    {
+      "path": "assets/content.js",
+      "match": true
+    },
+    {
+      "path": "assets/d29689b2258000.png",
+      "match": true
+    },
+    {
+      "path": "assets/d380b2675b1636.png",
+      "match": true
+    },
+    {
+      "path": "assets/d4a03805e039f7.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/d73960feaa2cf4.png",
+      "match": true
+    },
+    {
+      "path": "assets/d77ee62f945a7d.png",
+      "match": true
+    },
+    {
+      "path": "assets/d79b8a43074d19.png",
+      "match": true
+    },
+    {
+      "path": "assets/d9254455c36f84.png",
+      "match": true
+    },
+    {
+      "path": "assets/d9f54faec6d883.png",
+      "match": true
+    },
+    {
+      "path": "assets/da164d78762d85.png",
+      "match": true
+    },
+    {
+      "path": "assets/dbbe7bba10e507.png",
+      "match": true
+    },
+    {
+      "path": "assets/dbcfc61c3a41e7.png",
+      "match": true
+    },
+    {
+      "path": "assets/e1022691181dc3.png",
+      "match": true
+    },
+    {
+      "path": "assets/e302bd8c624a43.png",
+      "match": true
+    },
+    {
+      "path": "assets/e4ebb34f5ee020.png",
+      "match": true
+    },
+    {
+      "path": "assets/e61b3911fc189f.png",
+      "match": true
+    },
+    {
+      "path": "assets/e69620f674b8c3.png",
+      "match": true
+    },
+    {
+      "path": "assets/e775956989b7c1.png",
+      "match": true
+    },
+    {
+      "path": "assets/e7e7b392a2b563.png",
+      "match": true
+    },
+    {
+      "path": "assets/e7f735328b139c.png",
+      "match": true
+    },
+    {
+      "path": "assets/e892060db14ead.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/e8c2ff9f705f26.jpg",
+      "match": true
+    },
+    {
+      "path": "assets/e8fea34e786d19.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/e94d916417b6fa.png",
+      "match": true
+    },
+    {
+      "path": "assets/e9e5462325c95a.png",
+      "match": true
+    },
+    {
+      "path": "assets/ea26bfd92dd5aa.png",
+      "match": true
+    },
+    {
+      "path": "assets/ed375ef9870eab.png",
+      "match": true
+    },
+    {
+      "path": "assets/ee5c05e47bd8a9.png",
+      "match": true
+    },
+    {
+      "path": "assets/ee7f4d861454b9.png",
+      "match": true
+    },
+    {
+      "path": "assets/ef5632f0ea5d18.png",
+      "match": true
+    },
+    {
+      "path": "assets/f09912e17cc5ed.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/f2bdda41490afd.png",
+      "match": true
+    },
+    {
+      "path": "assets/f32e893e874d48.png",
+      "match": true
+    },
+    {
+      "path": "assets/f3ba8353080238.png",
+      "match": true
+    },
+    {
+      "path": "assets/f45f5761eabf7f.png",
+      "match": true
+    },
+    {
+      "path": "assets/f5924c75f017fb.png",
+      "match": true
+    },
+    {
+      "path": "assets/f6f5c7fc610c63.png",
+      "match": true
+    },
+    {
+      "path": "assets/f7446be80eeb12.png",
+      "match": true
+    },
+    {
+      "path": "assets/f88c4d785033da.png",
+      "match": true
+    },
+    {
+      "path": "assets/faf5e403ae4713.png",
+      "match": true
+    },
+    {
+      "path": "assets/faf69e32e6d945.png",
+      "match": true
+    },
+    {
+      "path": "assets/fd069ec7c62d89.png",
+      "match": true
+    },
+    {
+      "path": "assets/fd854f92a521f8.jpeg",
+      "match": true
+    },
+    {
+      "path": "assets/fdc8e71340edaf.png",
+      "match": true
+    },
+    {
+      "path": "assets/ff5018c39762d1.png",
+      "match": true
+    },
+    {
+      "path": "assets/ffe9e52cdd9163.png",
+      "match": true
+    },
+    {
+      "path": "assets/i18n.js",
+      "match": true
+    },
+    {
+      "path": "assets/johan-triana-2026-11-21.jpg",
+      "match": true
+    },
+    {
+      "path": "assets/lafmat-kunming-2026.jpg",
+      "match": true
+    },
+    {
+      "path": "assets/lafmat.mp4",
+      "match": true
+    },
+    {
+      "path": "assets/logo.png",
+      "match": true
+    },
+    {
+      "path": "assets/site.css",
+      "match": true
+    },
+    {
+      "path": "assets/site.js",
+      "match": true
+    },
+    {
+      "path": "assets/sponsors.jpeg",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/2757-2/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/archive.css",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/commitee/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/event-contact/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/event-home/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/important-dates/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/poster-2/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/program/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/publications/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/registration/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/topics/index.html",
+      "match": true
+    },
+    {
+      "path": "conferences/2023/venue/index.html",
+      "match": true
+    },
+    {
+      "path": "home/2757-2/index.html",
+      "match": true
+    },
+    {
+      "path": "home/__trashed/index.html",
+      "match": true,
+      "recheck": "PASS after corrected deployment (legacy alias) or retry (transient HTTP 503)"
+    },
+    {
+      "path": "home/about-us/index.html",
+      "match": true
+    },
+    {
+      "path": "home/commitee/index.html",
+      "match": true
+    },
+    {
+      "path": "home/conferences/index.html",
+      "match": true
+    },
+    {
+      "path": "home/contacts/index.html",
+      "match": true
+    },
+    {
+      "path": "home/event-contact/index.html",
+      "match": true
+    },
+    {
+      "path": "home/event-home/index.html",
+      "match": true
+    },
+    {
+      "path": "home/important-dates/index.html",
       "match": true
     },
     {
@@ -15,11 +1054,7 @@
       "match": true
     },
     {
-      "path": "home/conferences/index.html",
-      "match": true
-    },
-    {
-      "path": "conferences/2023/event-home/index.html",
+      "path": "home/poster-2/index.html",
       "match": true
     },
     {
@@ -27,7 +1062,59 @@
       "match": true
     },
     {
+      "path": "home/publications/index.html",
+      "match": true
+    },
+    {
+      "path": "home/registration/index.html",
+      "match": true
+    },
+    {
+      "path": "home/seminars/index.html",
+      "match": true
+    },
+    {
+      "path": "home/topics/index.html",
+      "match": true
+    },
+    {
+      "path": "home/venue/index.html",
+      "match": true
+    },
+    {
+      "path": "home/video-gallery/index.html",
+      "match": true
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/Head-1080x555.png",
+      "match": true
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/Head.png",
+      "match": true
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/PosterSM.jpeg",
+      "match": true
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/UNSM.png",
+      "match": true
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/logoevent-removebg-preview.png",
+      "match": true
+    },
+    {
       "path": "home/wp-content/uploads/2023/02/resumen.pdf",
+      "match": true
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/spons.png",
+      "match": true
+    },
+    {
+      "path": "home/wp-content/uploads/2023/03/SuperMagRev.jpeg",
       "match": true
     },
     {
@@ -35,13 +1122,18 @@
       "match": true
     },
     {
-      "path": "assets/site.js",
+      "path": "home/wp-content/uploads/2023/10/Img.png",
+      "match": true
+    },
+    {
+      "path": "index.html",
       "match": true
     }
   ],
-  "hosting_metadata": {
-    "path": "CNAME",
-    "result": "PASS",
-    "method": "Verified in the publication Git tree; Pages does not serve this configuration file as a public download."
-  }
+  "deployment_run": 44417044929,
+  "publication": "8c3f7b223e03b49d3ce978906f294eaf4979792d",
+  "hosting_metadata": [
+    "CNAME and .nojekyll verified in published Git tree; excluded from public HTTP downloads"
+  ],
+  "https_ready": false
 }
