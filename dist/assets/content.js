@@ -11,6 +11,7 @@ window.siteContent = {
   },
   contact: {name: 'Luis De Los Santos Valladares, PhD', email: 'ld301@cam.ac.uk', phone: '+44 (0) 7512825533', tel: '+447512825533'},
   youtube: 'https://www.youtube.com/@Lafmatnetwork',
+  facebook: 'https://www.facebook.com/61583070328062',
   conferences: [
     {year: 2023, url: 'conferences/2023/event-home/index.html'},
   ],

@@ -238,7 +238,7 @@ function render({focus = false} = {}) {
   document.querySelectorAll('[data-lang]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.lang === state.lang)));
   const views = {home,members,gallery,news,seminars,conferences,contact};
   main.innerHTML = views[route](sub);
-  document.querySelector('footer').innerHTML = `<div class="shell footer-inner"><div><a href="#home" class="footer-brand">LAFMAT</a><p>${t.footer}</p></div><div>${external(data.youtube,'YouTube')}</div></div>`;
+  document.querySelector('footer').innerHTML = `<div class="shell footer-inner"><div><a href="#home" class="footer-brand">LAFMAT</a><p>${t.footer}</p></div><div>${external(data.youtube,'YouTube')}${external(data.facebook,'Facebook')}</div></div>`;
   if (route === 'members') memberResults();
   if (route === 'gallery') galleryResults();
   setMenu(false);

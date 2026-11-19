@@ -1,6 +1,6 @@
 {
-  "code": "LAFMAT-20261119-53549A370173",
-  "sha256": "53549a370173c27944990781d45ec5876e812f27c091bfd0044d3a0c559871f6",
+  "code": "LAFMAT-20261119-8A801A13DAB6",
+  "sha256": "8a801a13dab667d59644a17422e457d4ec4c135613ad27fa42cdcbc56bd3afac",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "CNAME": "0b8d57740a9ffd8006db14cff66995c18ba3463f316783e2a09096138accb5e7",
@@ -188,7 +188,7 @@
     "assets/cf12c34f7211f9.png": "16dc223b506f7b37638895790bb40a30c336f808d70d0f07d8fe3131f7abf13f",
     "assets/cf2b3e674ef633.png": "92eb293c0f143cf49d6b92849fbd8537dbb8fa8cf5102391df90ca5d51baaccc",
     "assets/cfcbe12bc95f74.png": "026e53ec9d4fe27dc9c3f29dd25f700a839f382d7989dc312af3c6f26428eeda",
-    "assets/content.js": "3ae93ffcd7cd6b6af0e904553a039a1e91a95eb6e5a7c595b367a8435ec913c9",
+    "assets/content.js": "00caa2480a8faf974bf938f8c09fa9f7472cda505e17573f80786f2722b2cc41",
     "assets/d29689b2258000.png": "7e513e6baaad1e403509f18ac38943e393e1119621757011db353998c294136f",
     "assets/d380b2675b1636.png": "70215b7995e5f52717fd50c77b71a65dd92ba288ad347d24440b021e6193e88d",
     "assets/d4a03805e039f7.jpeg": "4aa7cebbe4189658ba20566bb473d92348096710e218509be20431284d3d5af0",
@@ -240,7 +240,7 @@
     "assets/lafmat.mp4": "55cca2c334a3a46379b98e8769d722a829a6efcd4ab45a476cb80864d2ff6c67",
     "assets/logo.png": "12420f9d36cd96a032e213c0c3ba94dda0a28bc6d1c45653c84e7646697f941d",
     "assets/site.css": "9c9d29db1c4e6c65906b4a08eb2b17aca2fb19f7f8d63755bbb81c4a0cb088f4",
-    "assets/site.js": "511e2900590a2c040b94c17564c3332670d4d2e70f53faeb62f245dcb7ba3055",
+    "assets/site.js": "ca3a020627b62031c636d70f3eb8db261e34e8695b71c65cc028b74b15a2e826",
     "assets/sponsors.jpeg": "17e38938af95da1509ebf29d37ee3439aef5a247627870b6fad4d0f419e7ffb6",
     "assets/video-gallery.js": "d8f7ee301323bf82a05c466eb734e0d675acce336ef5ede667cfc074a1388112",
     "assets/video-thumbnails/-469XzjVkWQ.jpg": "47ed6a944b342d568f3fad02084f32db00009df886b13ec7181d5ca1ae9a4f09",
@@ -590,6 +590,6 @@
     "home/wp-content/uploads/2023/03/SuperMagRev.jpeg": "ed4a632cf5788d149b76dfc0beb2043d18243e4fb9e08cd380c6c44cfbd16394",
     "home/wp-content/uploads/2023/05/Resumen.zip": "d1d9e81faa2e55e7d771859a5bb2cb8ae26e5e98f3f8c40a734dc849da5b78ed",
     "home/wp-content/uploads/2023/10/Img.png": "8a4042ba773168d80d58f79abc36cb3b96f9806202ec43ba79a532c2519c91f1",
-    "index.html": "44bdf1753fc977b56bd6e24c456871ffdb9b9b8bc1eec1597f43d8a4fe3fa195"
+    "index.html": "b3de2008eedbcdd06a3ea4ad245c0b4462a123ed045824abff25d88e008c79a9"
   }
 }

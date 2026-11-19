@@ -110,3 +110,11 @@ MUTATION_POLICY: autorização recorrente do usuário para sincronizar e publica
 PO_MAGICO_CHECKPOINT: change/delivery (galeria e manutenção recorrente autorizadas)
 PO_MAGICO_LAST_CHECKED: 2026-11-19 (regras já carregadas e política scheduled-follow-up consultada)
 PO_MAGICO_DELTA_ADOPTED: no
+
+## Facebook oficial no rodapé — 19/11/2026
+
+Usuário forneceu os links do perfil Red Lafmat e autorizou inclusão, commit e deploy na produção existente. O link compartilhado redirecionou ao perfil 61583070328062; a forma curta https://www.facebook.com/61583070328062 retornou HTTP 200, título Open Graph Red Lafmat e o mesmo endereço canônico fornecido pelo usuário. Não foi identificado um nome de usuário curto personalizado; não inventar um alias. URL sem parâmetros de compartilhamento salva em siteContent.facebook e exibida ao lado do YouTube no rodapé de todas as páginas/idiomas, com noopener noreferrer. Cache atualizado para content.js/site.js. Manifesto LAFMAT-20261119-8A801A13DAB6, 589 arquivos conferidos; sintaxe JS, renderização do rodapé EN/PT/ES e verificação rápida de segurança PASS, sem gatilhos sensíveis. Alteração estática S0; reversão por revert deste commit. Arquivos locais output/ não fazem parte desta publicação. Destino autorizado: main → Vercel lafmat-revisao, msr-brs-projects → https://lafmat.com/.
+
+PO_MAGICO_CHECKPOINT: change/delivery (Facebook autorizado)
+PO_MAGICO_LAST_CHECKED: 2026-11-19 (regras da sessão reutilizadas; divergência do arquivo registrada acima)
+PO_MAGICO_DELTA_ADOPTED: no
