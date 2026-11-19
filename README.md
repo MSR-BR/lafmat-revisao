@@ -20,10 +20,10 @@ Fontes: [LAFMAT](https://www.lafmat.com/home/), Agreement de outubro de 2026 par
 ## Sincronização e publicação
 
 O repositório completo está em https://github.com/MSR-BR/lafmat-revisao.
-O GitHub Pages publica a branch gh-pages, contendo somente os arquivos de dist/.
+A produção é https://lafmat.com/, hospedada na Vercel no projeto `lafmat-revisao` do time `msr-brs-projects`. A integração Git publica a branch `main`, com **Root Directory `dist`**, framework Other, sem build ou dependências de produção. A branch `gh-pages` conserva a versão estática anterior para contingência.
 Leia HANDOFF.md para retomar em outro computador e execute python3 scripts/verify.py.
 O arquivo público verification.json permite comparar o conteúdo local com a publicação.
-A prévia da Vercel está pausada desde a migração para o GitHub Pages.
+O domínio de produção é público. Previews e URLs individuais de implantação continuam protegidos pela autenticação Vercel.
 
 ## Arquivo da conferência de 2023
 
@@ -35,6 +35,8 @@ O menu **Conferências** abre uma lista de anos. Para acrescentar uma edição, 
 
 ## Domínio lafmat.com
 
-O domínio personalizado é declarado em `dist/CNAME`. O DNS passou para Namecheap BasicDNS em 18/11/2026, após confirmação de que não há contas de e-mail ou encaminhamentos em uso. Consulte `docs/domain-cutover-2026-11-18.md` para a configuração, o rollback e o estado do certificado HTTPS. Preserve `dist/CNAME` e `dist/.nojekyll` em toda publicação. O segundo arquivo impede o processamento Jekyll e mantém rotas históricas com sublinhado, como `/home/__trashed/`. A hospedagem antiga não foi cancelada.
+O registro e o DNS permanecem na Namecheap BasicDNS. Em 19/11/2026, a hospedagem mudou para Vercel: A `@` → `216.198.79.1` e `64.29.17.1`; CNAME `www` → `0986d6ca91bddc7d.vercel-dns-017.com.`; TTL 300. São os valores fornecidos para este projeto; consulte a Vercel antes de reaproveitá-los em outro projeto. O certificado cobre os dois nomes, e `www` redireciona permanentemente para `https://lafmat.com`. Não há contas de e-mail ou encaminhamentos em uso, conforme confirmação do usuário. A hospedagem antiga não foi cancelada. Veja `docs/vercel-migration-2026-11-19.md`.
+
+`dist/CNAME` e `dist/.nojekyll` são metadados da publicação histórica GitHub Pages; não configuram o domínio na Vercel. O segundo preserva rotas com sublinhado, como `/home/__trashed/`, se o site voltar a ser publicado pelo Pages.
 
 `python3 scripts/build_legacy_routes.py` reconstrói os atalhos das antigas páginas WordPress, incluindo `/home/`, sem depender do backend antigo.

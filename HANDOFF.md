@@ -1,13 +1,12 @@
 # Continuidade em outro computador
 
 O projeto canônico é este repositório, MSR-BR/lafmat-revisao, branch main.
-O conteúdo editável e publicado fica em dist/. A publicação usa a branch gh-pages, com os arquivos de dist/ na raiz.
+O conteúdo editável e publicado fica em dist/. A Vercel publica a branch main, com Root Directory dist, no projeto lafmat-revisao do time msr-brs-projects. A branch gh-pages conserva uma publicação de contingência.
 Não trabalhar na antiga cópia temporária em /tmp.
 
-A versão pública é https://msr-br.github.io/lafmat-revisao/.
-A Vercel está pausada. O domínio lafmat.com continua no WordPress.
-A migração do domínio depende de acesso autorizado à Namecheap/BanaHosting e da aprovação do grupo.
-Antes da migração, preservar a conferência 2023, que ainda aponta ao WordPress, e confirmar uso de e-mail @lafmat.com.
+A versão pública canônica é https://lafmat.com/.
+A Vercel foi reativada em 19/11/2026, com certificado emitido para lafmat.com e www.lafmat.com. A migração para Vercel foi expressamente autorizada pelo usuário após o bloqueio de emissão no GitHub Pages.
+A conferência 2023 está preservada no próprio site, sem depender do WordPress para imagens, PDF ou ZIP. O usuário confirmou que não há e-mail nem encaminhamento @lafmat.com em uso. Não cancelar a hospedagem antiga ou o registro do domínio.
 
 O idioma inicial é inglês, com preferência de idioma salva no navegador.
 O cartaz atual é de Johan Triana, 21/11/2026. O destaque depende da data da agenda.
@@ -23,12 +22,12 @@ Confira a pasta de trabalho e execute:
 
 O verificador deve retornar PASS e o código registrado em dist/verification.json.
 O status Git deve estar limpo. Compare o mesmo código com
-https://msr-br.github.io/lafmat-revisao/verification.json
-e confirme que o último build de Pages terminou com sucesso.
+https://lafmat.com/verification.json
+e confirme que o último deploy de produção da Vercel terminou com sucesso.
 
 Para continuar no Codex, abra a pasta do projeto e peça para ler HANDOFF.md e README.md.
 Após alterações, regenere o manifesto antes de publicar uma nova versão.
-A branch main guarda o projeto completo. Publique dist/ na raiz da branch gh-pages.
+A branch main guarda o projeto completo e dispara a publicação Vercel pela integração Git. Não publique a raiz completa como conteúdo estático: a pasta pública é dist/. A branch gh-pages é histórica/de contingência.
 
 ## Atualização de 18/11/2026 — arquivo 2023 preparado
 
@@ -75,3 +74,14 @@ Retomada de finalização HTTPS, 18/11/2026: reaplicado domínio e executado um 
 ### Nova tentativa — 19/11/2026
 
 O resolvedor local agora retorna os quatro IPs do GitHub e o CNAME correto. Seis arquivos críticos passaram por HTTP normal, sem IP forçado, incluindo entrada, JavaScript, conferência, rota com sublinhado, PDF e ZIP. Reaplicado o domínio e solicitada reconstrução; depois removido e reinserido uma vez para reiniciar a solicitação TLS. Árvore estática exata preservada; publicação `fa0f7f80c330539d8bf019fb1ec495f873704709`, deploy `44518203082` concluído com sucesso. Monitorado após a publicação: certificado ainda ausente, ativação HTTPS recusada com 404 The certificate does not exist yet, TLS normal falha nos dois nomes. O diagnóstico GitHub ainda indica IP externo e MX presente, divergindo da zona pública atual. Não considerar concluído. Evidências em `docs/domain-retry-2026-11-19.json`.
+
+## Produção Vercel operacional — 19/11/2026
+
+Autorização: migrar para Vercel e concluir HTTPS sem aviso. Projeto lafmat-revisao reativado; implantação dpl_5BWBA9U68jsLrhWep2fDnoCHDSfR testada e promovida. Certificado Let's Encrypt válido para lafmat.com e www.lafmat.com, até 17/02/2027, renovação gerenciada pela Vercel. Os quatro acessos HTTP/HTTPS, com e sem www, passaram por resolução normal, com redirecionamento ao domínio canônico e validação TLS habilitada. Cache local macOS foi limpo sem alteração de rede.
+
+281 arquivos públicos conferidos por SHA-256 em HTTPS, mesma versão LAFMAT-20261118-6D2C6003288B. Menu principal e Conferências → 2023 testados no navegador, com arquivo na própria origem. Origem futura: GitHub main, Root Directory dist na Vercel. Produção pública, previews protegidos. Credencial temporária de teste revogada. Registro, DNS Namecheap e hospedagem antiga preservados. Estado: HTTPS_OPERATIONAL. Evidências e rollback: docs/vercel-migration-2026-11-19.md e docs/vercel-https-validation-2026-11-19.json.
+
+PO_MAGICO_CHECKPOINT: delivery (migração Vercel autorizada)
+PO_MAGICO_LAST_CHECKED: 2026-11-19 (regras já carregadas nesta sessão; divergência local/remoto registrada acima permanece)
+PO_MAGICO_DELTA_ADOPTED: no
+Modelo efetivo: Codex; identificador específico não exposto neste turno.
