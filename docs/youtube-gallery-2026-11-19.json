@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-11-19T11:39:29.073945-03:00",
+  "sources": [
+    {
+      "id": "UC6WvDFTjgFk3Q35q4mpaL0g",
+      "name": "Lafmatnetwork",
+      "url": "https://www.youtube.com/@Lafmatnetwork"
+    },
+    {
+      "id": "UCfiQBBY25mMqY4seHB_fCmg",
+      "name": "GI MATEFUN",
+      "url": "https://www.youtube.com/@gimatefun5035"
+    }
+  ],
+  "videos": 304,
+  "channels": {
+    "Lafmatnetwork": 67,
+    "GI MATEFUN": 237
+  },
+  "publication_years": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "latest": "2026-11-14",
+  "display_groups": 272,
+  "grouping": "Exact normalized scientific title, publication day, different source channels, comparable duration; all 304 source IDs retained",
+  "tests": {
+    "catalog_integrity": "PASS: unique IDs, approved owners, canonical links, publication timestamps, JPEG thumbnails",
+    "grouping_regressions": "PASS: no dropped IDs; repeated IDs, generic titles, different dates and same-channel uploads handled",
+    "sync_regressions": "PASS: 8 tests, feed identity, empty/unexpected source rejection, future recordings skipped, cached metadata reuse, HTTP 429 no immediate retries",
+    "full_second_sync": "PASS: changed=false, added=0, checked=304",
+    "browser": "PASS: EN/PT/ES, year 2020, source filter Lafmatnetwork=67, pagination 24 to 48, search Fester=2 results with correct links, empty results state"
+  },
+  "automation": {
+    "state": "ACTIVE",
+    "id": "atualizar-v-deos-lafmat",
+    "schedule": "daily 09:00",
+    "timezone": "America/Sao_Paulo",
+    "execution": "local Codex thread heartbeat; requires computer/app availability",
+    "mutation_scope": [
+      "dist/assets/videos.js",
+      "dist/assets/video-thumbnails/",
+      "dist/verification.json"
+    ]
+  },
+  "legacy_archive": "Preserved unchanged in dist/assets/archive.js; incorrect/repeated/incomplete historical link attribution is not used as authoritative video identity",
+  "content_boundary": "Metadata and thumbnails checked; videos remain on YouTube; no claim of reviewing 304 full recordings"
+}

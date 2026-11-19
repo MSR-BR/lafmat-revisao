@@ -25,6 +25,26 @@ Leia HANDOFF.md para retomar em outro computador e execute python3 scripts/verif
 O arquivo público verification.json permite comparar o conteúdo local com a publicação.
 O domínio de produção é público. Previews e URLs individuais de implantação continuam protegidos pela autenticação Vercel.
 
+## Vídeos dos canais da rede
+
+A galeria usa `dist/assets/videos.js`, com metadados conferidos nos canais [Lafmatnetwork](https://www.youtube.com/@Lafmatnetwork) e [GI MATEFUN](https://www.youtube.com/@gimatefun5035). As miniaturas ficam em `dist/assets/video-thumbnails/`; as gravações continuam no YouTube. A lista é organizada pelo **ano de publicação**, com filtros por canal, busca e carregamento gradual. Cópias de mesmo título e data em canais diferentes podem compartilhar um cartão, preservando os dois links. O conteúdo original importado do WordPress permanece intacto em `archive.js`; a nova galeria usa a identidade/título efetivos dos vídeos, evitando os links repetidos ou incompletos da fonte antiga.
+
+Para sincronizar o catálogo público completo (vídeos e gravações de transmissões), use Python 3.11+:
+
+```bash
+python3 -m venv .venv-youtube
+.venv-youtube/bin/python -m pip install -r requirements-youtube.txt
+.venv-youtube/bin/python scripts/sync_youtube.py --full
+node scripts/verify_videos.cjs
+python3 scripts/test_youtube_sync.py
+python3 scripts/update_manifest.py
+python3 scripts/verify.py
+```
+
+Sem `--full`, o coletor consulta os feeds recentes. O modo completo evita depender do limite de 15 itens dos feeds. Não baixa os vídeos, não precisa de chave de API e não altera os canais. Reutiliza o catálogo e o cache para não consultar novamente todas as páginas antigas; em falha ou limite do YouTube, interrompa a publicação e preserve a versão vigente. Não remove gravações antigas automaticamente. O site continua estático; o coletor e sua dependência são ferramentas de manutenção, fora de dist.
+
+A automação Codex **Atualizar vídeos LAFMAT** (`atualizar-v-deos-lafmat`) está ativa diariamente às 09h, no horário local de Brasília, com autorização recorrente para publicar somente catálogo, miniaturas e manifesto após os testes. A execução é local e depende da disponibilidade do Codex/computador; não é um serviço de agendamento da Vercel. A política de notificações informa falhas. Alterações em WordPress, conferências, DNS ou outras seções não fazem parte dessa autorização.
+
 ## Arquivo da conferência de 2023
 
 A seção Conferências abre `dist/conferences/2023/event-home/index.html`, com as 11 páginas públicas da conferência. As rotas antigas `/home/event-home/`, `/home/program/` e os outros nove caminhos também foram preservados em HTML estático. Imagens, PDF de resumo e ZIP LaTeX estão locais; os dois vídeos continuam no YouTube.

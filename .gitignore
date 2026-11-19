@@ -3,3 +3,5 @@ LAFMAT-previa-para-revisao.zip
 .vercel/
 
 .private-backups/
+.cache/
+.venv-youtube/

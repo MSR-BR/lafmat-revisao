@@ -2,12 +2,14 @@
 
 const data = window.siteContent;
 const archive = window.archive;
+const videoCatalog = window.youtubeCatalog;
+const videoGallery = window.buildVideoGallery(videoCatalog);
 const languages = window.copy;
 const routes = ['home','members','gallery','news','seminars','conferences','contact'];
 const main = document.querySelector('main');
 const nav = document.querySelector('nav');
 const menu = document.querySelector('.menu-button');
-const state = {lang:'en', year:'2026', country:'', memberQuery:'', galleryQuery:''};
+const state = {lang:'en', year:'all', country:'', memberQuery:'', galleryQuery:'', galleryChannel:'', galleryLimit:24};
 const collaborators = data.collaborators.map(([name,affiliation,country])=>[country,name,affiliation]);
 try { state.lang = localStorage.getItem('lafmat-language') || 'en'; } catch {}
 if (!Object.hasOwn(languages, state.lang)) state.lang = 'en';
@@ -104,19 +106,26 @@ function members() {
 
 function galleryResults() {
   const query = normalized(state.galleryQuery.trim());
-  const rows = archive.gallery[state.year].filter(item=>normalized([item.date,...item.lines].join(' ')).includes(query));
-  document.querySelector('#gallery-results').innerHTML = rows.map(item=>`<article class="record card">
-    ${item.image ? `<img src="${esc(item.image)}" alt="" loading="lazy">` : ''}
-    <div class="card-body">${item.date ? `<p class="kicker">${esc(item.date)}</p>` : ''}<h2>${esc(item.lines[0])}</h2>
-    ${paragraphs(item.lines.slice(1))}
-    ${item.links.map(([label,url])=>external(url,/video|^↗/i.test(label)?t.video:label)).join(' ')}</div></article>`).join('') || `<p>${t.none}</p>`;
+  const rows = videoGallery.groups.filter(item=>
+    (state.year === 'all' || item.year === state.year) &&
+    (!state.galleryChannel || item.sources.some(source=>source.channelId === state.galleryChannel)) &&
+    normalized([item.title,item.publishedDate,...item.sources.map(source=>source.channelName)].join(' ')).includes(query));
+  document.querySelector('#gallery-results').innerHTML = rows.slice(0,state.galleryLimit).map(item=>`<article class="record card">
+    <a class="video-preview" href="${esc(item.sources.find(source=>source.channelId === state.galleryChannel)?.url || item.url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t.video+': '+item.title)}"><img src="${esc(item.image)}" alt="" width="320" height="180" loading="lazy"></a>
+    <div class="card-body"><p class="kicker">${t.published} ${dateLabel(item.publishedDate)}</p><h2>${esc(item.title)}</h2>
+    <p class="video-channels">${esc([...new Set(item.sources.map(source=>source.channelName))].join(' · '))}</p>
+    <div class="video-links">${item.sources.filter(source=>!state.galleryChannel || source.channelId === state.galleryChannel).map(source=>external(source.url,t.video+' · '+source.channelName)).join('')}</div></div></article>`).join('') || `<p>${t.none}</p>`;
+  document.querySelector('#gallery-count').textContent = rows.length+' '+(rows.length === 1 ? t.videoResult : t.videoResults);
+  document.querySelector('#gallery-more').hidden = rows.length <= state.galleryLimit;
 }
 function gallery() {
   return `<div class="shell inner">${pageTitle(t.nav[2],t.galleryIntro)}
-    <div class="year-nav" aria-label="${t.year}">${Object.keys(archive.gallery).reverse().map(year=>`<a href="#gallery/${year}"${year === state.year ? ' aria-current="page"' : ''}>${year}</a>`).join('')}</div>
+    <div class="video-source-links">${videoCatalog.channels.map(channel=>external(channel.url,channel.name)).join('')}</div>
+    <div class="year-nav" aria-label="${t.year}">${['all',...videoGallery.years].map(year=>`<a href="#gallery${year === 'all' ? '' : '/'+year}"${year === state.year ? ' aria-current="page"' : ''}>${year === 'all' ? t.allVideos : year}</a>`).join('')}</div>
     <div class="filters gallery-tools"><label>${t.searchGallery}<input id="gallery-search" type="search" value="${esc(state.galleryQuery)}"></label>
-    <div>${external(archive.playlists[state.year],t.playlist)}</div></div>
-    <div class="gallery-grid" id="gallery-results"></div>
+    <label>${t.videoChannel}<select id="gallery-channel"><option value="">${t.allChannels}</option>${videoCatalog.channels.map(channel=>`<option value="${esc(channel.id)}"${state.galleryChannel === channel.id ? ' selected' : ''}>${esc(channel.name)}</option>`).join('')}</select></label></div>
+    <p id="gallery-count" role="status" aria-live="polite"></p>
+    <div class="gallery-grid" id="gallery-results"></div><div class="gallery-more"><button class="button outline" id="gallery-more" type="button">${t.loadMore}</button></div>
   </div>`;
 }
 
@@ -210,9 +219,11 @@ function render({focus = false} = {}) {
   t = languages[state.lang];
   const [requested, sub] = location.hash.slice(1).split('/');
   const route = routes.includes(requested) ? requested : 'home';
-  if (route === 'gallery' && Object.hasOwn(archive.gallery,sub) && sub !== state.year) {
-    state.year = sub;
+  const galleryYear = videoGallery.years.includes(sub) ? sub : 'all';
+  if (route === 'gallery' && galleryYear !== state.year) {
+    state.year = galleryYear;
     state.galleryQuery = '';
+    state.galleryLimit = 24;
   }
   currentRoute = route;
   document.documentElement.lang = t.locale;
@@ -281,10 +292,14 @@ document.querySelector('#skip').addEventListener('click',event=>{event.preventDe
 main.addEventListener('input',event=>{
   const {id,value} = event.target;
   if (id === 'member-search') {state.memberQuery = value; memberResults();}
-  if (id === 'gallery-search') {state.galleryQuery = value; galleryResults();}
+  if (id === 'gallery-search') {state.galleryQuery = value; state.galleryLimit = 24; galleryResults();}
 });
 main.addEventListener('change',event=>{
   if (event.target.id === 'country-filter') {state.country = event.target.value; memberResults();}
+  if (event.target.id === 'gallery-channel') {state.galleryChannel = event.target.value; state.galleryLimit = 24; galleryResults();}
+});
+main.addEventListener('click',event=>{
+  if (event.target.closest('#gallery-more')) {state.galleryLimit += 24; galleryResults();}
 });
 main.addEventListener('submit',event=>{
   if (event.target.id !== 'contact-form') return;

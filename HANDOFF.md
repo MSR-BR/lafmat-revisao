@@ -93,3 +93,20 @@ Por instrução explícita do usuário, o WordPress da origem antiga foi colocad
 PO_MAGICO_CHECKPOINT: delivery (suspensão reversível do legado autorizada)
 PO_MAGICO_LAST_CHECKED: 2026-11-19 (regras da sessão reutilizadas)
 PO_MAGICO_DELTA_ADOPTED: no
+
+## Atualização contínua da galeria — 19/11/2026
+
+Usuário forneceu e autorizou consultar ambos os canais e manter a aba de vídeos sempre atualizada. Catálogo inicial conferido: 304 vídeos públicos (67 Lafmatnetwork, 237 GI MATEFUN), de 2020 a 2026, mais recente 14/11/2026. Exibição em 272 resultados, agrupando somente cópias de título e dia iguais em canais diferentes, sem perder os dois links. Títulos/datas/identidades vêm do YouTube; o arquivo WordPress antigo permanece intacto em archive.js. Foram encontrados links repetidos atribuídos a palestrantes diferentes e um link youtu.be sem identificador na cópia antiga; a galeria agora usa os vídeos conferidos dos dois canais.
+
+Dados: dist/assets/videos.js; miniaturas locais em dist/assets/video-thumbnails/. Coletor: scripts/sync_youtube.py (--full para todo o histórico). Dependência de manutenção fixada em requirements-youtube.txt; venv/cache ignorados pelo Git e fora da produção estática. IDs dos dois canais validados, dados escapados na interface, futuras transmissões excluídas e falhas/HTTP 429 interrompem a sincronização sem publicar catálogo parcial. Metadados conhecidos são reaproveitados; títulos/datas históricos não são reextraídos diariamente.
+
+FOLLOW_UP_STATE: ACTIVE
+AUTOMATION_ID: atualizar-v-deos-lafmat
+SCHEDULED_FOR: diariamente 09:00
+TIMEZONE: America/Sao_Paulo
+TARGET_THREAD_OR_PROJECT: este chat / lafmat web
+MUTATION_POLICY: autorização recorrente do usuário para sincronizar e publicar somente dist/assets/videos.js, dist/assets/video-thumbnails/ e dist/verification.json; preservar alterações alheias, sem WordPress, conferência 2023, DNS, provedores ou outras seções. Automação local Codex; depende do computador/app disponível. Notificações apenas em falhas.
+
+PO_MAGICO_CHECKPOINT: change/delivery (galeria e manutenção recorrente autorizadas)
+PO_MAGICO_LAST_CHECKED: 2026-11-19 (regras já carregadas e política scheduled-follow-up consultada)
+PO_MAGICO_DELTA_ADOPTED: no

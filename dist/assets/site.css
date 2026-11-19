@@ -113,6 +113,12 @@ details[open]>summary {margin-bottom:.75rem}
 .year-nav a,.year-nav button {min-height:42px;display:inline-flex;align-items:center;border:1px solid var(--line);background:#fff;border-radius:.5rem;padding:.42rem .8rem;color:var(--ink);text-decoration:none;font-weight:750}
 .year-nav [aria-current],.year-nav [aria-pressed="true"] {background:var(--teal);color:#fff;border-color:var(--teal)}
 .gallery-tools>div {display:flex;flex-wrap:wrap;gap:1rem}
+.video-source-links,.video-links {display:flex;flex-wrap:wrap;gap:.5rem 1rem}
+.video-source-links {margin-bottom:1.5rem}
+.video-channels,#gallery-count {color:var(--muted);font-size:.9rem}
+.gallery-more {margin-top:1.5rem;text-align:center}
+.video-preview {display:block}
+.video-links .text-link {font-size:.9rem}
 .record {overflow:hidden}
 .record img {width:100%;aspect-ratio:16/9;object-fit:contain;background:#edf1ec}
 .record p:not(.kicker) {font-size:.92rem;margin-bottom:.6rem}
