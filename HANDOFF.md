@@ -85,3 +85,11 @@ PO_MAGICO_CHECKPOINT: delivery (migração Vercel autorizada)
 PO_MAGICO_LAST_CHECKED: 2026-11-19 (regras já carregadas nesta sessão; divergência local/remoto registrada acima permanece)
 PO_MAGICO_DELTA_ADOPTED: no
 Modelo efetivo: Codex; identificador específico não exposto neste turno.
+
+## WordPress antigo suspenso — 19/11/2026
+
+Por instrução explícita do usuário, o WordPress da origem antiga foi colocado em manutenção reversível com Slim Maintenance Mode 1.4.6. Visitantes anônimos recebem 503; administradores mantêm acesso. As 29 páginas e 2 entradas permaneceram no painel, sem exclusão. Backup privado WXR e 512 mídias, verificado por hashes/CRC, salvo em .private-backups/wordpress-content-and-media-2026-11-19.zip; pasta excluída do Git e fora de dist. Não é backup SQL/integral de plugins e tema; o original continua preservado. Detalhes e reversão em docs/wordpress-suspension-2026-11-19.md. A ponte local temporária foi encerrada. Vercel e HTTPS do domínio público continuam operacionais. Não retomar trabalho na conferência 2023 sem nova solicitação.
+
+PO_MAGICO_CHECKPOINT: delivery (suspensão reversível do legado autorizada)
+PO_MAGICO_LAST_CHECKED: 2026-11-19 (regras da sessão reutilizadas)
+PO_MAGICO_DELTA_ADOPTED: no
