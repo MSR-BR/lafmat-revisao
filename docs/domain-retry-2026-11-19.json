@@ -1,0 +1,120 @@
+{
+  "checked_at": "2026-11-19T08:46:53.460684-03:00",
+  "pages": {
+    "status": "built",
+    "cname": "lafmat.com",
+    "https_enforced": false,
+    "https_certificate": null
+  },
+  "rebuild": {
+    "status": "built",
+    "commit": "8c3f7b223e03b49d3ce978906f294eaf4979792d",
+    "error": {
+      "message": null
+    },
+    "created_at": "2026-11-19T11:45:14Z"
+  },
+  "dns": {
+    "lafmat.com A": {
+      "status": 0,
+      "answer": [
+        {
+          "name": "lafmat.com.",
+          "type": 1,
+          "TTL": 300,
+          "data": "185.199.111.153"
+        },
+        {
+          "name": "lafmat.com.",
+          "type": 1,
+          "TTL": 300,
+          "data": "185.199.110.153"
+        },
+        {
+          "name": "lafmat.com.",
+          "type": 1,
+          "TTL": 300,
+          "data": "185.199.109.153"
+        },
+        {
+          "name": "lafmat.com.",
+          "type": 1,
+          "TTL": 300,
+          "data": "185.199.108.153"
+        }
+      ]
+    },
+    "lafmat.com NS": {
+      "status": 0,
+      "answer": [
+        {
+          "name": "lafmat.com.",
+          "type": 2,
+          "TTL": 1800,
+          "data": "dns2.registrar-servers.com."
+        },
+        {
+          "name": "lafmat.com.",
+          "type": 2,
+          "TTL": 1800,
+          "data": "dns1.registrar-servers.com."
+        }
+      ]
+    },
+    "lafmat.com AAAA": {
+      "status": 0,
+      "answer": []
+    },
+    "lafmat.com CAA": {
+      "status": 0,
+      "answer": []
+    },
+    "lafmat.com MX": {
+      "status": 0,
+      "answer": []
+    },
+    "www.lafmat.com CNAME": {
+      "status": 0,
+      "answer": [
+        {
+          "name": "www.lafmat.com.",
+          "type": 5,
+          "TTL": 300,
+          "data": "msr-br.github.io."
+        }
+      ]
+    }
+  },
+  "normal_http_checks": {
+    "result": "PASS",
+    "files": [
+      "index.html",
+      "assets/site.js",
+      "conferences/2023/event-home/index.html",
+      "home/__trashed/index.html",
+      "home/wp-content/uploads/2023/02/resumen.pdf",
+      "home/wp-content/uploads/2023/05/Resumen.zip"
+    ],
+    "method": "Normal HTTP resolution, no forced IP; SHA256 matches local manifest LAFMAT-20261118-6D2C6003288B"
+  },
+  "tls_checks": {
+    "lafmat.com": "FAIL: hostname does not match certificate",
+    "www.lafmat.com": "FAIL: hostname does not match certificate",
+    "verification_bypassed": false
+  },
+  "last_checked_at": "2026-11-19T08:51:35.154211-03:00",
+  "custom_domain_readded": true,
+  "publication": "fa0f7f80c330539d8bf019fb1ec495f873704709",
+  "deployment_run": 44518203082,
+  "deployment_result": "success",
+  "github_health": {
+    "is_valid": false,
+    "is_pointed_to_github_pages_ip": false,
+    "has_mx_records_present": true
+  },
+  "enforcement_result": {
+    "status": 404,
+    "message": "The certificate does not exist yet"
+  },
+  "state": "HTTPS_PENDING_PROVIDER"
+}

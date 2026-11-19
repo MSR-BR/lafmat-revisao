@@ -48,3 +48,7 @@ A tentativa explícita de ativar https_enforced=true foi recusada pelo GitHub co
 ## Verificação integral e rota histórica
 
 A verificação HTTP dos 281 arquivos públicos detectou que `/home/__trashed/index.html` não era servido por causa do processamento padrão Jekyll. Adicionado `dist/.nojekyll` para publicar o conteúdo estático sem excluir diretórios com sublinhado. Manifesto atualizado: `LAFMAT-20261118-6D2C6003288B`. As 22 páginas de arquivo/rotas da conferência passaram novamente na verificação local. A emissão HTTPS continua pendente e é acompanhada nesta execução.
+
+### Nova tentativa — 19/11/2026
+
+O resolvedor local agora retorna os quatro IPs do GitHub e o CNAME correto. Seis arquivos críticos passaram por HTTP normal, sem IP forçado, incluindo entrada, JavaScript, conferência, rota com sublinhado, PDF e ZIP. Reaplicado o domínio e solicitada reconstrução; depois removido e reinserido uma vez para reiniciar a solicitação TLS. Árvore estática exata preservada; publicação `fa0f7f80c330539d8bf019fb1ec495f873704709`, deploy `44518203082` concluído com sucesso. Monitorado após a publicação: certificado ainda ausente, ativação HTTPS recusada com 404 The certificate does not exist yet, TLS normal falha nos dois nomes. O diagnóstico GitHub ainda indica IP externo e MX presente, divergindo da zona pública atual. Não considerar concluído. Evidências em `docs/domain-retry-2026-11-19.json`.
