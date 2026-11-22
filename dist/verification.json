@@ -1,6 +1,6 @@
 {
-  "code": "LAFMAT-20261119-8A801A13DAB6",
-  "sha256": "8a801a13dab667d59644a17422e457d4ec4c135613ad27fa42cdcbc56bd3afac",
+  "code": "LAFMAT-20261122-3E3DF499FBC3",
+  "sha256": "3e3df499fbc38ec96775ec85d9c20268fa17c13f100067ef1043ce62170672f8",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "CNAME": "0b8d57740a9ffd8006db14cff66995c18ba3463f316783e2a09096138accb5e7",
@@ -421,6 +421,7 @@
     "assets/video-thumbnails/bSuWBv7lh6A.jpg": "7cf080460f2a061174488862e339dff3830912534e439ea1746f57041041dd13",
     "assets/video-thumbnails/blc2IpYOqmE.jpg": "0b3a5875e6c4698a86d83b4a0174bb6a8f6dfe26c9c77f4234e92e10234b3c87",
     "assets/video-thumbnails/bzE-_YueaLg.jpg": "78389e98d776fbfb172881960df00db6fc7bec40b805e89bc7edbf49384b2105",
+    "assets/video-thumbnails/c7_Eh2GvcXc.jpg": "3e9ac37f840aef93ee4a155db2730c76acf71ba0bfcdc523b6379264bfb0a7f1",
     "assets/video-thumbnails/cHD95oOmutM.jpg": "cec956798f8be9b832ea0ba7ee252c61d7f9168148c633c7f92be67b4661b7fb",
     "assets/video-thumbnails/cJ33jAg4Ewc.jpg": "1510c3ab3a0741f183b057c8a432651eb58c761d8d18feed5aa9aa016ae06f2f",
     "assets/video-thumbnails/cRaW0YdEtOQ.jpg": "86a85ce80cc2fa27458c808547447b1f9576737174245c82f3d6d9dc48b28de8",
@@ -463,6 +464,7 @@
     "assets/video-thumbnails/jK7fcL-yhwM.jpg": "56a11c5b3d1a1abb95e5a8f36371386743e16dceb34d9ade86debcc4241532f1",
     "assets/video-thumbnails/jPaLzvty4Lc.jpg": "8c120897a201e73666dd8303ed3bfe50c14876ddd6964e8ce148e9ad641f302c",
     "assets/video-thumbnails/jREs8X48kk0.jpg": "3bb1db6148214db7c2238f0998e91ea85ff72b210a97cd4a354e5bdd444b64ac",
+    "assets/video-thumbnails/jZsFts-jxnc.jpg": "3e9ac37f840aef93ee4a155db2730c76acf71ba0bfcdc523b6379264bfb0a7f1",
     "assets/video-thumbnails/jfkhJ4Vu6Q4.jpg": "d13fe2c08205862ad20bb46d17815ca6aab23770e80983c8184ddf6fffb41e1e",
     "assets/video-thumbnails/jswToobCQDQ.jpg": "9d524312c35c4502977315021eb2e92d7734e0b44b51d8811647c69c873fc94c",
     "assets/video-thumbnails/kdXmJ8177KM.jpg": "2205f6f5d92c69aa3a1962662b8d4b2cf1a72683c887109a710679f60a2aea3b",
@@ -547,7 +549,7 @@
     "assets/video-thumbnails/yzGLMmDrwWQ.jpg": "f9f954f7d5bc98a6acc51b23b553dcda212f56ad9b14cf0a32c87e8e453599cf",
     "assets/video-thumbnails/zDWciOeTJAE.jpg": "4870e2b11b58dc32e4f9386c91b38e2bbc25f2a89189f2ddbc3edc887d138ecf",
     "assets/video-thumbnails/zVO0DEUcMB8.jpg": "779d0065bea1efc9c728f0727afcac356c7d5d9ab08bc6b60c866d2e2cb2e29f",
-    "assets/videos.js": "4ba39d137509961c5cd8fe80da912abf2f355512e500a2cb8f90efa8f010f425",
+    "assets/videos.js": "db4b5a936989524a9e91a027054a894651ce07176b53b012ac23ce979ccb56ff",
     "conferences/2023/2757-2/index.html": "9a1fc42ed8404da58bc0bbcc64a00ff92ac1244ddd7ac01f58d80eed75f1962d",
     "conferences/2023/archive.css": "3d10d56c479322f85d60cd99a4066336c19699fbae74ed0c0ba9d1d7ec139185",
     "conferences/2023/commitee/index.html": "77e8a0872f801dad7f45db04d64a4da3197b03f4100c0e0970abce1644b4ad8f",

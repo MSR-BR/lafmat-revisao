@@ -1,6 +1,6 @@
 window.youtubeCatalog = {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T14:26:42.202212+00:00",
+  "updatedAt": "2026-11-22T11:55:56.769746+00:00",
   "channels": [
     {
       "id": "UC6WvDFTjgFk3Q35q4mpaL0g",
@@ -14,6 +14,26 @@ window.youtubeCatalog = {
     }
   ],
   "videos": [
+    {
+      "id": "jZsFts-jxnc",
+      "title": "Tema: Light-driven chemistry for applications in quantum technologies | Dr. Johan Triana.",
+      "channelId": "UCfiQBBY25mMqY4seHB_fCmg",
+      "publishedAt": "2026-11-21T15:01:55+00:00",
+      "publishedDate": "2026-11-21",
+      "url": "https://www.youtube.com/watch?v=jZsFts-jxnc",
+      "duration": 4567,
+      "image": "assets/video-thumbnails/jZsFts-jxnc.jpg"
+    },
+    {
+      "id": "c7_Eh2GvcXc",
+      "title": "Tema: Light-driven chemistry for applications in quantum technologies | Dr. Johan Triana",
+      "channelId": "UC6WvDFTjgFk3Q35q4mpaL0g",
+      "publishedAt": "2026-11-21T14:59:27+00:00",
+      "publishedDate": "2026-11-21",
+      "url": "https://www.youtube.com/watch?v=c7_Eh2GvcXc",
+      "duration": 4567,
+      "image": "assets/video-thumbnails/c7_Eh2GvcXc.jpg"
+    },
     {
       "id": "RS6BgHc3jg4",
       "title": "Tema: Thermodynamic Fingerprints of Altermagnetism: From Magnon Splitting... | Miguel E. Gámez López",
