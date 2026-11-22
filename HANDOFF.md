@@ -118,3 +118,11 @@ Usuário forneceu os links do perfil Red Lafmat e autorizou inclusão, commit e 
 PO_MAGICO_CHECKPOINT: change/delivery (Facebook autorizado)
 PO_MAGICO_LAST_CHECKED: 2026-11-19 (regras da sessão reutilizadas; divergência do arquivo registrada acima)
 PO_MAGICO_DELTA_ADOPTED: no
+
+## Agenda atualizada — 22/11/2026
+
+Lista fornecida pelo usuário incorporada: 33 sábados de 28/11/2026 a 10/07/2027. Título e afiliação UFRJ de Debora Vasconcelos corrigidos; Gema Monserrate Zambrano Baque, título e moderação de Juan Primera inseridos em 12/12. 26/06 e 03/07 sem programação definida; 10/07 reservado sem palestra para possível Fórum em Lima, a confirmar, nos três idiomas. Demais palestrantes, moderadores, convidados, indicações, feriados e pendências preservados conforme a lista. E-mails pessoais fornecidos não publicados. Verificadas 33 datas consecutivas aos sábados, estados e campos alterados; sintaxe, manifesto de 591 arquivos e segurança rápida PASS. Manifesto LAFMAT-20261122-FFA2DB95836A. Publicação autorizada no site existente, main → Vercel lafmat-revisao / msr-brs-projects. Reversão por revert do commit desta atualização. output/ mantido fora da publicação.
+
+PO_MAGICO_CHECKPOINT: change/delivery (agenda fornecida pelo usuário)
+PO_MAGICO_LAST_CHECKED: 2026-11-22 (regras da sessão reutilizadas; divergência do arquivo registrada acima)
+PO_MAGICO_DELTA_ADOPTED: no

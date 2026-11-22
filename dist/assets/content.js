@@ -64,9 +64,9 @@ GT|Lucía Nitsch Velásquez|Universidad de San Carlos de Guatemala`.split('\n').
   // date | speaker | title | affiliation | moderator | status | invited/recommended by
   seminars: `2026-11-14|Miguel Enrique Gámez López|Thermodynamic Fingerprints of Altermagnetism: From Magnon Splitting to Field-Induced Transitions|Universidad Nacional de Colombia (estudiante de Ovidio Almanza)|Eliana Vargas
 2026-11-21|Johan Triana|Light-driven chemistry for applications in quantum technologies|Universidad Católica del Norte, Chile|Sergio Conejeros
-2026-11-28|Debora Vasconcelos||DEFIS/UFRRJ, Brazil|Isaias Gonzaga de Oliveira
+2026-11-28|Debora Vasconcelos|Dissociação molecular ultrarrápida: influência da solvatação na dinâmica de fragmentação molecular|Universidade Federal do Rio de Janeiro, Brazil|Isaias Gonzaga de Oliveira
 2026-12-05|Richard Caraballo|Investigation of caloric effects in polymeric systems via molecular dynamics simulations|Universidade Federal do Rio de Janeiro (UFRJ), Brazil|Mario Reis
-2026-12-12|||||invited|Juan Primera
+2026-12-12|Gema Monserrate Zambrano Baque|Efecto de la estructura de la red porosa y del atrapamiento irreversible sobre el transporte de partículas en geles híbridos quitosano–sílice||Juan Primera
 2026-12-19|Mercedes Cornelius|Decoding spatial-functional Dynamics in Complex systems|Cavendish Laboratory, University of Cambridge, UK
 2026-12-26|||||christmas
 2027-01-02|||||newYear
@@ -94,8 +94,9 @@ GT|Lucía Nitsch Velásquez|Universidad de San Carlos de Guatemala`.split('\n').
 2027-06-05|||||invited|Felipe Mondaca
 2027-06-12|||||invited|Felipe Mondaca
 2027-06-19|||||centralAmerica|Carlos Rudamas
-2027-06-26|||||reserved
-2027-07-03|||||open`.split('\n').map(row => row.split('|')),
+2027-06-26|||||open
+2027-07-03|||||open
+2027-07-10|||||reserved`.split('\n').map(row => row.split('|')),
   // Add new editorial items here in descending date order.
   news: [],
   // Author records require an identity verified against the member's own profile.
