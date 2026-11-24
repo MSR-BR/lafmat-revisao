@@ -134,3 +134,104 @@ Folder original fornecido pelo usuário copiado sem edição para dist/assets/de
 PO_MAGICO_CHECKPOINT: change/delivery (destaque e folder autorizados)
 PO_MAGICO_LAST_CHECKED: 2026-11-23 (regras da sessão reutilizadas)
 PO_MAGICO_DELTA_ADOPTED: no
+
+
+## Changes de SEO e medição criadas — 23/11/2026
+
+Usuário pediu criar as Changes após a avaliação da migração. Backlog local em .specs/roadmap.md, contrato compartilhado .specs/shared/discovery-contract.md e sete Changes 001–007: inventário/baseline; posse Search Console; URLs reais/HTML estático; SEO técnico/redirects; GA4/privacidade; submissão/vínculo/validação Google; acompanhamento. Todas PLANEJADAS, sem implementação, nova automação, mutação de contas/DNS, commit, push ou deploy neste turno. Sequência nova conferida: não havia .specs/changes anterior. As entregas históricas de site permanecem concluídas; numeração refere-se somente ao novo ciclo.
+
+Próxima Change: 001-inventory-and-seo-baseline. Plano de rota standard/medium (modelo concreto a confirmar no runtime). Publicação de URLs reais e redirects prevista em candidato integrado 003+004; não deixar sitemap ou destino apontar para páginas ainda ausentes. Alterações na geração HTML dos vídeos devem considerar o escopo restrito da automação atual. Conteúdo da conferência 2023, WordPress antigo e dados privados preservados. Memória continua neste HANDOFF; sem novo project-state.md.
+
+PO_MAGICO_SOURCE: ../po-magico (somente leitura)
+PO_MAGICO_VERSION_USED: v20261111.001
+PO_MAGICO_LAST_CHECKED: 2026-11-23
+PO_MAGICO_CHECKPOINT: classification/change/delivery (backlog SEO solicitado)
+PO_MAGICO_DELTA_ADOPTED: no
+PO_MAGICO_LESSON_CANDIDATE: em migração no mesmo domínio, redirects pertencem ao servidor atual; HTML derivado exige sincronização com a rotina de vídeos.
+Regras da sessão e blueprint site/segurança reutilizados. Divergência do método local/remoto anteriormente registrada permanece; sem declaração de conformidade integral. Modelo efetivo: Codex; ID/razão/token/custo não expostos ou medidos neste registro.
+
+
+## Change 001 concluída — 23/11/2026
+
+Após "segue", executado inventário local e amostra pública somente leitura: docs/seo/baseline.md, CSVs e recibos. 1.672 URLs, 1.125 entradas no mapa, 31 páginas/posts publicados e 512 registros de mídia cobertos. 50 consultas: 27 finais 200, 18×404 e 5×403. Há 12 páginas/posts antigos 404, incluindo galerias anuais 2022–2026; oito aliases gerais 200/noindex/meta refresh. 18 mídias têm hash idêntico a binário do dist. Restam 1.035 decisões justificadas de revisão (principalmente páginas de anexos e mídias), não falhas HTTP presumidas.
+
+Scripts seo_inventory.py, seo_probe.py e verify_seo_inventory.py reproduzem e validam a coleta com backup privado local; não copiam corpos/contatos para docs e não baixam mídias. Manifesto público igual ao local LAFMAT-20261123-BCB04519421A; dist inalterado. Testes de inventário e segurança rápida PASS. Sem commit/push/deploy, alteração Google/DNS/WordPress ou reauditoria editorial da conferência 2023.
+
+Próxima Change canônica: 002-search-console-ownership; requer acesso à conta/propriedade correta. Rota prevista tier standard/medium, runtime específico a confirmar. Modelagem de URLs e implementação permanecem 003/004; não publicar redirecionamentos genéricos antes de resolver equivalências. Nenhuma nova automação criada.
+
+PO_MAGICO_CHECKPOINT: delivery (Change 001 concluída)
+PO_MAGICO_LAST_CHECKED: 2026-11-23
+PO_MAGICO_DELTA_ADOPTED: no
+
+
+## Change 002 iniciada — 23/11/2026
+
+Search Console oficial aberto no Chrome autenticado de Mario; lafmat.com não listado nessa conta. Preparado fluxo de propriedade de domínio até diálogo TXT, sem clicar Verify. Namecheap Login aberta, requer intervenção do usuário; não tentar senhas antigas ou contornar autenticação. Abas marcadas para handoff. Nenhum TXT/DNS alterado ou controle de propriedade concedido. Antes de verificar posse, obter confirmação no momento da ação para a conta Google concreta, conforme política do navegador. Registro em docs/seo/search-console.md. Métricas LAFMAT ainda não verificadas. Próximo passo: usuário autentica Namecheap, conferir domínio/DNS, preparar TXT e finalizar verificação autorizada. Não avançar como se Change concluída.
+
+PO_MAGICO_CHECKPOINT: resume/change (Change 002 em andamento)
+PO_MAGICO_LAST_CHECKED: 2026-11-23
+PO_MAGICO_DELTA_ADOPTED: no
+
+
+Retomada Change 002 no Safari: usuário já autenticado na Namecheap, domínio lafmat.com e Advanced DNS confirmados. Registro TXT ainda não inserido; Google permanece no diálogo de verificação na conta Mario do Chrome. Ação nativa no botão Add New Record não disponível por célula AX sem ação; tentativa por coordenadas falhou noWindowsAvailable. Pedido pontual de clique manual enviado. Antes de salvar TXT que concede posse à conta Google concreta, confirmar a ampliação de acesso no momento da ação conforme política do navegador. Não houve qualquer edição DNS ou credencial.
+
+
+24/11/2026 — Usuário confirmou explicitamente a conta Google Mario (mesma conta apresentada na pergunta) para posse Search Console. Não pedir novamente autorização dessa mesma concessão. Linha nova DNS ainda vazia/A Record observada no Safari; nenhuma gravação. Uso simultâneo do Safari interrompeu seleção de TXT e mudou de aba; solicitado estabilizar Advanced DNS. Não ler conteúdo de outras abas. Continuar da linha existente, sem criar duplicata; salvar só TXT @ exato do diálogo Google, conferir DNS e Verify.
+
+
+24/11/2026, retomada com controle exclusivo: campos TXT @ / valor Google preenchidos corretamente; botão salvar por coordenada completa do screenshot retornou Failed to save record. Refresh levou ao login Namecheap, comprovando sessão expirada. Usuário solicitado a entrar de novo no Safari. Não pedir autorização Google novamente. Após autenticação, conferir TXT existente para evitar duplicata e salvar em painel fresco. Não clicar centro da célula AX Save/Cancel (aciona Cancel); usar marca de salvar da imagem. Nenhum registro DNS alterado ou verificação Google concluída.
+
+
+## Change 002 — posse Google concluída, 24/11/2026
+
+Após login renovado Namecheap no Safari, salvo um único TXT @ Google (Automatic). Cloudflare e Google DNS retornaram o valor. A/CNAME/www e NS permanecem iguais, manifesto HTTPS público igual ao local. Google mostrou Ownership verified; propriedade sc-domain:lafmat.com acessível. Settings: verified owner; Users (1): Mario Reis, Owner Verified, conta expressamente autorizada pelo usuário. Não pedir de novo autorização dessa mesma conta/operação. Manter TXT para preservar posse.
+
+Desempenho e Pages ainda processam; não há dados históricos exportáveis confirmados. Sitemaps 0; ações manuais/segurança sem problemas. Relatório HTTPS atualizado 23/11 tem 14 URLs HTTPS e 1 HTTPS not evaluated (não equivale a falha TLS atual); URL específica pendente para 004/006. Exportação CSV HTTPS tentada, mas download não retornou arquivo e controle CUA reiniciou; não afirmar CSV exportado. Baseline observada estruturada em docs/seo/search-console-baseline-2026-11-24.json; recibo DNS em search-console-dns-2026-11-24.json. Screenshot: pasta de visualizações, lafmat-search-console-verified.jpg.
+
+Estado: posse/acessos concluídos; exportações aguardam Google. Próxima Change canônica 003-indexable-static-routes, rota planejada standard/medium, sem implementação iniciada. Manter release integrado 003+004. Sem WordPress/conferência, GA4, envio sitemap ou Change of Address; nenhum commit/push/deploy de site.
+
+PO_MAGICO_CHECKPOINT: delivery (Change 002: posse comprovada com limites de dados)
+PO_MAGICO_LAST_CHECKED: 2026-11-24
+PO_MAGICO_DELTA_ADOPTED: no
+
+
+## 24/11/2026 — Change 003: HTML e rotas, candidato local
+
+Usuário autorizou especificamente executar a Change 003. Implementada e testada localmente: 42 páginas (sete seções × três idiomas + sete anos de vídeos × três idiomas), sem novo framework/dependência. Fontes editoriais, catálogo 306, conferência e aliases intactos. Renderizador comum ao build/navegador, links reais, compatibilidade hash, no-JS, filtros/idiomas/submenu preservados. Ver `docs/seo/route-contract.md` e recibos `static-build.json`, `static-http-validation-2026-11-24.json`, `static-browser-validation-2026-11-24.json`.
+
+Candidato: LAFMAT-20261124-B80A75C9CAC0, SHA256 b80a75c9cac0adcf71039cc52264cbf848e6dda8f25fdf85398231ed775b0c79, 635 arquivos. Manifesto público confirmado anterior LAFMAT-20261123-BCB04519421A. Nenhum commit/push/deploy. Próxima é 004: integrar SEO técnico e redirecionamentos com esse candidato antes de publicar. Não confundir novo manifesto local com identidade pública.
+
+Build: `node scripts/build_site.cjs`; verificar com `node scripts/verify_static_site.cjs`, depois `python3 scripts/update_manifest.py` e `python3 scripts/verify.py`. update_manifest agora bloqueia fonte/HTML divergentes. Testes locais: 42 HTTP 200 idênticos ao arquivo, 404 real, 2.952 links/assets, 306 gravações, 33 datas, rebuild determinístico, fixture obsoleta bloqueada, vídeos/8 testes de sync/conferência/inventário/security fast check/diff check PASS. Navegador desktop/tablet/celular e com CSP script-src none conferidos. Formulário só rascunho, sem envio externo.
+
+PENDÊNCIA DE RELEASE: autorização atual da automação diária ainda limita-se catálogo/miniaturas/manifesto. Não foi alterada. Antes de ativar 003+004, obter autorização específica para build/validação e outputs HTML/recibo derivados e atualização diária mesmo sem vídeo novo; atualizar automação pela ferramenta própria. JS usa data corrente; HTML sem JS usa data do build. Não publicar candidato parcial ou ignorar a divergência de escopo na rotina.
+
+PO_MAGICO_SOURCE: ../po-magico
+PO_MAGICO_VERSION_USED: v20261111.001
+PO_MAGICO_LAST_CHECKED: 2026-11-24
+PO_MAGICO_CHECKPOINT: change/delivery — 003 local
+PO_MAGICO_DELTA_ADOPTED: yes — blueprint SITE_EXISTING_REVISION + STATIC + ROUTE_PRESERVATION, overlay S0; mesma stack, conteúdo comum e prova de paridade
+PO_MAGICO_LESSON_CANDIDATE: guard do manifesto deve rejeitar outputs HTML derivados obsoletos e expansão de manutenção recorrente deve ser autorizada antes da ativação
+Divergência local/remoto anteriormente registrada permanece; não houve sincronização nem declaração de conformidade integral. Modelo efetivo: Codex, identificador exato/reasoning/custos não expostos neste registro.
+
+
+## 24/11/2026 — Change 004, candidato integrado preparado (não publicado)
+
+Usuário autorizou executar 004, consolidar os 11 aliases de conferência e ampliar manutenção recorrente para HTML/sitemap/recibo. Implementado SEO compartilhado (seo.js), canonical/idiomas/OG/Organization, PNG social original, robots/sitemap 54 entradas, Vercel 121 redirects e 149 padrões incluindo headers; canonical de arquivo via Link HTTP. Nenhum arquivo editorial de conferência alterado. Oito wrappers gerais apontam rotas reais como fallback estático. 1.672 decisões em docs/seo/migration-decisions.csv, com exceções para recursos antigos sem equivalente; sem publicar backups.
+
+Candidato local: LAFMAT-20261124-C125577914F0, SHA256 c125577914f0324a44e7a33a6113540606d322cb46c680aaec1320a1a5d238f9, 641 arquivos. verify_static 42/3.204 links, verify_seo 54 sitemap/121 rules/1.672 decisões, vídeos/sync/conferência/inventário/security fast check PASS. Schema público compatibilizado e padrões compilados por dependências já no cache de ferramentas, sem dependência nova do projeto. Não é prova do runtime Vercel. Estado em docs/seo/release-validation.md e .specs/004.
+
+Vercel CLI 66.2.0 confirmou projeto prj_ERGGYeDVgxuIo9wDkeo0CxGXfzzc, time msr-brs-projects, root dist, Git main. Conector retornou 404 na conta desta sessão; não criar projeto novo. Link local criou .env.local com credencial efêmera; removida sem leitura; .env* ignorado. Auto-review recusou vercel build --prod --yes por poder baixar variáveis de produção, portanto não executar nem contornar. Usar testes estáticos ou implantação autorizada sem puxar env.
+
+Baseline HEAD: 1.722 URLs, 629×200/519×404/574×403; resultados 403 reclassificados como UNVERIFIED porque GET/HEAD depois mostraram Vercel Security Checkpoint e x-vercel-mitigated challenge. Parar varreduras; não tratar challenge como mídia inexistente e não bypass/mudar firewall. scripts/probe_seo_release.py agora para em challenge/429. Navegador público também mostrou verificação de navegador; não afirmar acesso operacional por cliente automatizado nesse momento. Ver recibo pre-release-http-2026-11-24.json.
+
+AUTOMAÇÃO PENDENTE: id antigo atualizar-v-deos-lafmat não tem automation.toml local. View renderiza card, sem expor configuração ao agente. Updates parciais via tool foram rejeitados por schema (nenhuma mudança aplicada). Ferramenta exige kind/model/rrule/projectId/etc para cron; não inventar configuração anterior. Foi perguntado se pode substituir por heartbeat vinculado a este chat às 09h de Brasília, failed_runs_only, escopo ampliado; resposta ainda pendente neste checkpoint. Prompt salvo em .specs/changes/004.../automation-prompt.md. Não criar duplicata nem declarar atualização ativa antes de ferramenta bem-sucedida.
+
+PO_MAGICO_SOURCE: ../po-magico
+PO_MAGICO_VERSION_USED: v20261111.001
+PO_MAGICO_LAST_CHECKED: 2026-11-24
+PO_MAGICO_CHECKPOINT: change — 004 preparação local
+PO_MAGICO_DELTA_ADOPTED: yes — manter evidência de challenge distinta de 404; decisão por URL; fonte comum e autorização recorrente específica
+PO_MAGICO_LESSON_CANDIDATE: sondagem de migração deve parar em x-vercel-mitigated=challenge e não apenas em HTTP 429
+Divergência do arquivo local/remoto do método previamente registrada continua; não houve sincronização nem declaração de conformidade integral.
+
+Atualização de preparação: arquivos gerados normalizados para LF/sem whitespace de fim de linha; candidato atual LAFMAT-20261124-20C36699ED23, SHA256 20c36699ed232c98379718c4fa0a9587e11bf08ab3fa34e476dc42affa911aea. Navegador público concluiu automaticamente a verificação normal da Vercel e abriu a versão de produção anterior; não houve bypass, mudança de firewall ou CAPTCHA manual. 403 do lote continuam sem provar origem/ausência.

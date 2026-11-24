@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-24",
+  "state": "LOCAL_ONLY",
+  "local_manifest": "LAFMAT-20261124-B80A75C9CAC0",
+  "local_sha256": "b80a75c9cac0adcf71039cc52264cbf848e6dda8f25fdf85398231ed775b0c79",
+  "public_manifest": "LAFMAT-20261123-BCB04519421A",
+  "public_unchanged": true,
+  "unknown_route_status": 404,
+  "no_js_test": "CSP script-src none on localhost:8766",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 8274,
+      "matches_local": true
+    },
+    {
+      "path": "/members/",
+      "status": 200,
+      "bytes": 21949,
+      "matches_local": true
+    },
+    {
+      "path": "/videos/",
+      "status": 200,
+      "bytes": 238307,
+      "matches_local": true
+    },
+    {
+      "path": "/videos/2026/",
+      "status": 200,
+      "bytes": 63319,
+      "matches_local": true
+    },
+    {
+      "path": "/videos/2025/",
+      "status": 200,
+      "bytes": 57845,
+      "matches_local": true
+    },
+    {
+      "path": "/videos/2024/",
+      "status": 200,
+      "bytes": 43526,
+      "matches_local": true
+    },
+    {
+      "path": "/videos/2023/",
+      "status": 200,
+      "bytes": 39587,
+      "matches_local": true
+    },
+    {
+      "path": "/videos/2022/",
+      "status": 200,
+      "bytes": 42699,
+      "matches_local": true
+    },
+    {
+      "path": "/videos/2021/",
+      "status": 200,
+      "bytes": 13482,
+      "matches_local": true
+    },
+    {
+      "path": "/videos/2020/",
+      "status": 200,
+      "bytes": 5281,
+      "matches_local": true
+    },
+    {
+      "path": "/news/",
+      "status": 200,
+      "bytes": 14584,
+      "matches_local": true
+    },
+    {
+      "path": "/seminars/",
+      "status": 200,
+      "bytes": 15194,
+      "matches_local": true
+    },
+    {
+      "path": "/conferences/",
+      "status": 200,
+      "bytes": 3425,
+      "matches_local": true
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "bytes": 4164,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/",
+      "status": 200,
+      "bytes": 8226,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/members/",
+      "status": 200,
+      "bytes": 22030,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/videos/",
+      "status": 200,
+      "bytes": 239332,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/videos/2026/",
+      "status": 200,
+      "bytes": 63642,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/videos/2025/",
+      "status": 200,
+      "bytes": 58188,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/videos/2024/",
+      "status": 200,
+      "bytes": 43821,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/videos/2023/",
+      "status": 200,
+      "bytes": 39862,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/videos/2022/",
+      "status": 200,
+      "bytes": 42989,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/videos/2021/",
+      "status": 200,
+      "bytes": 13657,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/videos/2020/",
+      "status": 200,
+      "bytes": 5421,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/news/",
+      "status": 200,
+      "bytes": 14687,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/seminars/",
+      "status": 200,
+      "bytes": 15305,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/conferences/",
+      "status": 200,
+      "bytes": 3522,
+      "matches_local": true
+    },
+    {
+      "path": "/pt/contact/",
+      "status": 200,
+      "bytes": 4293,
+      "matches_local": true
+    },
+    {
+      "path": "/es/",
+      "status": 200,
+      "bytes": 8252,
+      "matches_local": true
+    },
+    {
+      "path": "/es/members/",
+      "status": 200,
+      "bytes": 22044,
+      "matches_local": true
+    },
+    {
+      "path": "/es/videos/",
+      "status": 200,
+      "bytes": 239273,
+      "matches_local": true
+    },
+    {
+      "path": "/es/videos/2026/",
+      "status": 200,
+      "bytes": 63585,
+      "matches_local": true
+    },
+    {
+      "path": "/es/videos/2025/",
+      "status": 200,
+      "bytes": 58162,
+      "matches_local": true
+    },
+    {
+      "path": "/es/videos/2024/",
+      "status": 200,
+      "bytes": 43791,
+      "matches_local": true
+    },
+    {
+      "path": "/es/videos/2023/",
+      "status": 200,
+      "bytes": 39846,
+      "matches_local": true
+    },
+    {
+      "path": "/es/videos/2022/",
+      "status": 200,
+      "bytes": 42964,
+      "matches_local": true
+    },
+    {
+      "path": "/es/videos/2021/",
+      "status": 200,
+      "bytes": 13642,
+      "matches_local": true
+    },
+    {
+      "path": "/es/videos/2020/",
+      "status": 200,
+      "bytes": 5399,
+      "matches_local": true
+    },
+    {
+      "path": "/es/news/",
+      "status": 200,
+      "bytes": 14703,
+      "matches_local": true
+    },
+    {
+      "path": "/es/seminars/",
+      "status": 200,
+      "bytes": 15289,
+      "matches_local": true
+    },
+    {
+      "path": "/es/conferences/",
+      "status": 200,
+      "bytes": 3511,
+      "matches_local": true
+    },
+    {
+      "path": "/es/contact/",
+      "status": 200,
+      "bytes": 4291,
+      "matches_local": true
+    }
+  ]
+}

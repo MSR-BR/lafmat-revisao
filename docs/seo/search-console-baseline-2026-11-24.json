@@ -1,0 +1,35 @@
+{
+  "checked_date": "2026-11-24",
+  "property": "sc-domain:lafmat.com",
+  "property_url": "https://search.google.com/search-console?resource_id=sc-domain%3Alafmat.com",
+  "ownership": "VERIFIED",
+  "method": "DNS TXT",
+  "account_role": "Mario Reis — sole listed user, verified owner",
+  "property_added_to_account": "2026-11-24",
+  "submitted_sitemaps": 0,
+  "manual_actions": "No issues detected",
+  "security_issues": "No issues detected",
+  "performance": "Processing data, please check again in a day or so",
+  "page_indexing": "Processing data, please check again in a day or so",
+  "crawl_stats": "No data available yet",
+  "robots": "No robots.txt file",
+  "associations": "Associate a service with this property (no association observed)",
+  "https_report": {
+    "last_update": "2026-11-23",
+    "https_urls": 14,
+    "non_https_urls": 1,
+    "issue": "HTTPS not evaluated",
+    "validation": "Not Started",
+    "affected_urls": 1,
+    "specific_url": "NOT_OBTAINED"
+  },
+  "native_csv_export": "Attempted through UI; browser download operation did not return a file before control reset; no CSV claimed",
+  "historical_performance_export": "NOT_AVAILABLE_YET; no data processing complete",
+  "screenshot": "/Users/marioreis/.codex/visualizations/2026/11/17/01a1eae3-afec-7771-bffa-159658a909da/lafmat-search-console-verified.jpg",
+  "limits": [
+    "Only the verified domain property in the authorized account was inspected",
+    "Possible older URL-prefix properties in other accounts remain unverified",
+    "HTTPS report classification is not proof of current TLS failure",
+    "No sitemap submitted, GA4 installed or Change of Address used"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-24",
+  "state": "LOCAL_ONLY",
+  "browser": "CUA in-app browser",
+  "javascript_enabled": {
+    "member_search": "PASS",
+    "country_filter": "PASS",
+    "video_search_and_channel": "PASS",
+    "load_more": "24 -> 48 cards",
+    "year_route": "/pt/videos/2023/; 42 groups, 24 initial cards",
+    "language_switch": "PASS",
+    "back_and_reload": "PASS",
+    "legacy_hashes": "seminars, gallery/2023, news/item-0",
+    "query_and_anchor": "/pt/news/?test=route#item-0; article open",
+    "conference_keyboard": "ArrowDown opens/focuses 2023, Escape closes and restores toggle focus; archive target _blank",
+    "contact_draft": "preserved across ES -> PT; no submission",
+    "runtime_errors_on_8765": []
+  },
+  "javascript_blocked": {
+    "method": "local QA HTTP header Content-Security-Policy: script-src 'none'",
+    "year_2023_cards": 42,
+    "language_navigation": "PT -> ES",
+    "seminar_events": 33,
+    "mobile_navigation": "visible, keyboard Enter tested"
+  },
+  "viewport_checks": [
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 820,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "overflow": false
+    }
+  ],
+  "screenshots": [
+    "/Users/marioreis/.codex/visualizations/2026/11/17/01a1eae3-afec-7771-bffa-159658a909da/lafmat-change003-desktop.jpg",
+    "/Users/marioreis/.codex/visualizations/2026/11/17/01a1eae3-afec-7771-bffa-159658a909da/lafmat-change003-nojs-mobile.jpg"
+  ],
+  "limits": [
+    "No production deployment",
+    "No Vercel normalization/redirect checks",
+    "No sitemap submission or indexing claim",
+    "Automation expansion not activated"
+  ]
+}

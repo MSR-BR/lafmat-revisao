@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-24",
+  "inventory_urls": 1672,
+  "behavior_counts": {
+    "KEEP_FILE": 584,
+    "CLIENT_HASH_COMPATIBILITY": 7,
+    "EXCEPTION_KEEP_MISSING_REFERENCE": 1,
+    "REDIRECT_EQUIVALENT": 57,
+    "EXCEPTION_KEEP_MISSING_ATTACHMENT_PAGE": 512,
+    "EXCEPTION_KEEP_UNMAPPED_PAGE": 7,
+    "REDIRECT_TO_EXISTING_MISSING_PATH": 7,
+    "EXCEPTION_KEEP_UNMIGRATED_MEDIA": 497
+  },
+  "redirect_rules": 121,
+  "canonical_archive_pages": 12,
+  "limits": [
+    "Exception means an explicitly retained pre-existing missing resource, not recovered content.",
+    "HTTP results must be checked against the deployed candidate before claiming public success.",
+    "Unknown WordPress IDs are not assigned a made-up destination.",
+    "No private backup content is emitted by this generator."
+  ]
+}

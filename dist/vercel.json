@@ -1,0 +1,1337 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1$"
+        }
+      ],
+      "destination": "/home/2022/04/06/hola-mundo/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1$"
+        }
+      ],
+      "destination": "/home/2022/04/06/hola-mundo/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1592$"
+        }
+      ],
+      "destination": "/home/2023/02/22/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1592$"
+        }
+      ],
+      "destination": "/home/2023/02/22/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1529$"
+        }
+      ],
+      "destination": "/home/events/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1529$"
+        }
+      ],
+      "destination": "/home/events/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1553$"
+        }
+      ],
+      "destination": "/conferences/2023/poster-2/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1553$"
+        }
+      ],
+      "destination": "/conferences/2023/poster-2/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1558$"
+        }
+      ],
+      "destination": "/conferences/2023/commitee/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1558$"
+        }
+      ],
+      "destination": "/conferences/2023/commitee/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1566$"
+        }
+      ],
+      "destination": "/conferences/2023/topics/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1566$"
+        }
+      ],
+      "destination": "/conferences/2023/topics/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1574$"
+        }
+      ],
+      "destination": "/conferences/2023/event-home/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1574$"
+        }
+      ],
+      "destination": "/conferences/2023/event-home/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1595$"
+        }
+      ],
+      "destination": "/conferences/2023/event-contact/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1595$"
+        }
+      ],
+      "destination": "/conferences/2023/event-contact/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1621$"
+        }
+      ],
+      "destination": "/conferences/2023/venue/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1621$"
+        }
+      ],
+      "destination": "/conferences/2023/venue/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1654$"
+        }
+      ],
+      "destination": "/videos/2022/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^1654$"
+        }
+      ],
+      "destination": "/videos/2022/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2149$"
+        }
+      ],
+      "destination": "/videos/2023/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2149$"
+        }
+      ],
+      "destination": "/videos/2023/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2654$"
+        }
+      ],
+      "destination": "/conferences/2023/publications/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2654$"
+        }
+      ],
+      "destination": "/conferences/2023/publications/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2690$"
+        }
+      ],
+      "destination": "/conferences/2023/registration/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2690$"
+        }
+      ],
+      "destination": "/conferences/2023/registration/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2757$"
+        }
+      ],
+      "destination": "/conferences/2023/2757-2/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2757$"
+        }
+      ],
+      "destination": "/conferences/2023/2757-2/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2825$"
+        }
+      ],
+      "destination": "/home/2825-2/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2825$"
+        }
+      ],
+      "destination": "/home/2825-2/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2934$"
+        }
+      ],
+      "destination": "/conferences/2023/important-dates/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2934$"
+        }
+      ],
+      "destination": "/conferences/2023/important-dates/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2978$"
+        }
+      ],
+      "destination": "/conferences/2023/program/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^2978$"
+        }
+      ],
+      "destination": "/conferences/2023/program/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3049$"
+        }
+      ],
+      "destination": "/videos/2024/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3049$"
+        }
+      ],
+      "destination": "/videos/2024/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3083$"
+        }
+      ],
+      "destination": "/home/gallery/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3083$"
+        }
+      ],
+      "destination": "/home/gallery/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^310$"
+        }
+      ],
+      "destination": "/home/nosotros/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^310$"
+        }
+      ],
+      "destination": "/home/nosotros/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^339$"
+        }
+      ],
+      "destination": "/members/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^339$"
+        }
+      ],
+      "destination": "/members/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3429$"
+        }
+      ],
+      "destination": "/videos/2025/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3429$"
+        }
+      ],
+      "destination": "/videos/2025/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3437$"
+        }
+      ],
+      "destination": "/videos/2026/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3437$"
+        }
+      ],
+      "destination": "/videos/2026/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3646$"
+        }
+      ],
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3646$"
+        }
+      ],
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3686$"
+        }
+      ],
+      "destination": "/conferences/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3686$"
+        }
+      ],
+      "destination": "/conferences/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3700$"
+        }
+      ],
+      "destination": "/seminars/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3700$"
+        }
+      ],
+      "destination": "/seminars/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3854$"
+        }
+      ],
+      "destination": "/videos/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^3854$"
+        }
+      ],
+      "destination": "/videos/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^54$"
+        }
+      ],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^54$"
+        }
+      ],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^68$"
+        }
+      ],
+      "destination": "/home/contenido/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^68$"
+        }
+      ],
+      "destination": "/home/contenido/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^709$"
+        }
+      ],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^709$"
+        }
+      ],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^890$"
+        }
+      ],
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/home/index.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^890$"
+        }
+      ],
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "destination": "/",
+      "permanent": true,
+      "missing": [
+        {
+          "type": "query",
+          "key": "p"
+        },
+        {
+          "type": "query",
+          "key": "page_id"
+        },
+        {
+          "type": "query",
+          "key": "attachment_id"
+        }
+      ]
+    },
+    {
+      "source": "/home/index.html",
+      "destination": "/",
+      "permanent": true,
+      "missing": [
+        {
+          "type": "query",
+          "key": "p"
+        },
+        {
+          "type": "query",
+          "key": "page_id"
+        },
+        {
+          "type": "query",
+          "key": "attachment_id"
+        }
+      ]
+    },
+    {
+      "source": "/home/2757-2/",
+      "destination": "/conferences/2023/2757-2/",
+      "permanent": true
+    },
+    {
+      "source": "/home/2757-2/index.html",
+      "destination": "/conferences/2023/2757-2/",
+      "permanent": true
+    },
+    {
+      "source": "/home/__trashed/",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/home/__trashed/index.html",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/home/about-us/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/about-us/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/commitee/",
+      "destination": "/conferences/2023/commitee/",
+      "permanent": true
+    },
+    {
+      "source": "/home/commitee/index.html",
+      "destination": "/conferences/2023/commitee/",
+      "permanent": true
+    },
+    {
+      "source": "/home/conferences/",
+      "destination": "/conferences/",
+      "permanent": true
+    },
+    {
+      "source": "/home/conferences/index.html",
+      "destination": "/conferences/",
+      "permanent": true
+    },
+    {
+      "source": "/home/contacts/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/home/contacts/index.html",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/home/event-contact/",
+      "destination": "/conferences/2023/event-contact/",
+      "permanent": true
+    },
+    {
+      "source": "/home/event-contact/index.html",
+      "destination": "/conferences/2023/event-contact/",
+      "permanent": true
+    },
+    {
+      "source": "/home/event-home/",
+      "destination": "/conferences/2023/event-home/",
+      "permanent": true
+    },
+    {
+      "source": "/home/event-home/index.html",
+      "destination": "/conferences/2023/event-home/",
+      "permanent": true
+    },
+    {
+      "source": "/home/important-dates/",
+      "destination": "/conferences/2023/important-dates/",
+      "permanent": true
+    },
+    {
+      "source": "/home/important-dates/index.html",
+      "destination": "/conferences/2023/important-dates/",
+      "permanent": true
+    },
+    {
+      "source": "/home/know-us/",
+      "destination": "/members/",
+      "permanent": true
+    },
+    {
+      "source": "/home/know-us/index.html",
+      "destination": "/members/",
+      "permanent": true
+    },
+    {
+      "source": "/home/poster-2/",
+      "destination": "/conferences/2023/poster-2/",
+      "permanent": true
+    },
+    {
+      "source": "/home/poster-2/index.html",
+      "destination": "/conferences/2023/poster-2/",
+      "permanent": true
+    },
+    {
+      "source": "/home/program/",
+      "destination": "/conferences/2023/program/",
+      "permanent": true
+    },
+    {
+      "source": "/home/program/index.html",
+      "destination": "/conferences/2023/program/",
+      "permanent": true
+    },
+    {
+      "source": "/home/publications/",
+      "destination": "/conferences/2023/publications/",
+      "permanent": true
+    },
+    {
+      "source": "/home/publications/index.html",
+      "destination": "/conferences/2023/publications/",
+      "permanent": true
+    },
+    {
+      "source": "/home/registration/",
+      "destination": "/conferences/2023/registration/",
+      "permanent": true
+    },
+    {
+      "source": "/home/registration/index.html",
+      "destination": "/conferences/2023/registration/",
+      "permanent": true
+    },
+    {
+      "source": "/home/seminars/",
+      "destination": "/seminars/",
+      "permanent": true
+    },
+    {
+      "source": "/home/seminars/index.html",
+      "destination": "/seminars/",
+      "permanent": true
+    },
+    {
+      "source": "/home/topics/",
+      "destination": "/conferences/2023/topics/",
+      "permanent": true
+    },
+    {
+      "source": "/home/topics/index.html",
+      "destination": "/conferences/2023/topics/",
+      "permanent": true
+    },
+    {
+      "source": "/home/venue/",
+      "destination": "/conferences/2023/venue/",
+      "permanent": true
+    },
+    {
+      "source": "/home/venue/index.html",
+      "destination": "/conferences/2023/venue/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-galery-2022/",
+      "destination": "/videos/2022/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-galery-2022/index.html",
+      "destination": "/videos/2022/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-galery-2024/",
+      "destination": "/videos/2024/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-galery-2024/index.html",
+      "destination": "/videos/2024/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-gallery-2023/",
+      "destination": "/videos/2023/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-gallery-2023/index.html",
+      "destination": "/videos/2023/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-gallery-2025-2/",
+      "destination": "/videos/2025/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-gallery-2025-2/index.html",
+      "destination": "/videos/2025/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-gallery-2026/",
+      "destination": "/videos/2026/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-gallery-2026/index.html",
+      "destination": "/videos/2026/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-gallery/",
+      "destination": "/videos/",
+      "permanent": true
+    },
+    {
+      "source": "/home/video-gallery/index.html",
+      "destination": "/videos/",
+      "permanent": true
+    },
+    {
+      "source": "/home/wp-content/uploads/2022/04/luis.jpeg",
+      "destination": "/assets/467f74bc849d42.jpeg",
+      "permanent": true
+    },
+    {
+      "source": "/home/wp-content/uploads/2022/05/ABD1.png",
+      "destination": "/assets/707696c7531581.png",
+      "permanent": true
+    },
+    {
+      "source": "/home/wp-content/uploads/2022/06/Prof.-Rojas.png",
+      "destination": "/assets/ac68bdd43a4fe7.png",
+      "permanent": true
+    },
+    {
+      "source": "/home/wp-content/uploads/2024/09/Dr.-Veronica-3.0.jpeg",
+      "destination": "/assets/d4a03805e039f7.jpeg",
+      "permanent": true
+    },
+    {
+      "source": "/home/wp-content/uploads/2024/10/a261024.jpeg",
+      "destination": "/assets/c2dca2e6956300.jpeg",
+      "permanent": true
+    },
+    {
+      "source": "/home/wp-content/uploads/2026/03/RED-LAFMAT-1.mp4",
+      "destination": "/assets/lafmat.mp4",
+      "permanent": true
+    },
+    {
+      "source": "/home/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-15-at-08.14.18-1.jpeg",
+      "destination": "/assets/lafmat-kunming-2026.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/home/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-15-at-08.14.18-2.jpeg",
+      "destination": "/assets/lafmat-kunming-2026.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/home/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-15-at-08.14.18.jpeg",
+      "destination": "/assets/lafmat-kunming-2026.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/index.html",
+      "destination": "/:path*/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "(?!lafmat\\.com$).*"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/verification.json",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/404.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/event-home/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/event-home/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/event-home/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/event-home/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/venue/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/venue/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/venue/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/venue/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/topics/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/topics/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/topics/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/topics/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/commitee/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/commitee/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/commitee/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/commitee/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/poster-2/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/poster-2/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/poster-2/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/poster-2/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/publications/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/publications/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/publications/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/publications/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/registration/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/registration/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/registration/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/registration/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/2757-2/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/2757-2/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/2757-2/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/2757-2/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/event-contact/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/event-contact/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/event-contact/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/event-contact/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/important-dates/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/important-dates/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/important-dates/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/important-dates/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/program/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/program/>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/conferences/2023/program/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://lafmat.com/conferences/2023/program/>; rel=\"canonical\""
+        }
+      ]
+    }
+  ]
+}

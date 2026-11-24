@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-11-24T12:07:46.695326+00:00",
+  "domain": "lafmat.com",
+  "records": {
+    "1.1.1.1": {
+      "exit_code": 0,
+      "answers": [
+        "\"google-site-verification=YPb8lJlIKlqkZ9FwwHVL-29VmRymzPcwMG0u0YLxL9w\""
+      ]
+    },
+    "8.8.8.8": {
+      "exit_code": 0,
+      "answers": [
+        "\"google-site-verification=YPb8lJlIKlqkZ9FwwHVL-29VmRymzPcwMG0u0YLxL9w\""
+      ]
+    }
+  },
+  "dns_change": "Added one Google verification TXT at @; existing records preserved in UI",
+  "google_ownership": "pending_initial_dns_propagation"
+}

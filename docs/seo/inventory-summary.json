@@ -1,0 +1,30 @@
+{
+  "source_commit": "cd4d110ce164457ee5a6e7557afdaa281242d50c",
+  "manifest": "LAFMAT-20261123-BCB04519421A",
+  "current_dist_files": 592,
+  "published_wxr_pages_posts": 31,
+  "attachment_media_records": 512,
+  "inventory_urls": 1672,
+  "redirect_map_rows": 1125,
+  "classification_counts": {
+    "keep": 574,
+    "consolidate": 18,
+    "review_required": 1035,
+    "redirect": 45
+  },
+  "destination_state_counts": {
+    "CURRENT_LOCAL_TARGET": 616,
+    "PROPOSED_ROUTE_NOT_IMPLEMENTED": 7,
+    "REVIEW_REQUIRED": 1035,
+    "CURRENT_HASH_TARGET": 14
+  },
+  "coverage_limits": [
+    "No Search Console or GA4 account evidence",
+    "No traffic/backlink priority measured; priority is structural",
+    "WXR exported published metadata may include obsolete pages",
+    "Media inherit visibility not independently checked; public URL metadata only",
+    "Source snapshots referenced only for route ledger; conference content not reaudited",
+    "External domains excluded; wp-admin/login excluded; no WXR bodies/authors/emails exported",
+    "Language mixed/unverified; finalize route and locale contract in Change 003"
+  ]
+}

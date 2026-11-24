@@ -42,8 +42,8 @@ nav a:hover,nav a[aria-current],.conference-toggle:hover,.conference-toggle.curr
 .nav-submenu a {display:block;padding:.5rem .75rem;border:0;border-radius:.25rem}
 .nav-submenu a:hover,.nav-submenu a:focus-visible {background:#e6efed}
 .languages {display:flex;border:1px solid #dbe4dc;border-radius:100px;padding:3px;gap:2px}
-.languages button {border:0;background:transparent;color:var(--ink);border-radius:100px;min-width:34px;padding:.3rem .42rem;font-size:.76rem;font-weight:800}
-.languages button[aria-pressed="true"] {background:var(--dark);color:#fff}
+.languages a {display:inline-block;text-align:center;text-decoration:none;border:0;background:transparent;color:var(--ink);border-radius:100px;min-width:34px;padding:.3rem .42rem;font-size:.76rem;font-weight:800}
+.languages a[aria-current="page"] {background:var(--dark);color:#fff}
 .menu-button {display:none}
 .hero {background:radial-gradient(ellipse at 82% 55%,#285050 0%,#1a373a 43%,#142e32 78%);color:#fff;overflow:hidden}
 .hero-inner {min-height:520px;display:grid;grid-template-columns:1.45fr 1fr;align-items:center;position:relative;padding-block:4rem 4.75rem}
@@ -205,3 +205,14 @@ footer p {font-size:.86rem}
 .home-flyer {display:block;margin-top:1.5rem}
 .home-flyer img,.seminar-feature img {height:auto}
 .home-flyer img {width:min(100%,960px);margin-inline:auto;border-radius:.85rem}
+
+/* Static pages remain navigable without JavaScript. */
+[hidden], html:not(.js) .js-only {display:none !important}
+.nav-dropdown {display:flex;align-items:center;gap:.25rem;flex-wrap:wrap}
+.conference-toggle {cursor:pointer}
+html:not(.js) .nav-submenu {display:none}
+@media (max-width:900px) {
+  html:not(.js) .header-inner {flex-wrap:wrap}
+  html:not(.js) nav {display:flex;position:static;order:3;flex-basis:100%;box-shadow:none;padding:.75rem 0;flex-direction:row;flex-wrap:wrap}
+  .nav-submenu {flex-basis:100%}
+}

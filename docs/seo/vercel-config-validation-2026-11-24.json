@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-24",
+  "schema": "https://openapi.vercel.sh/vercel.json",
+  "schemaSha256": "2cfc2f45684c32f9d4c708073a09ea477f419116e0bd0002bf57f4aef848d1f6",
+  "schemaResult": "PASS; local AJV 8.6.3 with only draft-04 meta-schema declaration omitted for compatibility",
+  "patterns": 149,
+  "compiler": "path-to-regexp 6.1.0 from cached Vercel tool dependency; no new project dependency",
+  "result": "PASS_LOCAL; actual server verification pending deployment",
+  "productionEnvironmentDownloaded": false
+}

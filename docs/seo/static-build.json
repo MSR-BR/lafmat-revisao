@@ -1,0 +1,453 @@
+{
+  "schema": 1,
+  "buildDate": "2026-11-24",
+  "publication": "Release state recorded in docs/seo/release-validation.md",
+  "inputs": {
+    "dist/assets/archive.js": "efada354bc26b7a0db113f36a8ae3a246a39a41da799573bb4785dd83b21902e",
+    "dist/assets/content.js": "7a1b8784bc853765569c7ab5c9730cdb93b9a1fd6fc7fef537151e687997835b",
+    "dist/assets/videos.js": "db4b5a936989524a9e91a027054a894651ce07176b53b012ac23ce979ccb56ff",
+    "dist/assets/video-gallery.js": "d8f7ee301323bf82a05c466eb734e0d675acce336ef5ede667cfc074a1388112",
+    "dist/assets/i18n.js": "2bb505ba305360f858d34d1c58114794de6039c127fabdd4978687a77794d489",
+    "dist/assets/routes.js": "7a2a01a6bfc64609418407136144764c07a1fe9a281a3fab1e7047c0a394c560",
+    "dist/assets/site-render.js": "3a901fa165bfcfc045381023406a994d3cdb05707cd9b4609eb8b09a484c18ec",
+    "dist/assets/seo.js": "e53655a784b3aa874cf98ec9c5147639dcf711785272e463cd78f5d1cee258e3",
+    "dist/assets/site.css": "7566d3a74de0ff4198c714b1cf86c146baf60694d6bbd4773e4ac5eb9fdd3acd",
+    "dist/assets/site.js": "3461872731e7a8b8e9a490c68d53b167aa50e5dbc922ef01f6eba4b1edd9307e",
+    "templates/site.html": "9f12015de9ebb321d5239e3f79f4a4f85e4ace374168a4c8c61b233d30103aea",
+    "scripts/build_site.cjs": "5da35cb3d4b0607866278f9594d00002b793634546e06cba6586984257870ab5",
+    "docs/seo/archive-canonical-routes.json": "ea9a1a9aa626ef9b8dfcaa8e541379b869c13af685ca20a8bd5d31d2e7e3ae16"
+  },
+  "counts": {
+    "pages": 42,
+    "recordings": 306,
+    "videoGroups": 273,
+    "members": 25,
+    "collaborators": 4
+  },
+  "pages": [
+    {
+      "path": "/",
+      "file": "index.html",
+      "section": "home",
+      "lang": "en",
+      "year": null,
+      "sha256": "ffdd0f955466b5a8a22221c8cb6ede7a988585526e66896828c3ba3f89508b9c",
+      "contentHash": "ec96fb1b435e859274988bd56935a78ad1f2f8e1fdc1e2df7dbc0d81d8e0fcb2",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/members/",
+      "file": "members/index.html",
+      "section": "members",
+      "lang": "en",
+      "year": null,
+      "sha256": "346b884c5d0a6b5dd33d0d7e0c34cec237f6a50cede721cbb8caeca2962aeffe",
+      "contentHash": "b1e49040498b43c97505513653bc3a42e5f6a3a9e684f7def7740bf4c5f28331",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/videos/",
+      "file": "videos/index.html",
+      "section": "gallery",
+      "lang": "en",
+      "year": null,
+      "sha256": "f34350b7b0e24d34988d26f9d1c544ab4e7d80329d78d0b5dc5a975b94be5a74",
+      "contentHash": "917264c2f958bbf8c01ea06504e4b4c0d221fefcc1aa2ee5b8e865c10a766dc1",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/videos/2026/",
+      "file": "videos/2026/index.html",
+      "section": "gallery",
+      "lang": "en",
+      "year": "2026",
+      "sha256": "dfea8115dcf397b9a4abf09f48f48d3e14990ffaa6fbe89bd19061c3ad4d34d6",
+      "contentHash": "be7781b53b08e416aa81fe237a6c95dd6430e15d32997d3bc3f48b65dbca768c",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/videos/2025/",
+      "file": "videos/2025/index.html",
+      "section": "gallery",
+      "lang": "en",
+      "year": "2025",
+      "sha256": "4087a6267943cdcb9e6e0855b4d61d963c06cd866d5d1fe7d1809761f8922830",
+      "contentHash": "e4e41f38d1ad88023fa9375135549d7f39aa257c153a45e56a92ab1878b19b3c",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/videos/2024/",
+      "file": "videos/2024/index.html",
+      "section": "gallery",
+      "lang": "en",
+      "year": "2024",
+      "sha256": "9dd669fa97b8f790b79417ce2d406889d9b0b9935d604137d1193d810274653e",
+      "contentHash": "1aeee9087e56357759b538a244a993dd4b7e3b1c932cccb507d28ab0045500bc",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/videos/2023/",
+      "file": "videos/2023/index.html",
+      "section": "gallery",
+      "lang": "en",
+      "year": "2023",
+      "sha256": "3a158683b38317e271f8cc2be0e86383009e7c753de3e01a8e058bedbba72d0c",
+      "contentHash": "4a894abab8bcfc1281d903812605714027af93899de89862fc947f679e5655b4",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/videos/2022/",
+      "file": "videos/2022/index.html",
+      "section": "gallery",
+      "lang": "en",
+      "year": "2022",
+      "sha256": "daed050c866a4bdec21d87dd129b178d4e696215d06568a5fa6c1da5d099b212",
+      "contentHash": "8462ffee1e811790ddcb2bc4b65dbe96f0d69b40f63dc49371dcd85ada23c658",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/videos/2021/",
+      "file": "videos/2021/index.html",
+      "section": "gallery",
+      "lang": "en",
+      "year": "2021",
+      "sha256": "21b589a0402532eedabfb5f815d83c4084f21f5db2a02c64768a2979825f60b4",
+      "contentHash": "d7961d265a0522966218d2deebfd4c461ee958b7f8ca4d2869007cc39869e0f5",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/videos/2020/",
+      "file": "videos/2020/index.html",
+      "section": "gallery",
+      "lang": "en",
+      "year": "2020",
+      "sha256": "174fb9fd8820fd2199b2e2184d75eaa93390cf6bb669bbec98281d970f188298",
+      "contentHash": "da9a6b794a118ec23368dcdc49a907fb9ec54aee91bca5404468b77face389ba",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/news/",
+      "file": "news/index.html",
+      "section": "news",
+      "lang": "en",
+      "year": null,
+      "sha256": "5b4a62062dfbc14c3c4b4e8a14f9ba86ca3cba22f1cec9033f0769a66126dce7",
+      "contentHash": "2af3866ed9a0f8a4fcdb71ee9b1180a2201f663c364230e11580da2f962760b9",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/seminars/",
+      "file": "seminars/index.html",
+      "section": "seminars",
+      "lang": "en",
+      "year": null,
+      "sha256": "8c5130a93b30ff16d8358fb24c0ffc5e6c3aec850dadc3be862bab29a5502843",
+      "contentHash": "e9c83205003ebe518d54ae711ffcdca48d21a8b9c0dfb8fb9e297006b4f17e9b",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/conferences/",
+      "file": "conferences/index.html",
+      "section": "conferences",
+      "lang": "en",
+      "year": null,
+      "sha256": "9733b9cec35aa5925252e44b86145d9239c20e6bdbbea16f31ee18814b60e1f3",
+      "contentHash": "fcb8082d8518a13122d68cd99912034e92ec7d28ea2a8c6ea64d9b9d440de461",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/contact/",
+      "file": "contact/index.html",
+      "section": "contact",
+      "lang": "en",
+      "year": null,
+      "sha256": "b2a18ec065ab74b71f53bf609febeafcb054086e7b36f3f53efbabecd726f0e8",
+      "contentHash": "b8869637e77e3295d397c4c3c218f859846b2582c27966ec250f348d1617faab",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/",
+      "file": "pt/index.html",
+      "section": "home",
+      "lang": "pt",
+      "year": null,
+      "sha256": "accaa6cf6754003b92d200117ddaccc11b29fb3b5a817a4373aff469b742205a",
+      "contentHash": "69a554bcdddd568659a1460a62e3e541c63fde21547de9686b8eec9f0adeb7a8",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/members/",
+      "file": "pt/members/index.html",
+      "section": "members",
+      "lang": "pt",
+      "year": null,
+      "sha256": "49a94c8c1b89c95f881b6da3939e32d85ae608271887f4c7ece5919f4e492cdf",
+      "contentHash": "7f4c354214809a277ea8d66831621f331baf0aca5d87b68ab3ebd9bdefc52aad",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/videos/",
+      "file": "pt/videos/index.html",
+      "section": "gallery",
+      "lang": "pt",
+      "year": null,
+      "sha256": "cc7e320f563c892888e4d221e418b643ce6e9a1272bbec98934833aefe3d8f05",
+      "contentHash": "d8093beaf4ff7310023f608968df3f07a48626892f3baab58dbdc8c716755d1c",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/videos/2026/",
+      "file": "pt/videos/2026/index.html",
+      "section": "gallery",
+      "lang": "pt",
+      "year": "2026",
+      "sha256": "6defdb7557da9aec2185e807dcf49cbf1611ae6d23a1902261bad723e82954d0",
+      "contentHash": "a29837a0f6ba50b446e9c9964e2a35bdb0fe388a9a7391b80b8d346ae8947858",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/videos/2025/",
+      "file": "pt/videos/2025/index.html",
+      "section": "gallery",
+      "lang": "pt",
+      "year": "2025",
+      "sha256": "d0206dbfc77bfad77c2fd5b4521fabd4629a974f859b35d4a4e56a55386c1379",
+      "contentHash": "c2ee6d5a9095a9d8776e129a6f31a1411ac9ad061c65b934dcd915863972574c",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/videos/2024/",
+      "file": "pt/videos/2024/index.html",
+      "section": "gallery",
+      "lang": "pt",
+      "year": "2024",
+      "sha256": "d67b87c63d46f6fb8ce86e659b771d976971e3ad88e0395979abbd3ab0162bdb",
+      "contentHash": "a4f69319204fcf2ae831fdaf030823bcfe79d73ed529368229a01f1db9601804",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/videos/2023/",
+      "file": "pt/videos/2023/index.html",
+      "section": "gallery",
+      "lang": "pt",
+      "year": "2023",
+      "sha256": "8896a4206969ae2780121bb195856670c33787ad20485bfbd530290f85446e91",
+      "contentHash": "2204f881bfb9de46cc7a01a9961a61af46dbd15d034f905fdc35493c89e2e9e1",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/videos/2022/",
+      "file": "pt/videos/2022/index.html",
+      "section": "gallery",
+      "lang": "pt",
+      "year": "2022",
+      "sha256": "d97e20cccaaa4850e856038bbf974b7ac82d25c61f8aeba0e2b5aa342e1e1338",
+      "contentHash": "24499427e3991159557b6bbfe5aeb974043d433e30973fb2728a01bba0f46310",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/videos/2021/",
+      "file": "pt/videos/2021/index.html",
+      "section": "gallery",
+      "lang": "pt",
+      "year": "2021",
+      "sha256": "18b96ee6428a69375748d062b13be0bccf95673b8eeab9bbe9eb8de1b21d6fd9",
+      "contentHash": "f274075d3071b64f6259154861ec8e288ef15af05538b15c62abe75b1097af88",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/videos/2020/",
+      "file": "pt/videos/2020/index.html",
+      "section": "gallery",
+      "lang": "pt",
+      "year": "2020",
+      "sha256": "5370d798c42a8658441de0d6fe57bda7845b6eed5535730b08cc9afc9df1d303",
+      "contentHash": "41eb15bdf9f79324cac13a4e99b63a887b2245dd436aadb7b9ca0a9359250324",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/news/",
+      "file": "pt/news/index.html",
+      "section": "news",
+      "lang": "pt",
+      "year": null,
+      "sha256": "72d53933ebe38ef128a4cab78391a003c80b3992196f16b46f756d917fce2d46",
+      "contentHash": "c4cfe38347d904c2138315ce682678c0a942c2454ae215d1186689d04834ea9a",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/seminars/",
+      "file": "pt/seminars/index.html",
+      "section": "seminars",
+      "lang": "pt",
+      "year": null,
+      "sha256": "1525ab3dc78c5252324bc90b7570f80aed24cb87aa2a69a14bc50397d368ad29",
+      "contentHash": "095b9535c14aa36eccd551fdf6c90dce90f463f723835d7f4eba9f110d70f1bc",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/conferences/",
+      "file": "pt/conferences/index.html",
+      "section": "conferences",
+      "lang": "pt",
+      "year": null,
+      "sha256": "6b43053ab36d42b2f2c3c5018e6bd937ddd81f0bacef936a9f10ba408931dbf8",
+      "contentHash": "4360d1836bd8a719ae3a18935b1055e778d9635e51ec09fd05d97617e27c12c8",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/pt/contact/",
+      "file": "pt/contact/index.html",
+      "section": "contact",
+      "lang": "pt",
+      "year": null,
+      "sha256": "921900705bea5680265612a79e7a4d78414f782f3a4c7ed629f77c5571ebd9cc",
+      "contentHash": "2029e9f1300c510362d0dd9652db0b64b219b58a5b8829cea50b06ffdceaf2c8",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/",
+      "file": "es/index.html",
+      "section": "home",
+      "lang": "es",
+      "year": null,
+      "sha256": "39fbf3053661251ddefeb2e544f18dd3d808fb0045dc906375e30ceaa813a839",
+      "contentHash": "9139dfaa17f7e46740444e1f0ece2a64bcc25bf70d199dcae6ceced47d877bfa",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/members/",
+      "file": "es/members/index.html",
+      "section": "members",
+      "lang": "es",
+      "year": null,
+      "sha256": "b1af8d190d809feae8005613a57ad5787be5d39ddcce21ed365cacb47d93802d",
+      "contentHash": "a3394a4f320938fac97781e220ac9487d4e67271ade86bc9c113a7e064f1bed8",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/videos/",
+      "file": "es/videos/index.html",
+      "section": "gallery",
+      "lang": "es",
+      "year": null,
+      "sha256": "09a8d5829ab545dfba2acff32d66ed2ce53064d20ec9295d49205eebf7d7841a",
+      "contentHash": "74f802397bee4d1e02c454549913ae44d198d1b71c469a3f543e191b5faf8abd",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/videos/2026/",
+      "file": "es/videos/2026/index.html",
+      "section": "gallery",
+      "lang": "es",
+      "year": "2026",
+      "sha256": "a7847009d1fdd45d301d504611c32abe9f695a4f5b53a5c2d899080a48720a8f",
+      "contentHash": "258cb416e7349ea579d272f0e356348503daf4e2f434900ceca543e701524e3b",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/videos/2025/",
+      "file": "es/videos/2025/index.html",
+      "section": "gallery",
+      "lang": "es",
+      "year": "2025",
+      "sha256": "fe4b4fd99d3c0799cc5b23bb6ba9984feac3cdb0f82e8194e32da221cb8e72b6",
+      "contentHash": "c85dcdcafd7382a13f5f73f0baa62ab1ef47d94a21ff14f98bbeca62187de9a1",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/videos/2024/",
+      "file": "es/videos/2024/index.html",
+      "section": "gallery",
+      "lang": "es",
+      "year": "2024",
+      "sha256": "65ff4c688148dba1e5d46d3e4bf6265328e9b632632fe643ffe94a0b476e6bb5",
+      "contentHash": "45edf0c8572dedeaad24ec20de037ff6776beca852db76d184a6db568e9dec68",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/videos/2023/",
+      "file": "es/videos/2023/index.html",
+      "section": "gallery",
+      "lang": "es",
+      "year": "2023",
+      "sha256": "f38ce0fc16dd9bf83cce449625eab03772fce1200c7e2fc0c0e636e57eb21698",
+      "contentHash": "af151ee370dd1df9f02f165ee9857b0bcbff85b6f01bdea12f2c9638b9f47670",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/videos/2022/",
+      "file": "es/videos/2022/index.html",
+      "section": "gallery",
+      "lang": "es",
+      "year": "2022",
+      "sha256": "10766c7478086a3c568a46fac7642a291eddca83c5187afcbf2b7ffbdf97dbb0",
+      "contentHash": "b7a5611eeb0e6619a1c4438a933ef71cab0ce9328d4360b1024b0df2b48b18c4",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/videos/2021/",
+      "file": "es/videos/2021/index.html",
+      "section": "gallery",
+      "lang": "es",
+      "year": "2021",
+      "sha256": "b8b5601c127aa41cd1d0db051a0c0d693088ee06d81b81fc2d48d391270ea50c",
+      "contentHash": "65c613c824bab07fa685191be63a9f95091b944bad6a44cc8aaeb49f5e778893",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/videos/2020/",
+      "file": "es/videos/2020/index.html",
+      "section": "gallery",
+      "lang": "es",
+      "year": "2020",
+      "sha256": "ce338a8becc818462b51ac3259eb184ff6ce657aa7282b7ec779bfe1886f54f7",
+      "contentHash": "924c1e0936cbd89845a7a09b11109ede462ee4b5f8861e20c1f9033aadc3b7c6",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/news/",
+      "file": "es/news/index.html",
+      "section": "news",
+      "lang": "es",
+      "year": null,
+      "sha256": "8373da18851d617101698b1b2cc1106a107add6575ece3a8e3437a2b6071cb75",
+      "contentHash": "2a463edb550a36fc2d47dead281471d3055ce486cec5cdf67f92d274de6c265d",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/seminars/",
+      "file": "es/seminars/index.html",
+      "section": "seminars",
+      "lang": "es",
+      "year": null,
+      "sha256": "1953acfc811ea3f9133a7d5c3208a17b44ba5b56e58a19fe8af1c5940bb27b5f",
+      "contentHash": "815e3442417f23994efda7d55563dc077320c77e01cd5da06c838135925d1033",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/conferences/",
+      "file": "es/conferences/index.html",
+      "section": "conferences",
+      "lang": "es",
+      "year": null,
+      "sha256": "064f902083a5f2012eab3054bc2e02e31b7f2792bd7728573e7b70b7e98ae2a2",
+      "contentHash": "8669ea99dda6d64e6955ba4ca736cb17dcdafbb498fb02ae684cfab3837fd978",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "path": "/es/contact/",
+      "file": "es/contact/index.html",
+      "section": "contact",
+      "lang": "es",
+      "year": null,
+      "sha256": "6c50aa35d446f5efa9a8285e4d9fecc4f70c70500bb631aa7fe9155a22cdff9a",
+      "contentHash": "b1c27aedd8d16c738275c7d452f73f93575c7d706dd6baec3c968177f85bd986",
+      "lastmod": "2026-11-24"
+    }
+  ],
+  "artifacts": {
+    "sitemap.xml": "e687fdb2e14a7f4953c47f87b8199e5f40c6320943ebd242b2cfa850a61b204e",
+    "robots.txt": "da4383f8ded09f1badc5c33210de5fa28d56027f56910bbf88a6c669004c4f28"
+  }
+}

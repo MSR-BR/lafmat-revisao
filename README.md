@@ -1,6 +1,24 @@
 # LAFMAT Web
 
-Abra `dist/index.html` no navegador. A versão local funciona sem dependências ou compilação. O vídeo institucional e as imagens migradas são arquivos locais. YouTube, Google Scholar e os links para o site anterior precisam de internet.
+Para conferir o candidato local da Change 003, execute `python3 scripts/preview_site.py` e abra `http://127.0.0.1:8765/`. A navegação agora usa endereços reais, portanto abrir via `file://` não é mais o modo de prévia suportado. O vídeo institucional e as imagens migradas são arquivos locais. YouTube e Google Scholar precisam de internet. A versão em produção ainda é a anterior; publicação de 003+004 será integrada.
+
+## HTML estático e URLs — candidato local
+
+As fontes continuam em `dist/assets/content.js`, `archive.js`, `i18n.js` e `videos.js`. Após alterá-las, execute `node scripts/build_site.cjs`, `node scripts/verify_static_site.cjs`, `python3 scripts/update_manifest.py` e `python3 scripts/verify.py`. Node.js 20+ é usado somente na manutenção, sem dependências novas; o resultado permanece HTML/CSS/JS estático, sem build na hospedagem. Não editar os HTML gerados manualmente.
+
+São 42 páginas com conteúdo inicial, inclusive sem JavaScript: sete seções em três idiomas e sete anos de vídeos em três idiomas. Inglês usa `/members/`, `/videos/`, `/seminars/` etc.; português e espanhol usam `/pt/` e `/es/`. O menu conserva o arquivo de 2023 em outra aba. Links hash antigos continuam compatíveis no navegador. Veja [o contrato de rotas](docs/seo/route-contract.md) para fontes, limitações, QA e preparação da automação.
+
+O comando `python3 scripts/preview_site.py --port 8766 --no-js` serve a mesma saída com scripts bloqueados via CSP para conferir conteúdo e navegação sem JavaScript. A data do HTML é a do build; o navegador com JavaScript atualiza o destaque/agenda pela data corrente. Publicação, SEO técnico e atualização diária desse HTML dependem da integração com a Change 004.
+
+## SEO técnico e migração — Change 004
+
+`dist/assets/seo.js` gera canonical, metadados específicos, idiomas recíprocos/x-default e Organization JSON-LD, mantendo os mesmos valores na navegação do navegador. A imagem de compartilhamento é `dist/assets/lafmat-social.png` (1200×630, original; ver provenance em docs/seo). O sitemap tem 54 URLs canônicas: 42 páginas e 12 entradas existentes do arquivo; não contém hashes, aliases ou recursos. Datas lastmod seguem mudança real de conteúdo; o arquivo histórico não recebe data inventada.
+
+`dist/vercel.json` é a configuração da raiz efetiva de hospedagem. Contém redirects permanentes, normalização de index.html/barra final, cabeçalhos canonical do arquivo e noindex condicional em hosts de preview. Não alterar DNS para esse release. Oito HTML de atalhos permanecem como fallback para hospedagem estática sem suporte às regras Vercel. A proteção dos previews deve continuar ativa.
+
+Para reconstruir regras a partir do inventário congelado e do mapa da conferência, execute `python3 scripts/build_seo_routes.py`, depois `node scripts/build_site.cjs` e `python3 scripts/verify_seo.py`. Não execute `seo_inventory.py` para sobrescrever a linha de base histórica ao reconstruir o site. O comando de build comum reaproveita a lista fixa de rotas canônicas do arquivo; a rotina de vídeos não pode alterar regras/aliases.
+
+O mapa de decisões cobre as 1.672 URLs inventariadas. Mídias/páginas antigas sem equivalente público comprovado continuam como exceções, sem recuperação em massa do backup nem redirect genérico à home. HTTP 403 de Vercel Security Checkpoint não é prova de conteúdo ausente. Faça verificações públicas pontuais; evite varredura concorrente e pare ao receber desafio de segurança. Ver `docs/seo/release-validation.md` para estado real de release, limites e rollback.
 
 - **Agenda e banner.** Em `dist/assets/content.js`, acrescente seminários com data `AAAA-MM-DD`. O destaque na home acompanha a data do próximo seminário identificado. Para atualizar o cartaz semanal, copie a imagem para `dist/assets/` e preencha `weeklyBanner`, por exemplo:
   ```js
@@ -37,6 +55,8 @@ python3 -m venv .venv-youtube
 .venv-youtube/bin/python scripts/sync_youtube.py --full
 node scripts/verify_videos.cjs
 python3 scripts/test_youtube_sync.py
+node scripts/build_site.cjs
+node scripts/verify_static_site.cjs
 python3 scripts/update_manifest.py
 python3 scripts/verify.py
 ```
@@ -44,6 +64,8 @@ python3 scripts/verify.py
 Sem `--full`, o coletor consulta os feeds recentes. O modo completo evita depender do limite de 15 itens dos feeds. Não baixa os vídeos, não precisa de chave de API e não altera os canais. Reutiliza o catálogo e o cache para não consultar novamente todas as páginas antigas; em falha ou limite do YouTube, interrompa a publicação e preserve a versão vigente. Não remove gravações antigas automaticamente. O site continua estático; o coletor e sua dependência são ferramentas de manutenção, fora de dist.
 
 A automação Codex **Atualizar vídeos LAFMAT** (`atualizar-v-deos-lafmat`) está ativa diariamente às 09h, no horário local de Brasília, com autorização recorrente para publicar somente catálogo, miniaturas e manifesto após os testes. A execução é local e depende da disponibilidade do Codex/computador; não é um serviço de agendamento da Vercel. A política de notificações informa falhas. Alterações em WordPress, conferências, DNS ou outras seções não fazem parte dessa autorização.
+
+**Pendência para publicar 003+004:** a automação não foi alterada nesta Change. Será necessário autorizar especificamente os novos HTML derivados, o recibo de geração e os passos de build/validação antes de ativar esse fluxo em produção. O guard de `update_manifest.py` interrompe o processo quando fontes e HTML divergem; ele não amplia a autorização de publicação.
 
 ## Arquivo da conferência de 2023
 

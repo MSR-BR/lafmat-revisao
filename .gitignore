@@ -5,3 +5,4 @@ LAFMAT-previa-para-revisao.zip
 .private-backups/
 .cache/
 .venv-youtube/
+.env*

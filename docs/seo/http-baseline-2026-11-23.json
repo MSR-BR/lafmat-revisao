@@ -1,0 +1,777 @@
+{
+  "checked_date": "2026-11-23",
+  "method": "GET with TLS verification; up to 6 redirects, bounded metadata inspection, no login",
+  "results": [
+    {
+      "url": "http://lafmat.com/",
+      "hops": [
+        {
+          "url": "http://lafmat.com/",
+          "status": 308,
+          "location": "https://lafmat.com/"
+        },
+        {
+          "url": "https://lafmat.com/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Latin American Network of Condensed Matter Physics and Materials Science."
+      },
+      "title": "LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Latin American Network of Condensed Matter Physics and Materials Science."
+      },
+      "title": "LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/assets/debora-vasconcelos-2026-11-28.jpg",
+      "hops": [
+        {
+          "url": "https://lafmat.com/assets/debora-vasconcelos-2026-11-28.jpg",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/assets/debora-vasconcelos-2026-11-28.jpg",
+      "final_status": 200,
+      "content_type": "image/jpeg",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/2022/04/06/hola-mundo/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/2022/04/06/hola-mundo/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/2022/04/06/hola-mundo/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/2023/02/22/contact/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/2023/02/22/contact/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/2023/02/22/contact/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/2757-2/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/2757-2/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/2757-2/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Invited Speakers · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/2825-2/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/2825-2/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/2825-2/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/?p=1",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/?p=1",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/?p=1",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/?p=1592",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/?p=1592",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/?p=1592",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/?page_id=1529",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/?page_id=1529",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/?page_id=1529",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/__trashed/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/__trashed/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/__trashed/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../../#news"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/about-us/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/about-us/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/about-us/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../../#home"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/commitee/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/commitee/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/commitee/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Commitee · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/conferences/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/conferences/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/conferences/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../../#conferences"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/contacts/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/contacts/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/contacts/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../../#contact"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/contenido/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/contenido/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/contenido/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/event-contact/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/event-contact/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/event-contact/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Event Contact · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/event-home/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/event-home/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/event-home/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Event Home · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/events/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/events/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/events/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/gallery/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/gallery/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/gallery/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/important-dates/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/important-dates/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/important-dates/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Important Dates · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/know-us/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/know-us/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/know-us/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../../#members"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/nosotros/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/nosotros/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/nosotros/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/poster-2/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/poster-2/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/poster-2/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Poster · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/program/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/program/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/program/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Program · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/publications/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/publications/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/publications/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Publications · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/registration/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/registration/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/registration/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Registration · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/seminars/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/seminars/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/seminars/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../../#seminars"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/sitemap_index.xml",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/sitemap_index.xml",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/sitemap_index.xml",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/topics/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/topics/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/topics/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Topics · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/venue/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/venue/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/venue/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Historical archive of the II Latin American Conference on Superconductivity and Magnetism, Lima, October 2023."
+      },
+      "title": "Venue · Conference 2023 · LAFMAT"
+    },
+    {
+      "url": "https://lafmat.com/home/video-galery-2022/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/video-galery-2022/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/video-galery-2022/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/video-galery-2024/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/video-galery-2024/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/video-galery-2024/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/video-gallery-2023/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/video-gallery-2023/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/video-gallery-2023/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/video-gallery-2025-2/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/video-gallery-2025-2/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/video-gallery-2025-2/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/video-gallery-2026/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/video-gallery-2026/",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/video-gallery-2026/",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/video-gallery/",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/video-gallery/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/home/video-gallery/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "robots": "noindex",
+        "refresh": "0;url=../../#gallery"
+      },
+      "title": "LAFMAT — page moved"
+    },
+    {
+      "url": "https://lafmat.com/home/wp-content/uploads/2022/04/6254_pedido-3907.jpg",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/wp-content/uploads/2022/04/6254_pedido-3907.jpg",
+          "status": 403
+        }
+      ],
+      "final_url": "https://lafmat.com/home/wp-content/uploads/2022/04/6254_pedido-3907.jpg",
+      "final_status": 403,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/wp-content/uploads/2022/04/98e38e685c61367961481b86da15f2.png",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/wp-content/uploads/2022/04/98e38e685c61367961481b86da15f2.png",
+          "status": 403
+        }
+      ],
+      "final_url": "https://lafmat.com/home/wp-content/uploads/2022/04/98e38e685c61367961481b86da15f2.png",
+      "final_status": 403,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/wp-content/uploads/2022/04/Alberto-p-guimaraes.jpeg",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/wp-content/uploads/2022/04/Alberto-p-guimaraes.jpeg",
+          "status": 403
+        }
+      ],
+      "final_url": "https://lafmat.com/home/wp-content/uploads/2022/04/Alberto-p-guimaraes.jpeg",
+      "final_status": 403,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/wp-content/uploads/2022/04/Back-car_repair_shop-25_comp_comp.jpg",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/wp-content/uploads/2022/04/Back-car_repair_shop-25_comp_comp.jpg",
+          "status": 403
+        }
+      ],
+      "final_url": "https://lafmat.com/home/wp-content/uploads/2022/04/Back-car_repair_shop-25_comp_comp.jpg",
+      "final_status": 403,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/wp-content/uploads/2022/04/Call_icon.png",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/wp-content/uploads/2022/04/Call_icon.png",
+          "status": 403
+        }
+      ],
+      "final_url": "https://lafmat.com/home/wp-content/uploads/2022/04/Call_icon.png",
+      "final_status": 403,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/home/wp-sitemap.xml",
+      "hops": [
+        {
+          "url": "https://lafmat.com/home/wp-sitemap.xml",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/home/wp-sitemap.xml",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/robots.txt",
+      "hops": [
+        {
+          "url": "https://lafmat.com/robots.txt",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/robots.txt",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/seo-check-nonexistent-20261123",
+      "hops": [
+        {
+          "url": "https://lafmat.com/seo-check-nonexistent-20261123",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/seo-check-nonexistent-20261123",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/sitemap.xml",
+      "hops": [
+        {
+          "url": "https://lafmat.com/sitemap.xml",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/sitemap.xml",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/verification.json",
+      "hops": [
+        {
+          "url": "https://lafmat.com/verification.json",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/verification.json",
+      "final_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://lafmat.com/wp-sitemap.xml",
+      "hops": [
+        {
+          "url": "https://lafmat.com/wp-sitemap.xml",
+          "status": 404
+        }
+      ],
+      "final_url": "https://lafmat.com/wp-sitemap.xml",
+      "final_status": 404,
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null
+    },
+    {
+      "url": "https://www.lafmat.com/",
+      "hops": [
+        {
+          "url": "https://www.lafmat.com/",
+          "status": 308,
+          "location": "https://lafmat.com/"
+        },
+        {
+          "url": "https://lafmat.com/",
+          "status": 200
+        }
+      ],
+      "final_url": "https://lafmat.com/",
+      "final_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "html": {
+        "description": "Latin American Network of Condensed Matter Physics and Materials Science."
+      },
+      "title": "LAFMAT"
+    }
+  ]
+}
