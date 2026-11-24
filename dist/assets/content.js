@@ -1,12 +1,12 @@
 window.siteContent = {
   // Add the supplied flyer here with its corresponding date and a description.
   weeklyBanner: {
-    date: '2026-11-21',
-    image: 'assets/johan-triana-2026-11-21.jpg',
+    date: '2026-11-28',
+    image: 'assets/debora-vasconcelos-2026-11-28.jpg',
     alt: {
-      en: 'Flyer for Johan Triana’s seminar on light-driven chemistry and quantum technologies, November 21, 2026.',
-      pt: 'Cartaz do seminário de Johan Triana sobre química induzida pela luz e tecnologias quânticas, em 21 de novembro de 2026.',
-      es: 'Cartel del seminario de Johan Triana sobre química impulsada por luz y tecnologías cuánticas, el 21 de noviembre de 2026.'
+      en: 'Flyer for Débora Vasconcelos’s seminar on ultrafast molecular dissociation and solvation effects on molecular fragmentation dynamics, November 28, 2026.',
+      pt: 'Cartaz do seminário de Débora Vasconcelos: Dissociação molecular ultrarrápida: influência da solvatação na dinâmica de fragmentação molecular, em 28 de novembro de 2026.',
+      es: 'Cartel del seminario de Débora Vasconcelos sobre disociación molecular ultrarrápida y la influencia de la solvatación en la dinámica de fragmentación molecular, el 28 de noviembre de 2026.'
     }
   },
   contact: {name: 'Luis De Los Santos Valladares, PhD', email: 'ld301@cam.ac.uk', phone: '+44 (0) 7512825533', tel: '+447512825533'},

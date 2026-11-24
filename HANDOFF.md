@@ -126,3 +126,11 @@ Lista fornecida pelo usuário incorporada: 33 sábados de 28/11/2026 a 10/07/202
 PO_MAGICO_CHECKPOINT: change/delivery (agenda fornecida pelo usuário)
 PO_MAGICO_LAST_CHECKED: 2026-11-22 (regras da sessão reutilizadas; divergência do arquivo registrada acima)
 PO_MAGICO_DELTA_ADOPTED: no
+
+## Destaque Débora Vasconcelos — 23/11/2026
+
+Folder original fornecido pelo usuário copiado sem edição para dist/assets/debora-vasconcelos-2026-11-28.jpg (1600×900). weeklyBanner atualizado para 28/11/2026, com texto alternativo PT/EN/ES. A home e a seção de seminários já exibem o próximo evento e seu folder correspondente; conferidos Débora como próximo evento, presença da imagem nos três idiomas e ocultação automática quando a próxima data mudar. Título, UFRJ e moderação de Isaias permanecem na agenda atualizada. Manifesto LAFMAT-20261123-BCB04519421A, 592 arquivos, sintaxe e segurança rápida PASS. Publicação solicitada no site existente via main/Vercel; reversão pelo commit desta alteração. Outros arquivos e output/ preservados.
+
+PO_MAGICO_CHECKPOINT: change/delivery (destaque e folder autorizados)
+PO_MAGICO_LAST_CHECKED: 2026-11-23 (regras da sessão reutilizadas)
+PO_MAGICO_DELTA_ADOPTED: no
