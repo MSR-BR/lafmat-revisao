@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-24",
+  "state": "DAY0_OBSERVED_WINDOW_OPEN",
+  "sourceRevision": "676d553ad16e2e8ef7e58d708f02c3705fec5539",
+  "siteImplementation": "5c69d78aca2d12e71c8bd5785880832015c79c0b",
+  "googleTagContainerVersion": 2,
+  "publicManifest": "LAFMAT-20261124-9CB50AF756EB",
+  "measurementCutoverDate": "2026-11-24",
+  "exactCutoverTimestamp": null,
+  "exactCutoverLimit": "No authoritative exact cutover field retained across rollback/re-promotions; exclude whole deployment/QA day from comparisons",
+  "firstCleanFullDay": "2026-11-25",
+  "observationClosesOn": "2026-12-24",
+  "observedDates": [
+    "2026-11-24"
+  ],
+  "technical": {
+    "result": "PASS",
+    "publicHttpRequests": 23,
+    "validCanonicalSamples": 12,
+    "canonicalSampleDenominator": 12,
+    "newFindings": 0,
+    "report": "monitoring-http-2026-11-24.json"
+  },
+  "search": {
+    "sampleIndexed": 3,
+    "sampleDenominator": 5,
+    "totalDomainIndexed": null,
+    "rollupCoverage": "Processing",
+    "performance": "Processing",
+    "report": "monitoring-google-2026-11-24.json"
+  },
+  "analytics": {
+    "reception": "Observed in official Realtime",
+    "activeUsers30Minutes": 1,
+    "eventCounts": {
+      "first_visit": 1,
+      "page_view": 1,
+      "session_start": 1
+    },
+    "organicVisitors": null,
+    "cleanHistoricalComparison": null,
+    "limit": "Partial-day/QA contamination and reporting latency; do not interpret processed Home zeros as absence of collection"
+  },
+  "comparison": {
+    "preMigrationQuantitativeBaseline": null,
+    "scMinimumLagDays": 2,
+    "periodDays": 7,
+    "minimumPriorImpressionsForDropHeuristic": 100,
+    "dropHeuristicPercent": 40,
+    "requiredConsecutiveObservations": 2,
+    "sameWeekdayCoverage": true,
+    "noCausalRankingClaim": true
+  },
+  "monitoringAutomation": "acompanhar-sa-de-seo-lafmat",
+  "automationReceipt": "monitoring-automation-2026-11-24.json",
+  "futureRunsObserved": false,
+  "incidents": "None in checked public sample; existing unmigrated-media exceptions remain outside new-regression claims"
+}

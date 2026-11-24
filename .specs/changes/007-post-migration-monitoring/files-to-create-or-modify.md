@@ -1,9 +1,8 @@
-# Superfícies previstas
+# Superfícies realizadas
 
-- `docs/seo/monitoring.md`
-- `docs/seo/migration-closure.md`
-- `HANDOFF.md`
+- scripts/monitor_seo.py: probe HTTP público limitado/read-only, sem dependência externa ou coleta Analytics.
+- docs/seo/monitoring.md, migration-closure.md e recibos monitoring-*.json: calendário, baseline, resultados e limites.
+- Specs007, roadmap e HANDOFF: continuidade e janela ainda aberta.
+- Automação separada acompanhar-sa-de-seo-lafmat, explicitamente autorizada. Rotina de vídeos existente preservada.
 
-Caminhos propostos não são arquivos já implementados. Atualizar este registro ao fechar a solução concreta.
-
-Operações externas: Read-only e documentação por padrão. Correções, mensagens externas e novo agendamento dependem de autorização específica quando aplicáveis.
+Sem alteração de dist, editorial, DNS, WordPress, contas/coleta, Ads ou mensagens. Evidência futura somente em .cache/seo-monitoring/ ignorado, sem commits/deploys automáticos.

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-24",
+  "authorization": "User explicitly confirmed separate automatic SEO health monitoring at09:30 America/Sao_Paulo, daily first week then weekly through30days, failures/actionable issues only",
+  "automationId": "acompanhar-sa-de-seo-lafmat",
+  "kind": "heartbeat",
+  "destination": "current thread",
+  "status": "ACTIVE",
+  "toolAcknowledgement": {
+    "mode": "create",
+    "status": "ACTIVE"
+  },
+  "schedule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=30;BYSECOND=0;UNTIL=20261224T123000Z",
+  "timezone": "America/Sao_Paulo",
+  "notificationPolicy": "failed_runs_only",
+  "checkDates": [
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29",
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-08",
+    "2026-12-15",
+    "2026-12-22",
+    "2026-12-24"
+  ],
+  "dateGuard": "Technical daily trigger; only listed dates perform network/account checks. Other dates are silent no-op. No occurrence after the finite UNTIL.",
+  "existingVideosAutomationChanged": false,
+  "futureExecutionsObserved": false,
+  "localAvailabilityRequired": true,
+  "mutationsAllowed": "Only ignored local monitoring reports; no production, account, code or existing automation changes",
+  "storedMetadataVerified": true,
+  "existingVideosMetadata": {
+    "id": "atualizar-v-deos-e-seo-lafmat",
+    "status": "ACTIVE",
+    "time": "09:00 America/Sao_Paulo",
+    "notificationPolicy": "failed_runs_only"
+  }
+}

@@ -1,6 +1,6 @@
 # LAFMAT — ciclo de SEO, migração e medição
 
-Criado em 23/11/2026 por solicitação de criar as Changes. Change 001 concluída como inventário local em 23/11/2026; Change 002 com posse concluída em 24/11/2026 e exportações pendentes de processamento Google; Changes 003+004 publicadas e validadas em 24/11/2026; Change 005 publicada/validada; Change 006 configurada/submetida; Change 007 planejada. Não há sequência anterior em .specs/changes; numeração deste ciclo começa em 001 e não representa as entregas históricas já concluídas. Memória existente: HANDOFF.md.
+Criado em 23/11/2026 por solicitação de criar as Changes. Change 001 concluída como inventário local em 23/11/2026; Change 002 com posse concluída em 24/11/2026 e exportações pendentes de processamento Google; Changes 003+004 publicadas e validadas em 24/11/2026; Change 005 publicada/validada; Change 006 configurada/submetida; Change 007 em acompanhamento. Não há sequência anterior em .specs/changes; numeração deste ciclo começa em 001 e não representa as entregas históricas já concluídas. Memória existente: HANDOFF.md.
 
 | Change | Entrega | Dependências | Estado |
 |---|---|---|---|
@@ -10,11 +10,11 @@ Criado em 23/11/2026 por solicitação de criar as Changes. Change 001 concluíd
 | 004 | [SEO técnico e redirecionamentos da migração](changes/004-technical-seo-and-migration-redirects/objective.md) | 001, 003 | Publicada e validada; rotina ACTIVE |
 | 005 | [GA4, privacidade e medição](changes/005-ga4-privacy-and-measurement/objective.md) | 001 | Publicada e validada: 5c69d78 + container Google v2 |
 | 006 | [Submissão e validação no Google](changes/006-index-submission-and-google-validation/objective.md) | 002, 004, 005 | Configurada/submetida; índice Google em processamento |
-| 007 | [Acompanhamento e fechamento da migração](changes/007-post-migration-monitoring/objective.md) | 004, 006 | Planejada |
+| 007 | [Acompanhamento e fechamento da migração](changes/007-post-migration-monitoring/objective.md) | 004, 006 | Em acompanhamento até 24/12/2026 |
 
 Ordem: 001 primeiro; 002 e preparação de 005 podem ocorrer em paralelo com 003/004. O site com URLs reais e redirects deve sair em uma publicação integrada 003+004. Submissão de sitemap pode seguir 002+004; vínculo com GA4 aguarda 005. 007 acompanha o release, com revisão inicial de 30 dias, sem prazo garantido de indexação.
 
-Próxima Change: 007-post-migration-monitoring. Não iniciar sem solicitação. Plano de modelo: tier standard/medium, sujeito à disponibilidade real; sem delegação automática.
+Change 007 em acompanhamento autorizado até 24/12/2026. Não fechar antes da janela observada; nenhuma nova Change corretiva necessária na primeira checagem. Plano de modelo: tier standard/medium, sujeito à disponibilidade real; sem delegação automática.
 
 Autorização inicial: criar planejamento local; em seguida, "segue" autorizou executar Change 001. Não executar Changes, registrar propriedades, instalar tag, alterar DNS, agendar monitoramento, fazer commit/push ou deploy apenas por este pedido. As autorizações anteriores de outras tarefas não transformam este backlog em execução concluída.
 
@@ -51,3 +51,5 @@ Fechamento 24/11: d45f880 publicado no projeto/domínio aprovados, Vercel READY,
 24/11 — 005 concluída após publicação autorizada, correção no container Google v2 e validação real de consentimento/ingestão. Recibos analytics-post-release e analytics-public-http. Rotina diária recebeu test_analytics, horário e avisos mantidos. Produção9CB50AF756EB;006/007 não executadas.
 
 24/11 — 006 executada: sitemap Success/57 descobertas, SC/GA4 associado ao fluxo correto após confirmação, cinco testes canônicos e pedidos prioritários aceitos; alias antigo com canonical novo reconhecido. Google ainda processa índice e relatórios. Árvore pública, DNS, WordPress e automação preservados. Recibo google-validation-2026-11-24.json.
+
+24/11 — 007 iniciada: acompanhar-sa-de-seo-lafmat ACTIVE, 09h30 Brasília, consultas em25/11–01/12, semanais08/15/22dez e fechamento24dez; somente falhas/problemas acionáveis. Janela ainda aberta. Baseline:12/12 rotas válidas e3/5 prioridades indexadas; total do domínio ainda processa. Comparações limpas começam25/11. Vídeos09h preservados.

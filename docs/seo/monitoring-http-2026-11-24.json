@@ -1,0 +1,134 @@
+{
+  "checkedAt": "2026-11-24T21:21:34.742259+00:00",
+  "base": "https://lafmat.com",
+  "mode": "public HTTP only; no JS or GA events",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/",
+      "valid": true
+    },
+    {
+      "path": "/pt/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/pt/",
+      "valid": true
+    },
+    {
+      "path": "/es/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/es/",
+      "valid": true
+    },
+    {
+      "path": "/pt/seminars/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/pt/seminars/",
+      "valid": true
+    },
+    {
+      "path": "/es/videos/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/es/videos/",
+      "valid": true
+    },
+    {
+      "path": "/videos/2026/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/videos/2026/",
+      "valid": true
+    },
+    {
+      "path": "/conferences/2023/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/conferences/2023/",
+      "valid": true
+    },
+    {
+      "path": "/conferences/2023/program/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/conferences/2023/program/",
+      "valid": true
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/contact/",
+      "valid": true
+    },
+    {
+      "path": "/pt/privacy/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/pt/privacy/",
+      "valid": true
+    },
+    {
+      "path": "/es/members/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/es/members/",
+      "valid": true
+    },
+    {
+      "path": "/pt/news/",
+      "status": 200,
+      "declaredCanonical": "https://lafmat.com/pt/news/",
+      "valid": true
+    },
+    {
+      "path": "/home/program/",
+      "status": 308,
+      "location": "/conferences/2023/program/"
+    },
+    {
+      "path": "/home/event-home/",
+      "status": 308,
+      "location": "/conferences/2023/event-home/"
+    },
+    {
+      "variant": "http://lafmat.com/",
+      "chain": [
+        {
+          "url": "http://lafmat.com/",
+          "status": 308
+        },
+        {
+          "url": "https://lafmat.com/",
+          "status": 200
+        }
+      ],
+      "final": "https://lafmat.com/"
+    },
+    {
+      "variant": "https://www.lafmat.com/",
+      "chain": [
+        {
+          "url": "https://www.lafmat.com/",
+          "status": 308
+        },
+        {
+          "url": "https://lafmat.com/",
+          "status": 200
+        }
+      ],
+      "final": "https://lafmat.com/"
+    },
+    {
+      "path": "/lafmat-healthcheck-unknown-page/",
+      "status": 404
+    }
+  ],
+  "findings": [],
+  "requests": 23,
+  "publicManifest": {
+    "code": "LAFMAT-20261124-9CB50AF756EB",
+    "sha256": "9cb50af756eb207b9f8b831ab404e331c9cb9cfbf17327a53dc9391d9685c915"
+  },
+  "sitemapCanonicalUrls": 57,
+  "result": "PASS",
+  "limits": [
+    "HTTP checks do not prove Google index coverage or client consent behavior",
+    "No personal data, account credentials or free search terms collected",
+    "Google reports and existing GA4 consent tests are separate evidence"
+  ]
+}

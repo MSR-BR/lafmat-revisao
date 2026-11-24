@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-24",
+  "source": "Official Google UI, read-only C07",
+  "searchConsoleProperty": "sc-domain:lafmat.com",
+  "inspections": [
+    {
+      "url": "https://lafmat.com/",
+      "status": "Indexed",
+      "declaredCanonical": "https://lafmat.com/",
+      "googleCanonical": "Inspected URL",
+      "fetch": "Successful",
+      "tool": "Googlebot smartphone",
+      "https": true,
+      "lastCrawlDisplayed": "Nov 24, 2026, 6:09:50 PM"
+    },
+    {
+      "url": "https://lafmat.com/pt/seminars/",
+      "status": "Indexed",
+      "lastCrawlDisplayed": "Nov 24, 2026, 6:11:50 PM",
+      "declaredCanonical": "https://lafmat.com/pt/seminars/",
+      "googleCanonical": "Inspected URL",
+      "fetch": "Successful",
+      "tool": "Googlebot smartphone",
+      "https": true
+    },
+    {
+      "url": "https://lafmat.com/es/videos/",
+      "status": "Discovered - currently not indexed",
+      "lastCrawl": null,
+      "googleCanonical": null,
+      "referringSitemap": "https://lafmat.com/sitemap.xml"
+    },
+    {
+      "url": "https://lafmat.com/videos/2026/",
+      "status": "URL is unknown to Google; not indexed",
+      "lastCrawl": null,
+      "googleCanonical": null,
+      "note": "C06 previously showed Discovered; current indexed snapshot lacks discovery. Public route and prior live test pass; record processing discrepancy, no repeated request."
+    },
+    {
+      "url": "https://lafmat.com/conferences/2023/",
+      "status": "Indexed",
+      "lastCrawlDisplayed": "Nov 24, 2026, 6:15:51 PM",
+      "declaredCanonical": "https://lafmat.com/conferences/2023/",
+      "googleCanonical": "Inspected URL",
+      "fetch": "Successful",
+      "tool": "Googlebot smartphone",
+      "https": true
+    }
+  ],
+  "sampleIndexed": 3,
+  "sampleSize": 5,
+  "totalDomainIndexed": null,
+  "coverageReport": "Processing data",
+  "performanceReport": "Processing data",
+  "ga4": {
+    "propertyId": "565753617",
+    "realtime": {
+      "activeUsers30Minutes": 1,
+      "eventCounts": {
+        "first_visit": 1,
+        "page_view": 1,
+        "session_start": 1
+      }
+    },
+    "processedHomeReport": "No data received yet / Last7days card0; not treated as total traffic0",
+    "interpretation": "Partial-day and QA-contaminated; reception proof, not organic visitor baseline",
+    "countryDeviceComparison": "Insufficient complete data; no rates or trend inferred"
+  },
+  "newIndexingRequests": 0,
+  "googleMutations": 0
+}

@@ -324,3 +324,29 @@ PO_MAGICO_CHECKPOINT: delivery —006
 PO_MAGICO_DELTA_ADOPTED: sim; submissão comprovada, integração confirmada e limites de indexação explícitos
 PO_MAGICO_LESSON_CANDIDATE: distinguir estado transitório do envio de sitemap do processamento final; não repetir submissão de imediato
 ACTUAL_MODEL: Codex, identificador específico não exposto
+
+## 24/11/2026 — Change 007 em acompanhamento; rotina real ativa
+
+Usuário pediu C07 e confirmou o acompanhamento separado às 09h30 Brasília, com avisos somente em falhas/problemas acionáveis. Ferramenta confirmou create/update ACTIVE: acompanhar-sa-de-seo-lafmat, heartbeat neste chat. Datas de consulta:25–30/11,01/12,08/12,15/12,22/12 e24/12. Implementação: gatilho diário09h30 finito até24/12/2026 12h30UTC, com guarda de datas no prompt; dias intermediários não executam rede/contas. Requer Codex local e sessão Google disponíveis; futuro ainda não observado. A rotina de vídeos/SEO09h não foi alterada.
+
+Primeira checagem passou: scripts/monitor_seo.py,23 requisições pausadas,12/12 rotas válidas, sitemap/robots/manifesto, aliases permanentes, HTTP/www e verdadeiro404. Nenhum achado novo na amostra. Não executa JS/GA, não extrai sessão/credenciais e para em challenge/429. Guard de formato do manifesto acrescentado após o lote, satisfeito pelos campos já verificados. Sem motivo para repetir varredura.
+
+SC teve avanço efetivo desde006: home, /pt/seminars/ e /conferences/2023/ agora indexadas, Google-selected canonical=Inspected URL eHTTPS. Crawls exibidos24/11:18:09:50,18:11:50,18:15:51, Googlebot smartphone. /es/videos/ descoberta sem índice; /videos/2026/ desconhecida no snapshot atual, embora006 tivesse mostrado descoberta. Registrar a instabilidade de processamento; rotas públicas e testes ao vivo anteriores passaram.3/5 é apenas a coorte; total do domínio e Performance/Pages ainda processam. Nenhum pedido de indexação repetido.
+
+GA4 Realtime:1 usuário ativo e first_visit/page_view/session_start=1 cada. Prova recepção, não visita orgânica. Home consolidada ainda mostra aviso/dados0; não interpretar como ausência de coleta. Dia24 tem QA/rollbacks. Timestamp exato de corte não foi retido como campo autoritativo: excluir24/11 das comparações e usar25/11 como primeiro dia completo. SC com pelo menos2dias de defasagem; comparar duas semanas completas quando disponíveis, sem inventar métricas segmentadas ou atribuição causal.
+
+Recibos docs/seo/monitoring-baseline, monitoring-http, monitoring-google e monitoring-automation de2026-11-24, além de monitoring-plan.json. Plano em monitoring.md; migration-closure.md OPEN_OBSERVATION_WINDOW. Specs007 permanecem abertas até observações e síntese real em24/12. Evidência futura só em .cache/seo-monitoring/, ignorado, sem sujar rastreados, publicar ou mudar Google/DNS/WordPress/Ads/consentimento/rotina de vídeos. Nenhuma mensagem institucional enviada ou nova correção de produção necessária. Exceções históricas preservadas.
+
+Dist permanece igual a5c69d78 / manifesto9CB50AF756EB; script de monitoramento fica fora de dist. output/ e backups preservados. Screenshots lafmat-c07-home-indexed e lafmat-c07-analytics-realtime de24nov na pasta de visualizações. Chrome4, scTab/gaTab deliverable. Não tomar abas de outras sessões.
+
+FOLLOW_UP_STATE: ACTIVE
+AUTOMATION_ID: acompanhar-sa-de-seo-lafmat
+SCHEDULED_FOR:09h30 America/Sao_Paulo, calendário em monitoring-plan.json; final24/12/2026
+MUTATION_POLICY: leitura e relatórios locais ignorados; sem mudanças de produção/contas
+PO_MAGICO_SOURCE: ../po-magico
+PO_MAGICO_VERSION_USED: v20261111.001; divergência de origem documentada, sem alegar sincronização integral
+PO_MAGICO_LAST_CHECKED:2026-11-24
+PO_MAGICO_CHECKPOINT: change —007, primeira observação e agendamento
+PO_MAGICO_DELTA_ADOPTED: scheduled-follow-up aplicado; agenda ACTIVE não equivale a janela observada
+PO_MAGICO_LESSON_CANDIDATE: coorte pode avançar antes dos rollups; não extrapolar amostra ou QA
+ACTUAL_MODEL: Codex, identificador específico não exposto
