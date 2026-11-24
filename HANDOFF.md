@@ -287,3 +287,18 @@ Responsável e configuração mínima confirmados, termos para Brasil/processame
 Retenção de eventos e usuários salva em 2 meses, reset off; Signals/user-provided data off, granular location/device off, ads personalization 0/307 regiões, quatro compartilhamentos opcionais off. Internal Traffic Testing, sem exclusão ativa. Três dimensões de evento app_surface/app_language/app_action_category cadastradas. TZ São Paulo/BRL. Evidência estruturada em docs/seo/analytics-service-validation-2026-11-24.json; screenshot lafmat-ga4-retention-2026-11-24.jpg na pasta de visualizações. Sem chave API/Measurement Protocol.
 
 analytics-config no candidato local agora enabled=true/G-R5KQ774N5V, restrito HTTPS lafmat.com; local/preview não enviam. Produção ainda não alterada. Build45, SEO57, consent mocks, paridade conferência22/dezassets e vídeos306/273 PASS após ID real. Ingestão real/rede/DebugView/Reatime ainda não provadas. Exigem ativação/publicação e teste com consentimento; não declarar concluído antes. Gate e revisão exata/autorização de publicação ainda pendentes.
+
+## 24/11/2026 — Change 005 publicada e validada
+
+Este estado substitui os checkpoints de preparação acima. Usuário autorizou a revisão exata 5c69d78aca2d12e71c8bd5785880832015c79c0b e rollback em caso de regressão. Main enviado. Vercel lafmat-revisao / msr-brs-projects: lafmat-revisao-evdur21w5-msr-brs-projects.vercel.app, dpl_J7QdsnH5quEexkaWu46WAedJSrSy. Manifesto LAFMAT-20261124-9CB50AF756EB, 649 arquivos.
+
+A rede revelou page_view automático adicional da nova inicialização Google, que ignora parâmetros do config legado. Foi feito rollback imediato para b91sxlwu0. O container próprio GTM-558VTRFD (conta 6407780435 / container 288622406) recebeu a versão 2, Live: send_page_view=false, flags mínimas, cookies de 180 dias e rótulos iniciais fixos seguros. Um retry usou script antigo em cache e também foi revertido. Após conferir o artefato público atualizado e desativar cache no DevTools, o mesmo commit foi promovido e passou: uma page_view 204 com URL limpa; DebugView confirmou três páginas e video_outbound_click/network. A busca na galeria não gerou evento de busca. Retirada do consentimento, reload e navegação posterior ficaram sem tag; zero collect no teste de rede após retirada. Histórico de testes preservado, sem segredo novo ou filtro de exclusão ativo.
+
+HTTP: 45 páginas e seis artefatos com bytes exatos; dois destinos 308 e verdadeiro 404; manifesto público igual ao candidato. urllib não segue 308 neste ambiente: verificar Location e destino explicitamente. Não repetir rastreamento massivo. Recibos: analytics-post-release-2026-11-24.json e analytics-public-http-2026-11-24.json. Screenshots ga4-event, ga4-interaction e analytics-published de 24/11 na pasta de visualizações.
+
+A rotina atualizar-v-deos-e-seo-lafmat recebeu node scripts/test_analytics.cjs pela ferramenta; ACTIVE, 09h Brasília, failed_runs_only. Nenhuma autorização para mudar Google/Analytics/DNS pela rotina. output/ preservado. Próxima Change 006 depende de solicitação.
+
+PO_MAGICO_CHECKPOINT: delivery — 005
+PO_MAGICO_VERSION: v20261111.001; divergência de origem documentada, sem alegar sincronização integral
+ACTUAL_MODEL: Codex, identificador específico não exposto
+ADOPTED_DELTA: publicar configuração mínima, corrigir inicialização Google, provar consentimento/ingestão e registrar rollback

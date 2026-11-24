@@ -1,6 +1,6 @@
 # LAFMAT — ciclo de SEO, migração e medição
 
-Criado em 23/11/2026 por solicitação de criar as Changes. Change 001 concluída como inventário local em 23/11/2026; Change 002 com posse concluída em 24/11/2026 e exportações pendentes de processamento Google; Changes 003+004 publicadas e validadas em 24/11/2026; Change 005 em execução; Changes 006–007 planejadas. Não há sequência anterior em .specs/changes; numeração deste ciclo começa em 001 e não representa as entregas históricas já concluídas. Memória existente: HANDOFF.md.
+Criado em 23/11/2026 por solicitação de criar as Changes. Change 001 concluída como inventário local em 23/11/2026; Change 002 com posse concluída em 24/11/2026 e exportações pendentes de processamento Google; Changes 003+004 publicadas e validadas em 24/11/2026; Change 005 publicada/validada; Changes 006–007 planejadas. Não há sequência anterior em .specs/changes; numeração deste ciclo começa em 001 e não representa as entregas históricas já concluídas. Memória existente: HANDOFF.md.
 
 | Change | Entrega | Dependências | Estado |
 |---|---|---|---|
@@ -8,13 +8,13 @@ Criado em 23/11/2026 por solicitação de criar as Changes. Change 001 concluíd
 | 002 | [Propriedade e acessos do Search Console](changes/002-search-console-ownership/objective.md) | 001 | Posse concluída; histórico processando |
 | 003 | [URLs reais e HTML estático indexável](changes/003-indexable-static-routes/objective.md) | 001 | Publicada e validada com 004 |
 | 004 | [SEO técnico e redirecionamentos da migração](changes/004-technical-seo-and-migration-redirects/objective.md) | 001, 003 | Publicada e validada; rotina ACTIVE |
-| 005 | [GA4, privacidade e medição](changes/005-ga4-privacy-and-measurement/objective.md) | 001 | Serviço configurado; candidato local, publicação/ingestão pendentes |
+| 005 | [GA4, privacidade e medição](changes/005-ga4-privacy-and-measurement/objective.md) | 001 | Publicada e validada: 5c69d78 + container Google v2 |
 | 006 | [Submissão e validação no Google](changes/006-index-submission-and-google-validation/objective.md) | 002, 004, 005 | Planejada |
 | 007 | [Acompanhamento e fechamento da migração](changes/007-post-migration-monitoring/objective.md) | 004, 006 | Planejada |
 
 Ordem: 001 primeiro; 002 e preparação de 005 podem ocorrer em paralelo com 003/004. O site com URLs reais e redirects deve sair em uma publicação integrada 003+004. Submissão de sitemap pode seguir 002+004; vínculo com GA4 aguarda 005. 007 acompanha o release, com revisão inicial de 30 dias, sem prazo garantido de indexação.
 
-Próxima Change: 005-ga4-privacy-and-measurement. Não executar sem solicitação. Plano de modelo: tier standard/medium, sujeito à disponibilidade real; sem delegação automática.
+Próxima Change: 006-index-submission-and-google-validation. Não executar sem solicitação. Plano de modelo: tier standard/medium, sujeito à disponibilidade real; sem delegação automática.
 
 Autorização inicial: criar planejamento local; em seguida, "segue" autorizou executar Change 001. Não executar Changes, registrar propriedades, instalar tag, alterar DNS, agendar monitoramento, fazer commit/push ou deploy apenas por este pedido. As autorizações anteriores de outras tarefas não transformam este backlog em execução concluída.
 
@@ -47,3 +47,5 @@ Fechamento 24/11: d45f880 publicado no projeto/domínio aprovados, Vercel READY,
 24/11 — 005 iniciada: código de consentimento/medição desativado e política PT/EN/ES preparados/testados localmente. Conta/preferências e propriedade/fluxo/ID/DebugView/publicação pendentes. Nenhuma ativação de Analytics.
 
 24/11 — 005: usuário confirmou responsável/configuração mínima e autorizou termos. Conta 417343930, propriedade 565753617, fluxo 16408359562, G-R5KQ774N5V; retenção 2 meses, Signals/ads/extra collection off e filtro Testing conferidos. Candidato local enabled=true apenas em HTTPS lafmat.com; produção ainda release004. Próximo checkpoint: revisão exata, autorização de publicação, validação de rede/DebugView/Realtime e rollback se falhar.
+
+24/11 — 005 concluída após publicação autorizada, correção no container Google v2 e validação real de consentimento/ingestão. Recibos analytics-post-release e analytics-public-http. Rotina diária recebeu test_analytics, horário e avisos mantidos. Produção9CB50AF756EB;006/007 não executadas.

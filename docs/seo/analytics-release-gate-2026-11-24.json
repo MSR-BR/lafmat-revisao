@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "candidate": "local staged revision; bind exact commit after creation",
+  "candidate": "5c69d78aca2d12e71c8bd5785880832015c79c0b",
   "manifest": "LAFMAT-20261124-9CB50AF756EB",
   "sha256": "9cb50af756eb207b9f8b831ab404e331c9cb9cfbf17327a53dc9391d9685c915",
   "destination": "https://lafmat.com/",
@@ -39,5 +39,11 @@
     "Google retention setting changes may take 24h",
     "Existing conference YouTube players have separate behavior",
     "No guaranteed legal compliance or indexing"
+  ],
+  "publicationAuthorized": true,
+  "postReleaseResult": "PASS after Google container version2 correction and fresh-cache validation",
+  "postReleaseEvidence": [
+    "analytics-post-release-2026-11-24.json",
+    "analytics-public-http-2026-11-24.json"
   ]
 }

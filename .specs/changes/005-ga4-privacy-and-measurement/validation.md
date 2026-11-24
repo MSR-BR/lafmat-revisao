@@ -1,6 +1,6 @@
 # Validação parcial — 24/11/2026
 
-PASS_LOCAL / PARTIAL_END_TO_END. Não publicada; candidato local habilitado somente no host HTTPS lafmat.com com ID real G-R5KQ774N5V.
+PASS_PUBLICADO — commit 5c69d78, manifesto9CB50AF756EB, containerGoogle versão2. Evidência final em analytics-post-release-2026-11-24.json e analytics-public-http-2026-11-24.json.
 
 - node scripts/test_analytics.cjs: opt-in/recusa/revogação e outra aba, cookies funcionais, uma page_view por rota/idioma, nenhuma PII/URL livre no mock, flags de publicidade negadas e rascunho sem campos. Transporte simulado, zero requests Google nesse teste.
 - node scripts/build_site.cjs e verify_static_site.cjs: 45 páginas, 3.570 links/assets; fontes e hashes.
@@ -12,4 +12,4 @@ PASS_LOCAL / PARTIAL_END_TO_END. Não publicada; candidato local habilitado some
 
 Serviço GA4 configurado e conferido: conta/propriedade/fluxo reais, retenção 2 meses eventos/usuários, reset off, Signals/user-provided/granular off, personalização 0/307, compartilhamentos off, filtro Testing e três dimensões. Recibo analytics-service-validation-2026-11-24.json.
 
-PENDENTE: revisão/autorização do candidato exato, publicação, DebugView/Realtime e payload/duplicação em tráfego real consentido. Não afirmar eventos recebidos no GA4.
+Validação final: os recibos citados comprovam ingestão no DebugView, resposta 204 de uma visualização única e limpa, clique de canal com categoria limitada, recusa/revogação e zero coleta após retirada. Foram conferidas 45 páginas e seis artefatos com igualdade de bytes, dois redirects 308 e verdadeiro 404. Dois rollbacks durante o diagnóstico estão documentados; a versão final validada permanece ativa. Relatórios padrão do Google podem demorar; a prova de ingestão veio do DebugView.

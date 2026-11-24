@@ -1,0 +1,280 @@
+{
+  "commit": "5c69d78aca2d12e71c8bd5785880832015c79c0b",
+  "manifest": "LAFMAT-20261124-9CB50AF756EB",
+  "tls": "normal verified HTTPS",
+  "result": "PASS",
+  "note": "Paced page/asset run passed all 51 byte comparisons, then stopped because urllib did not follow 308. Only the remaining redirect/404 checks were resumed. No challenge or bypass.",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/members/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/videos/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/videos/2026/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/videos/2025/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/videos/2024/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/videos/2023/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/videos/2022/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/videos/2021/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/videos/2020/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/news/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/seminars/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/conferences/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/members/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/videos/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/videos/2026/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/videos/2025/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/videos/2024/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/videos/2023/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/videos/2022/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/videos/2021/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/videos/2020/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/news/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/seminars/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/conferences/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/contact/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/pt/privacy/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/members/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/videos/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/videos/2026/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/videos/2025/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/videos/2024/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/videos/2023/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/videos/2022/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/videos/2021/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/videos/2020/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/news/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/seminars/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/conferences/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/contact/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/es/privacy/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/conferences/2023/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/conferences/2023/program/",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/assets/analytics.js",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/assets/analytics-config.js",
+      "status": 200,
+      "exactBytesMatchLocal": true
+    },
+    {
+      "path": "/home/program/",
+      "status": 308,
+      "location": "/conferences/2023/program/",
+      "destinationPreviouslyVerified": true
+    },
+    {
+      "path": "/home/event-home/",
+      "status": 308,
+      "location": "/conferences/2023/event-home/",
+      "destinationPreviouslyVerified": true
+    },
+    {
+      "path": "/lafmat-qa-unknown-20261124/",
+      "status": 404
+    }
+  ]
+}

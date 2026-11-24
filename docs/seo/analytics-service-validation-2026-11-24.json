@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "state": "SERVICE_CONFIGURED_NOT_PUBLISHED",
+  "state": "PUBLISHED_VALIDATED",
   "accountId": "417343930",
   "propertyId": "565753617",
   "streamId": "16408359562",
@@ -28,9 +28,24 @@
   "reportingTimeZone": "America/Sao_Paulo",
   "currency": "BRL",
   "evidence": "Google Analytics UI; no API credentials or unrelated property data copied",
-  "pending": [
-    "exact release authorization",
-    "production consent/network validation",
-    "DebugView/Realtime ingestion"
-  ]
+  "pending": [],
+  "tagManager": {
+    "containerId": "GTM-558VTRFD",
+    "accountId": "6407780435",
+    "containerNumericId": "288622406",
+    "liveVersion": 2,
+    "name": "LAFMAT minimal consented measurement",
+    "initializationConfig": {
+      "send_page_view": false,
+      "allow_google_signals": false,
+      "allow_ad_personalization_signals": false,
+      "url_passthrough": false,
+      "cookie_expires": 15552000,
+      "cookie_update": false,
+      "page_location": "https://lafmat.com/",
+      "page_title": "LAFMAT",
+      "page_referrer": "https://lafmat.com/"
+    },
+    "reason": "New container initializes before legacy in-page config. UI settings prevent automatic page_view and apply privacy defaults. Explicit event parameters override fixed initialization page labels."
+  }
 }

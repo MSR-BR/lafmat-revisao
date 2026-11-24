@@ -1,6 +1,6 @@
 # Change 005 — plano de medição e privacidade
 
-Estado em 24/11/2026: serviço GA4 criado/configurado e candidato local preparado com G-R5KQ774N5V; ainda não publicado. Produção continua no release SEO 003+004, manifesto LAFMAT-20261124-20C36699ED23. Ingestão real e comportamento de rede aguardam ativação autorizada e teste pós-release.
+Estado em 24/11/2026: PUBLICADO E VALIDADO, commit5c69d78, manifestoLAFMAT-20261124-9CB50AF756EB, G-R5KQ774N5V e containerGoogle versão2. Ingestão e consentimento comprovados em analytics-post-release-2026-11-24.json; HTTP em analytics-public-http-2026-11-24.json.
 
 ## Conta e fluxo confirmados
 
@@ -44,7 +44,7 @@ Players YouTube incorporados antigos têm comportamento e política próprios; a
 
 PASS local: unit tests com transporte simulado (sem rede Google), aceite/recusa/revogação, propagação entre abas, cookies funcionais preservados, URLs/referrers sanitizados, uma contagem, eventos limitados, rascunho sem campos. HTML/SEO 45/57, galeria 306/273, oito testes sync, paridade de 22 arquivos de conferência e dez assets preservados. Navegador local: recusa persiste após reload, revisão por teclado, política PT/ES, mobile 390 sem overflow, zero elemento Google tag antes/na recusa. O teste local não carrega Google porque o hostname não é o canônico; ele não comprova ingestão no GA4.
 
-Faltam: revisão do candidato exato e publicação autorizada; payload real/DebugView/Realtime, duplicação e revogação na versão publicada. Não marcar Change concluída apenas pelo código/serviço.
+Concluído: candidato autorizado/publicado; rede204 de pageview único eURLlimpa, ingestãoDebugView eclique categorizado, recusa/retirada semtag ezerocoleta apósreload. Relatórios padrão podem demorar. Correção adicional necessária no GoogleTagManager versão2: a nova inicialização ignora config legado; send_page_view e privacidade também definidos naUI. Dois rollbacks durante diagnóstico (um cacheantigo) documentados no recibo; nenhuma coleta pré-consentimento observada.
 
 ## Referências primárias consultadas em 24/11/2026
 
@@ -56,3 +56,5 @@ Faltam: revisão do candidato exato e publicação autorizada; payload real/Debu
 - https://support.google.com/analytics/answer/9267744
 
 Plano técnico, sem declaração de conformidade legal universal ou garantia de indexação.
+
+A configuração na UI de inicialização é dependência operacional do release. Não restaurar o container Google versão1: reintroduz auto-pageview. Restaurar site anterior remove a integração, mas não apaga dados já recebidos. Referência adicional: https://support.google.com/analytics/answer/18411054 .

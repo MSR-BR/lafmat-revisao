@@ -13,3 +13,7 @@ Limites: não audita permissões administrativas completas das contas nem config
 ## Candidato 005 em preparação local — 24/11
 
 Classificação sobe a S1_INTEGRATED quando Analytics for ativado. Candidato local enabled=true/G-R5KQ774N5V somente em HTTPS lafmat.com, ainda não publicado. Serviço GA4 dedicado criado/configurado; retenção mínima e publicidade off conferidas. Cookie pseudônimo e serviço Google somente após consentimento; controles de negação/retirada e dados mínimos em testes mock. Ainda falta payload real/ingestão após release autorizado e gate; não reutilizar PASS do release004 como autorização para ativar coleta. Produção004 continua S0.
+
+## Estado final 005
+
+Produção S1_INTEGRATED: site estático com GA4 externo e consentimento. Revisão 5c69d78 / manifesto 9CB50AF756EB, container Google v2. Gate local PASS; provas de recepção, rede e recusa em analytics-post-release-2026-11-24.json. Publicação autorizada. O defeito externo de page_view automático foi encontrado no teste e corrigido após rollback; não afirmar ausência histórica de incidente. Versão final: uma visualização limpa com resposta 204, nenhum collect após retirada. Sem segredo, dependência de produção ou API própria nova.

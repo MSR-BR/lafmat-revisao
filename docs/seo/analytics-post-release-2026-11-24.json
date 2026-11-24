@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-24",
+  "result": "PASS",
+  "commit": "5c69d78aca2d12e71c8bd5785880832015c79c0b",
+  "manifest": "LAFMAT-20261124-9CB50AF756EB",
+  "deployment": "lafmat-revisao-evdur21w5-msr-brs-projects.vercel.app",
+  "deploymentId": "dpl_J7QdsnH5quEexkaWu46WAedJSrSy",
+  "url": "https://lafmat.com/",
+  "googleTagContainerVersion": 2,
+  "browserTests": {
+    "beforeAcceptTagCount": 0,
+    "rejectionPersistedAfterReload": true,
+    "afterRejectTagCount": 0,
+    "afterAcceptTag": "G-R5KQ774N5V",
+    "withdrawalReloadTagCount": 0,
+    "afterWithdrawalOtherPageTagCount": 0,
+    "collectRequestsAfterWithdrawalReload": 0,
+    "realPageViewHttpStatus": 204,
+    "realSinglePageViewAfterFreshTag": true,
+    "debugViewPageLocation": "https://lafmat.com/pt/",
+    "debugViewPageReferrer": "https://lafmat.com/pt/",
+    "debugViewReceived": [
+      "page_view",
+      "first_visit",
+      "session_start",
+      "video_outbound_click"
+    ],
+    "testedRoutes": [
+      "/pt/",
+      "/es/privacy/",
+      "/videos/"
+    ],
+    "videoActionCategory": "network",
+    "freeSearch": "magnetism entered in gallery UI; no view_search_results event observed",
+    "formFields": "Not submitted; no contact fields in integration, unit tests verify bounded draft event",
+    "javascriptErrors": []
+  },
+  "incidentAndRecovery": [
+    "Initial network test detected automatic extra page_view with QA query. Immediately rolled back to previous deployment. Only controlled test query was used, no contact/free search values in test URL. Previously consented data is not erased.",
+    "New Google tag initializes independently of legacy config. Published GTM container version2 with send_page_view=false, privacy/cookie settings and safe fixed initialization labels.",
+    "First retry reused cached old Google script and was rolled back again. Verified new public tag artifact, disabled cache in DevTools, re-promoted same authorized site commit.",
+    "Fresh test sent exactly one controlled page_view with clean page URL and204 response. DebugView confirmed event parameters and bounded video interaction.",
+    "Withdrawn consent and reloaded: no tag or collect request. Production remains validated 5c69d78."
+  ],
+  "evidenceBoundary": "Network via native Chrome DevTools UI, event values via GA4 DebugView UI, tests via site UI and unit mock. No session extraction/CDP scripts; no PII/free fields used. Realtime standard reports may lag; DebugView provides ingestion proof. No deletion of test history or active exclusion filter.",
+  "references": [
+    "https://support.google.com/analytics/answer/18411054",
+    "https://developers.google.com/tag-platform/gtagjs/configure"
+  ]
+}
