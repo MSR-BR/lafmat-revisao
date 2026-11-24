@@ -10,7 +10,8 @@ window.siteSEO = (route,lang,year = '') => {
     news:t.newsIntro+' · LAFMAT',
     seminars:(lang === 'en' ? window.archive.seminarEnglish : t.seminarIntro)[0],
     conferences:t.confIntro+' · LAFMAT',
-    contact:t.write+'. '+t.formHint
+    contact:t.write+'. '+t.formHint,
+    privacy:window.lafmatPrivacy[lang].intro
   };
   return {
     title:route === 'home' ? 'LAFMAT · '+t.footer : t.nav[window.siteRoutes.sections.indexOf(route)]+(route === 'gallery' && year && year !== 'all' ? ' · '+year : '')+' · LAFMAT',

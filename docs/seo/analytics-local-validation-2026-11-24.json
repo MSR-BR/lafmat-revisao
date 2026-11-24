@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-24",
+  "state": "LOCAL_ONLY; NOT_ACTIVATED",
+  "measurementId": "",
+  "enabled": false,
+  "manifest": "LAFMAT-20261124-CF42C20B2B29",
+  "sha256": "cf42c20b2b292c27ea6898ec53bc7df4e4a312a7cad22db99a7b3105dd39be4c",
+  "counts": {
+    "static_pages": 45,
+    "sitemap_urls": 57,
+    "recordings": 306,
+    "video_groups": 273
+  },
+  "checks": {
+    "core_and_transport_mock": "PASS; no Google calls",
+    "denial_and_withdrawal": "PASS",
+    "cross_tab_withdrawal": "PASS mock",
+    "payload_minimization_and_pageview_count": "PASS mock",
+    "privacy_UI_PT_ES_mobile": "PASS",
+    "static_SEO_conference_videos_sync": "PASS",
+    "GA4_Realtime_DebugView": "NOT_RUN",
+    "real_network_payload": "NOT_RUN",
+    "property_created": "NO",
+    "production_deployment": "NO"
+  },
+  "screen": "/Users/marioreis/.codex/visualizations/2026/11/17/01a1eae3-afec-7771-bffa-159658a909da/lafmat-analytics-consent-draft-mobile.jpg",
+  "pending": "User confirmation of Google responsible account/minimum privacy configuration; then actual GA4 setup/terms if required and real-data-flow validation"
+}

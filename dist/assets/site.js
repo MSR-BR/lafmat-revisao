@@ -85,6 +85,7 @@ function render({focus = false} = {}) {
   if (canonical) canonical.href = 'https://lafmat.com'+routeTable.path(route,lang,year === 'all' ? '' : year);
   main.innerHTML = renderer.view(route,sub);
   document.querySelector('footer').innerHTML = renderer.footer();
+  window.dispatchEvent(new CustomEvent('lafmat:navigation'));
   setMenu(false);
   const target = sub && document.getElementById(sub);
   if (target && main.contains(target)) {
@@ -156,6 +157,7 @@ main.addEventListener('submit',event=>{
   event.preventDefault();
   const fields = new FormData(event.target);
   const body = `${fields.get('message')}\r\n\r\n${fields.get('name')} <${fields.get('email')}>`;
+  window.dispatchEvent(new CustomEvent('lafmat:contact-draft'));
   location.href = `mailto:${data.contact.email}?subject=${encodeURIComponent(fields.get('subject'))}&body=${encodeURIComponent(body)}`;
 });
 window.addEventListener('hashchange',()=>render({focus:true}));

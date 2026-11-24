@@ -9,3 +9,7 @@ Controles verificados localmente: fontes e HTML com hashes; escape de dados nos 
 Baseline de produção anterior: commit cd4d110, implantação lafmat-revisao-m3cqnmy2r-msr-brs-projects.vercel.app, manifesto LAFMAT-20261123-BCB04519421A. Proteção de previews e domínios individuais mantida conforme configuração anterior; revalidar no release. Não baixar variáveis de produção para teste estático. Build --prod --yes foi recusado por auto-review; validação alternativa lê somente schema público, arquivos locais e padrões de rotas, sem contornar a recusa.
 
 Limites: não audita permissões administrativas completas das contas nem configura GA4. Não garante disponibilidade do YouTube ou indexação Google. Revisão externa de invasão não executada; testes restritos aos endereços conhecidos do próprio projeto. Resultado de publicação e identidade exata devem ficar em docs/seo/release-validation.md; este perfil não declara deploy concluído.
+
+## Candidato 005 em preparação local — 24/11
+
+Classificação sobe a S1_INTEGRATED quando Analytics for ativado. Candidato local enabled=true/G-R5KQ774N5V somente em HTTPS lafmat.com, ainda não publicado. Serviço GA4 dedicado criado/configurado; retenção mínima e publicidade off conferidas. Cookie pseudônimo e serviço Google somente após consentimento; controles de negação/retirada e dados mínimos em testes mock. Ainda falta payload real/ingestão após release autorizado e gate; não reutilizar PASS do release004 como autorização para ativar coleta. Produção004 continua S0.

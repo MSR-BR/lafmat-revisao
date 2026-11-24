@@ -256,3 +256,34 @@ PO_MAGICO_CHECKPOINT: delivery/closure — 003+004
 PO_MAGICO_DELTA_ADOPTED: yes — fonte comum, gate exato, prova do host e contrato recorrente efetivo
 PO_MAGICO_LESSON_CANDIDATE: aceitar 302 para login como proteção de implantação; parar sondagem em challenge; comprovar rotina real em vez de confiar em memória de cadastro antigo
 Método local/remoto permanece divergente conforme histórico, sem sincronização do arquivo de método. Modelo efetivo Codex, identificador exato/custo/latência não expostos.
+
+
+## 24/11/2026 — Change 005 iniciada, LOCAL/DESATIVADA; confirmação pendente
+
+Usuário pediu seguir 005 para configurar GA. Lidas specs/contrato e docs oficiais; conector GA/GSC só reporta e tem limite conhecido, não possui Admin. Browser Chrome por connector indisponível; Chrome nativo controlado por CUA, perfil Mario. Sessão Google pretendida mario.reis.junior@gmail.com confirmada visualmente; busca no picker por LAFMAT sem resultado acessível (não significa inexistência em outras contas). Não copiar dados/IDs de outras propriedades: só foi aberta administração para criar conta separada.
+
+PERGUNTA EM ABERTO via request_user_input_async: confirmar mario.reis.junior@gmail.com, visitas/interações somente após aceite, recusar/rever, retenção 2 meses, sem anúncios/Signals/User-ID/campos de contato/buscas livres. Não houve resposta até este checkpoint. Não inferir aprovação por tempo.
+
+Chrome nativo deixou rascunho de criação: conta LAFMAT; property LAFMAT — lafmat.com; fuso Brazil / GMT-03 São Paulo; moeda BRL; Science; porte Small 1–10 provisório (equipe mantenedora, não censo real); objetivos tráfego+engajamento. Compartilhamentos opcionais todos desmarcados. Passo Business objectives, botão Create an account with a property ainda não clicado. Sem conta/propriedade/stream/measurementId LAFMAT criados. A próxima ação depois da confirmação é continuar esse wizard; se abrir ToS/DPA, confirmação obrigatória no momento do aceite. Não aceitar termos automaticamente.
+
+Código local preparado: analytics-config enabled=false / ID vazio; privacy/core/client/css, três páginas /privacy /pt/privacy /es/privacy (45 páginas e sitemap57); consent básico, recusa/revisão/retirada e propagação entre abas, cookie local180d, dados mínimos, sem parâmetros/buscas/formulários. Pageview manual único com send_page_view false; Enhanced Measurement ainda precisará ser desligado no fluxo real. Downloads/contact_draft_open não são envios concluídos ou reprodução. HEADs dos 12 canônicos do arquivo receberam somente seis scripts locais e CSS para medição consentida de cliques; nenhuma alteração editorial, tabelas/imagens/embeds/aliases. Verify_conference ampliado para whitelist dos scripts defer no HEAD, mantendo toda paridade. Sem dependência ou segredo novo.
+
+PASS local: test_analytics mocks (sem rede Google), optin/deny/revoke/multi-tab/cookies funcionais/URLs e referrers/flags ads, 45 páginas/3570 refs, SEO57, conferência22/dezassets, vídeos306/273, sync8. Browser IAB local tab6: recusa persiste no reload, preferências por teclado e idioma, política PT/ES, painel mobile390 sem overflow, zero Google tag antes/na recusa. Nenhum evento real no GA4 validado. Screenshot analytics-consent-draft-mobile.jpg na pasta de visualizações da sessão.
+
+Nenhum commit/push/deploy de 005. Produção continua d45f880/067a5de e manifesto20C36699ED23; novos manifests locais são rascunhos. Não publicar o texto de privacidade (2meses etc.) antes de configurar/provar no serviço. Ver docs/seo/measurement-plan.md, analytics-local-validation-2026-11-24.json e .specs/005. Output/ preservado. Rotina diária existente deve abortar enquanto houver essas alterações rastreadas em desenvolvimento.
+
+PO_MAGICO_SOURCE: ../po-magico
+PO_MAGICO_VERSION_USED: v20261111.001
+PO_MAGICO_LAST_CHECKED: 2026-11-24
+PO_MAGICO_CHECKPOINT: change — 005 preparação
+PO_MAGICO_DELTA_ADOPTED: yes — S1_INTEGRATED; consentimento efetivo, payload limitado, confirmação de conta/política antes de ativar; método local/remoto previamente divergente sem declaração de sincronização
+PO_MAGICO_LESSON_CANDIDATE: não copiar propriedade de outros projetos; mock não substitui DebugView/ingestão real; consentimento deve propagar revogação entre abas
+Modelo efetivo Codex, identificador exato/reasoning/custo não expostos.
+
+## 24/11/2026 — Change 005: serviço criado, candidato pronto para revisão
+
+Responsável e configuração mínima confirmados, termos para Brasil/processamento autorizados pelo usuário. Na retomada o assistente já estava em criação concluída. Conta LAFMAT 417343930, propriedade LAFMAT — lafmat.com 565753617, fluxo https://lafmat.com ID 16408359562, measurement G-R5KQ774N5V. Não usar IDs de outras propriedades. Chrome connector disponível no final: aba dedicada 1519142394; não tomar a aba de outra sessão.
+
+Retenção de eventos e usuários salva em 2 meses, reset off; Signals/user-provided data off, granular location/device off, ads personalization 0/307 regiões, quatro compartilhamentos opcionais off. Internal Traffic Testing, sem exclusão ativa. Três dimensões de evento app_surface/app_language/app_action_category cadastradas. TZ São Paulo/BRL. Evidência estruturada em docs/seo/analytics-service-validation-2026-11-24.json; screenshot lafmat-ga4-retention-2026-11-24.jpg na pasta de visualizações. Sem chave API/Measurement Protocol.
+
+analytics-config no candidato local agora enabled=true/G-R5KQ774N5V, restrito HTTPS lafmat.com; local/preview não enviam. Produção ainda não alterada. Build45, SEO57, consent mocks, paridade conferência22/dezassets e vídeos306/273 PASS após ID real. Ingestão real/rede/DebugView/Reatime ainda não provadas. Exigem ativação/publicação e teste com consentimento; não declarar concluído antes. Gate e revisão exata/autorização de publicação ainda pendentes.

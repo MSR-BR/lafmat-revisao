@@ -7,9 +7,9 @@ const vm = require('node:vm');
 const crypto = require('node:crypto');
 const root = path.resolve(__dirname,'..');
 const dist = path.join(root,'dist');
-const sources = ['archive.js','content.js','videos.js','video-gallery.js','i18n.js','routes.js','site-render.js','seo.js'];
+const sources = ['archive.js','content.js','videos.js','video-gallery.js','i18n.js','routes.js','privacy.js','site-render.js','seo.js','analytics-config.js','analytics-core.js'];
 function load() {
-  const context = {window:{}};
+  const context = {window:{},URL};
   vm.createContext(context);
   for (const file of sources) vm.runInContext(fs.readFileSync(path.join(dist,'assets',file),'utf8'),context,{filename:file,timeout:5000});
   return context.window;
@@ -23,7 +23,7 @@ function build({today} = {}) {
   const routeTable = site.siteRoutes;
   const buildDate = today || new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
   if (!/^20\d{2}-\d{2}-\d{2}$/.test(buildDate) || !Number.isFinite(Date.parse(buildDate))) throw new Error('Invalid build date');
-  const scriptTags = [...sources,'site.js'].map(file=>`  <script defer src="/assets/${file}?v=${digest(path.join(dist,'assets',file)).slice(0,12)}"></script>`).join('\n');
+  const scriptTags = [...sources,'site.js','analytics.js'].map(file=>`  <script defer src="/assets/${file}?v=${digest(path.join(dist,'assets',file)).slice(0,12)}"></script>`).join('\n');
   const pages = [];
   const receiptPath = path.join(root,'docs/seo/static-build.json');
   const previous = fs.existsSync(receiptPath) ? JSON.parse(fs.readFileSync(receiptPath,'utf8')) : null;
@@ -58,7 +58,7 @@ function build({today} = {}) {
         ].map(line=>'  '+line).join('\n');
         const replacements = {
           locale:escape(copy.locale), title:escape(meta.title), seo,
-          description:escape(meta.description), cssVersion:digest(path.join(dist,'assets/site.css')).slice(0,12),
+          description:escape(meta.description), cssVersion:digest(path.join(dist,'assets/site.css')).slice(0,12), analyticsCssVersion:digest(path.join(dist,'assets/analytics.css')).slice(0,12),
           scripts:scriptTags, skip:escape(copy.skip), homePath:routeTable.path('home',lang),
           menu:escape(copy.menu), language:escape(copy.language), navigation:renderer.navigation(section),
           languages:routeTable.languages.map(code=>`<a data-lang="${code}" lang="${site.copy[code].locale}" hreflang="${site.copy[code].locale}" href="${routeTable.path(section,code,year)}"${code === lang ? ' aria-current="page"' : ''}>${code.toUpperCase()}</a>`).join('\n'),
@@ -85,10 +85,19 @@ function build({today} = {}) {
   for (const page of previous?.pages || []) {
     if (!files.has(page.file) && /^(?:(?:pt|es)\/)?videos\/20\d{2}\/index\.html$/.test(page.file)) fs.rmSync(path.join(dist,page.file),{force:true});
   }
-  const inputs = Object.fromEntries([...sources.map(file=>'dist/assets/'+file),'dist/assets/site.css','dist/assets/site.js','templates/site.html','scripts/build_site.cjs','docs/seo/archive-canonical-routes.json'].map(file=>[file,digest(path.join(root,file))]));
+  const inputs = Object.fromEntries([...sources.map(file=>'dist/assets/'+file),'dist/assets/site.css','dist/assets/site.js','dist/assets/analytics.js','dist/assets/analytics.css','templates/site.html','scripts/build_site.cjs','docs/seo/archive-canonical-routes.json'].map(file=>[file,digest(path.join(root,file))]));
   const receipt = {schema:1,buildDate,publication:'Release state recorded in docs/seo/release-validation.md',inputs,counts:{pages:pages.length,recordings:site.youtubeCatalog.videos.length,videoGroups:gallery.groups.length,members:site.siteContent.members.length,collaborators:site.siteContent.collaborators.length},pages};
   fs.mkdirSync(path.dirname(receiptPath),{recursive:true});
   const archived = JSON.parse(fs.readFileSync(path.join(root,'docs/seo/archive-canonical-routes.json'),'utf8'));
+  // Instrument only canonical archive HEADs, preserving every source body and
+  // legacy alias. Stable URLs avoid recurring archive edits on catalog updates.
+  const archiveAnalytics = '<!-- LAFMAT_ANALYTICS_BEGIN -->\n<link rel="stylesheet" href="/assets/analytics.css">\n'+['i18n.js','routes.js','privacy.js','analytics-config.js','analytics-core.js','analytics.js'].map(file=>`<script defer src="/assets/${file}"></script>`).join('\n')+'\n<!-- LAFMAT_ANALYTICS_END -->\n';
+  for (const page of archived) {
+    const target=path.join(dist,page.file);
+    const original=fs.readFileSync(target,'utf8');
+    const without=original.replace(/<!-- LAFMAT_ANALYTICS_BEGIN -->[\s\S]*?<!-- LAFMAT_ANALYTICS_END -->\n?/g,'');
+    fs.writeFileSync(target,without.replace('</head>',archiveAnalytics+'</head>'));
+  }
   const sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+[
     ...pages.map(page=>`  <url><loc>https://lafmat.com${page.path}</loc><lastmod>${page.lastmod}</lastmod></url>`),
     // The archive's significant original update date is unknown; omit lastmod.

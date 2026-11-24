@@ -71,3 +71,6 @@ window.copy = {
     footer:'Red Latinoamericana de Física de la Materia Condensada y Ciencia de Materiales',
   }
 };
+window.copy.en.nav.push('Privacy');
+window.copy.pt.nav.push('Privacidade');
+window.copy.es.nav.push('Privacidad');

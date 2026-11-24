@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-24",
+  "candidate": "local staged revision; bind exact commit after creation",
+  "manifest": "LAFMAT-20261124-9CB50AF756EB",
+  "sha256": "9cb50af756eb207b9f8b831ab404e331c9cb9cfbf17327a53dc9391d9685c915",
+  "destination": "https://lafmat.com/",
+  "vercelProject": "lafmat-revisao",
+  "vercelTeam": "msr-brs-projects",
+  "result": "PASS",
+  "scope": "Technical gate for controlled activation; not publication authorization or proof of GA ingestion",
+  "checks": [
+    "GA service identity/settings verified in dedicated UI",
+    "opt-in/reject/withdraw/storage/cookie tests with mock transport passed",
+    "45 pages / 3570 references passed",
+    "SEO 57 sitemap URLs / redirects preserved",
+    "conference 22 pages and 10 assets parity passed",
+    "306 recordings / 273 groups passed",
+    "manifest 649 files passed",
+    "security worktree scan PASS, no findings",
+    "git diff --check passed"
+  ],
+  "focusedControls": [
+    "Only G-R5KQ774N5V public measurement identifier, no secrets or API credentials",
+    "Google tag blocked before acceptance, canonical HTTPS host only",
+    "Queries/contact values/free text excluded; ads denied",
+    "Backend retention 2 months, Signals/ads/granular data off",
+    "No DNS/WordPress/Ads/account-sharing expansion",
+    "No env pull or bypass of prior auto-review rejection"
+  ],
+  "postReleaseRequired": [
+    "Correct READY deployment/commit and manifest",
+    "Consent denial/acceptance/withdrawal via browser",
+    "One canonical page_view per route/locale and bounded interactions",
+    "Real GA DebugView/Realtime ingestion; stop/rollback if unexpected collection"
+  ],
+  "rollback": "Restore previous production deployment lafmat-revisao-b91sxlwu0-msr-brs-projects.vercel.app / manifest20C36699ED23; disable tag if regression. Preserve Google property/history; rollback cannot undo prior consented collection.",
+  "limits": [
+    "Current local/browser checks do not prove Google ingestion",
+    "Google retention setting changes may take 24h",
+    "Existing conference YouTube players have separate behavior",
+    "No guaranteed legal compliance or indexing"
+  ]
+}

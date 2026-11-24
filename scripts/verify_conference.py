@@ -21,7 +21,10 @@ for page in report['pages']:
   assert len(s.select('table'))==len(m.select('table'))
   assert [x.get('src') for x in s.select('iframe')]==[x.get('src') for x in m.select('iframe')]
   assert len(d.select('nav a'))==11
-  assert not d.select('script,form')
+  assert not d.select('form')
+  allowed={'/assets/i18n.js','/assets/routes.js','/assets/privacy.js','/assets/analytics-config.js','/assets/analytics-core.js','/assets/analytics.js'}
+  for script in d.select('script'):
+   assert script.parent==d.head and script.get('src') in allowed and script.has_attr('defer')
   for tag in d.select('[href],[src]'):
    for attr in ['href','src']:
     url=tag.get(attr)
@@ -30,7 +33,7 @@ for page in report['pages']:
     if parsed.scheme or parsed.netloc:
      assert parsed.hostname not in ('www.lafmat.com','lafmat.com'),(output,url,'WordPress dependency')
      continue
-    target=(output.parent/unquote(parsed.path)).resolve() if parsed.path else output.resolve()
+    target=(DIST/unquote(parsed.path).lstrip('/')).resolve() if parsed.path.startswith('/') else ((output.parent/unquote(parsed.path)).resolve() if parsed.path else output.resolve())
     assert target.is_relative_to(DIST.resolve())
     assert target.is_file(),(output,url)
     if parsed.fragment and target.suffix=='.html':

@@ -206,15 +206,19 @@ function links(html) {
   });
 }
 function navigation(route) {
-  return routes.map((section,i)=>section === 'conferences'
+  return routes.filter(section=>section !== 'privacy').map((section,i)=>section === 'conferences'
     ? `<div class="nav-dropdown"><a href="${window.siteRoutes.path(section,state.lang)}"${route === section ? ' aria-current="page"' : ''}>${t.nav[i]}</a><button type="button" class="conference-toggle js-only" aria-expanded="false" aria-controls="conference-years" aria-label="${esc(t.nav[i])}"><span aria-hidden="true">⌄</span></button><ul id="conference-years" class="nav-submenu" hidden>${data.conferences.map(edition=>`<li><a href="/${esc(edition.url)}" target="_blank" rel="noopener noreferrer">${esc(edition.year)}</a></li>`).join('')}</ul></div>`
     : `<a href="${window.siteRoutes.path(section,state.lang)}"${section === route ? ' aria-current="page"' : ''}>${t.nav[i]}</a>`).join('');
 }
-const views = {home,members,gallery,news,seminars,conferences,contact};
+function privacy() {
+  const copy = window.lafmatPrivacy[state.lang];
+  return `<div class="shell inner privacy-policy">${pageTitle(copy.title,copy.intro)}${copy.sections.map(([title,body])=>`<section><h2>${esc(title)}</h2><p>${esc(body)}</p></section>`).join('')}<p><a href="${window.siteRoutes.path('contact',state.lang)}">${t.nav[6]}</a> · ${external('https://policies.google.com/privacy','Google Privacy Policy')}</p></div>`;
+}
+const views = {home,members,gallery,news,seminars,conferences,contact,privacy};
 return {
   view:(route,sub)=>links(views[route](sub)),
   navigation,
-  footer:()=>`<div class="shell footer-inner"><div><a href="${window.siteRoutes.path('home',state.lang)}" class="footer-brand">LAFMAT</a><p>${t.footer}</p></div><div>${external(data.youtube,'YouTube')}${external(data.facebook,'Facebook')}</div></div>`,
+  footer:()=>`<div class="shell footer-inner"><div><a href="${window.siteRoutes.path('home',state.lang)}" class="footer-brand">LAFMAT</a><p>${t.footer}</p></div><div>${external(data.youtube,'YouTube')}${external(data.facebook,'Facebook')}</div></div><div class="analytics-preferences"><a href="${window.siteRoutes.path('privacy',state.lang)}">${window.lafmatPrivacy[state.lang].policy}</a><button type="button" class="js-only" data-analytics-preferences>${window.lafmatPrivacy[state.lang].preferences}</button></div>`,
   memberResults:()=>Object.fromEntries(Object.entries(memberResults()).map(([key,html])=>[key,links(html)])),
   galleryResults:()=>({...galleryResults(), html:links(galleryResults().html)}),
   title:route=>route === 'home' ? 'LAFMAT · '+t.footer : t.nav[routes.indexOf(route)]+(route === 'gallery' && state.year !== 'all' ? ' · '+state.year : '')+' · LAFMAT'

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-24",
+  "state": "SERVICE_CONFIGURED_NOT_PUBLISHED",
+  "accountId": "417343930",
+  "propertyId": "565753617",
+  "streamId": "16408359562",
+  "measurementId": "G-R5KQ774N5V",
+  "url": "https://lafmat.com",
+  "owner": "mario.reis.junior@gmail.com",
+  "userConfirmedMinimalSettings": true,
+  "userAuthorizedTerms": true,
+  "enhancedMeasurement": false,
+  "connectedSiteTags": 0,
+  "eventRetentionMonths": 2,
+  "userRetentionMonths": 2,
+  "resetOnNewActivity": false,
+  "googleSignals": false,
+  "userProvidedData": false,
+  "granularLocationDevice": false,
+  "adsPersonalizationAllowedRegions": 0,
+  "optionalAccountSharing": false,
+  "internalTrafficFilter": "Testing",
+  "eventDimensions": [
+    "app_surface",
+    "app_language",
+    "app_action_category"
+  ],
+  "reportingTimeZone": "America/Sao_Paulo",
+  "currency": "BRL",
+  "evidence": "Google Analytics UI; no API credentials or unrelated property data copied",
+  "pending": [
+    "exact release authorization",
+    "production consent/network validation",
+    "DebugView/Realtime ingestion"
+  ]
+}

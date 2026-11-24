@@ -1,7 +1,9 @@
 # Tarefas
 
-1. Confirmar conta/propriedade/fluxo e desenho de consentimento e privacidade.
-2. Criar plano de eventos e dimensões de baixa cardinalidade, com KPIs: sessões orgânicas e ações úteis.
-3. Preparar tag e preferências em ambiente local, compatíveis com rotas 003.
-4. Validar requisições, Realtime/DebugView, duplicação, recusa e revogação.
-5. Publicar somente configuração validada e autorizada; documentar separação de tráfego interno.
+1. [x] Confirmar conta/preferências e termos, concluir cadastro e obter measurement ID da LAFMAT sem misturar outras propriedades.
+2. [x] Preparar plano de eventos/dimensões e KPIs de visitas/interesse, sem alegar envio/reprodução.
+3. [x] Preparar código de consentimento e tag desativada, política em três idiomas, compatibilidade de rotas e coleta sem campos livres.
+4. [x] Validar comportamento/payloads com mock e controles visuais locais.
+5. [x] Configurar e validar settings do serviço e filtro em Testing.
+6. [ ] Validar rede real e DebugView/Realtime após ativação autorizada.
+7. [ ] Revisar candidato real, publicar com autorização e validar produção; não alterar agenda editorial/WordPress/DNS.

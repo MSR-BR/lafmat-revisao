@@ -1,8 +1,8 @@
 /* Single route contract shared by the static builder and browser. */
 'use strict';
 window.siteRoutes = (() => {
-  const sections = ['home','members','gallery','news','seminars','conferences','contact'];
-  const slugs = {home:'',members:'members',gallery:'videos',news:'news',seminars:'seminars',conferences:'conferences',contact:'contact'};
+  const sections = ['home','members','gallery','news','seminars','conferences','contact','privacy'];
+  const slugs = {home:'',members:'members',gallery:'videos',news:'news',seminars:'seminars',conferences:'conferences',contact:'contact',privacy:'privacy'};
   const languages = ['en','pt','es'];
   function path(section, lang = 'en', sub = '') {
     if (!sections.includes(section) || !languages.includes(lang)) throw new Error('Unknown route');
