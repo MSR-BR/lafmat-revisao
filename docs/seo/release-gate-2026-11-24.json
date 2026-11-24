@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-24",
+  "candidate_commit": "d45f880c2d5f2c290a9d762cdcce151fa723ae07",
+  "manifest": "LAFMAT-20261124-20C36699ED23",
+  "sha256": "20c36699ed232c98379718c4fa0a9587e11bf08ab3fa34e476dc42affa911aea",
+  "destination": {
+    "url": "https://lafmat.com/",
+    "team": "msr-brs-projects",
+    "project": "lafmat-revisao",
+    "rootDirectory": "dist",
+    "branch": "main"
+  },
+  "result": "PASS",
+  "local_checks": "PASS",
+  "reasons": [],
+  "rollback": "lafmat-revisao-m3cqnmy2r-msr-brs-projects.vercel.app / cd4d110 / LAFMAT-20261123-BCB04519421A",
+  "limits": [
+    "Historic URLs without a proved equivalent remain explicit, user-accepted exceptions; private backup content not published.",
+    "Pre-release batch 403 results remain inconclusive due to old security challenge; final paced checks passed without challenge.",
+    "No GA4 installed or sitemap submitted to Google; reserved for Changes 005/006.",
+    "Daily automation requires local Codex/computer availability; future scheduled execution not observed yet."
+  ],
+  "next": "Change 004 complete. Change 005 GA4/privacy remains planned; do not auto-execute.",
+  "approval_evidence": "User explicitly approved publishing d45f880 to lafmat.com and replacing the daily routine, preserving 09:00 and failed-runs-only notifications.",
+  "deployment": {
+    "id": "dpl_CJWnMJJbfTAbgEnw9CUqzstuoyqg",
+    "url": "https://lafmat-revisao-dzhhb4ry6-msr-brs-projects.vercel.app",
+    "state": "READY",
+    "target": "production",
+    "git_commit": "d45f880c2d5f2c290a9d762cdcce151fa723ae07"
+  },
+  "post_release": {
+    "requests": 305,
+    "canonical_pages": 54,
+    "redirect_rule_cases": 121,
+    "all_conference_asset_hashes": 10,
+    "public_manifest_equal": true,
+    "normal_tls": true,
+    "deployment_protection": "302 to vercel.com/sso-api; preserved",
+    "browser": "navigation/languages/filters/reload/legacy hashes/draft/mobile/desktop PASS; no email sent"
+  },
+  "automation": {
+    "id": "atualizar-v-deos-e-seo-lafmat",
+    "status": "ACTIVE",
+    "daily_time": "09:00 America/Sao_Paulo",
+    "notificationPolicy": "failed_runs_only",
+    "old_id": "not found; no duplicate remains"
+  }
+}

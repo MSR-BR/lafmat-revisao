@@ -56,3 +56,7 @@ Não foram enviados sitemap, pedidos de indexação ou eventos GA4. Nenhum DNS, 
 Rollback: preservar as fontes editoriais atuais; restaurar renderizador/navegação/template/saídas e manifesto anteriores usando a lista deste Change. Não usar `git reset --hard`, pois há documentos e artefatos de outras tarefas. Nenhum rollback de produção é necessário enquanto esta entrega permanecer local.
 
 Referências primárias consultadas em 24/11/2026: [JavaScript SEO](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics) e [sites multilíngues](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites). Servir conteúdo no HTML e usar URLs distintas por idioma segue essas orientações; indexação efetiva ainda depende da publicação e do Google.
+
+## Estado após release 24/11/2026
+
+PUBLICADO e validado com 004: d45f880, manifesto 20C36699ED23, Vercel READY. A expansão recorrente foi autorizada e ativada na rotina substituta atualizar-v-deos-e-seo-lafmat, 09h/failed_runs_only; não há pendência de ativação. Os parágrafos de preparação acima documentam o estado anterior, não o estado atual. Provas e limites em release-validation.md.

@@ -11,7 +11,7 @@ Classificação: SITE_EXISTING_REVISION + SITE_STATIC + SITE_ROUTE_PRESERVATION.
 - Não enviar mensagens ou alterar contas sem operação autorizada. Priorizar convites a senhas compartilhadas.
 - GA4 somente com conta/fluxo e escolhas de privacidade confirmados; sem PII, remarketing ou dupla contagem.
 - .specs é planejamento; nenhuma Change concluída antes da prova de aceite.
-- Revisar integração com automação de vídeos ao introduzir geração estática; autorização atual não cobre automaticamente novos caminhos derivados.
+- Revisar integração com automação de vídeos ao introduzir geração estática; a ampliação de 24/11/2026 cobre os HTML derivados listados no recibo, sitemap e recibo de geração, além de catálogo/miniaturas/manifesto. Não ampliar para outras fontes, regras ou arquivos.
 - Release técnico integrado tem revisão, destino, rollback e evidência TLS/manifesto. Planejamento não autoriza publicação.
 - Indexação, posicionamento e tempos do Google não são garantidos.
 

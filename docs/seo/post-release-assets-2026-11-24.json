@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-24",
+  "result": "PASS",
+  "assets": [
+    {
+      "path": "home/wp-content/uploads/2023/02/Head-1080x555.png",
+      "sha256": "cf58ee267d29387d8a20638c94e06192773a713913f174613e233bbe516a67fb",
+      "bytes": 894807,
+      "result": "PASS; all ten GET/hash assertions completed in initial asset loop before the separate preview-status assertion"
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/Head.png",
+      "sha256": "6a31ab933afa6a0633edc9fd2a8cd9214f8fa9f631363e5f8608f3d6eee17c74",
+      "bytes": 17400462,
+      "result": "PASS; all ten GET/hash assertions completed in initial asset loop before the separate preview-status assertion"
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/PosterSM.jpeg",
+      "sha256": "e584db2ccf89a7e9f7ce8e59c18123ff13bd5707a83be7d70b1dc8a62f78fcae",
+      "bytes": 629129,
+      "result": "PASS; all ten GET/hash assertions completed in initial asset loop before the separate preview-status assertion"
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/UNSM.png",
+      "sha256": "1a9c5083b56d92875d9a2a44ede3f214c340eec3898abb5d7fb6adbed617e824",
+      "bytes": 485390,
+      "result": "PASS; all ten GET/hash assertions completed in initial asset loop before the separate preview-status assertion"
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/logoevent-removebg-preview.png",
+      "sha256": "cd6802fcb778a234252bb705542395804d33950554d5b358b9049fa85e3c0369",
+      "bytes": 91899,
+      "result": "PASS; all ten GET/hash assertions completed in initial asset loop before the separate preview-status assertion"
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/resumen.pdf",
+      "sha256": "d59d2e86de518aff23ecf1d0e18661dc657a31c2edb2093fc5a1ebd50bdc80dc",
+      "bytes": 80234,
+      "result": "PASS; all ten GET/hash assertions completed in initial asset loop before the separate preview-status assertion"
+    },
+    {
+      "path": "home/wp-content/uploads/2023/02/spons.png",
+      "sha256": "3eb6a48dda4961fd1177422de8dcdb88f3ec3593063785c598bb1068536dfa96",
+      "bytes": 367234,
+      "result": "PASS; all ten GET/hash assertions completed in initial asset loop before the separate preview-status assertion"
+    },
+    {
+      "path": "home/wp-content/uploads/2023/03/SuperMagRev.jpeg",
+      "sha256": "ed4a632cf5788d149b76dfc0beb2043d18243e4fb9e08cd380c6c44cfbd16394",
+      "bytes": 39902,
+      "result": "PASS; all ten GET/hash assertions completed in initial asset loop before the separate preview-status assertion"
+    },
+    {
+      "path": "home/wp-content/uploads/2023/05/Resumen.zip",
+      "sha256": "d1d9e81faa2e55e7d771859a5bb2cb8ae26e5e98f3f8c40a734dc849da5b78ed",
+      "bytes": 101823,
+      "result": "PASS; all ten GET/hash assertions completed in initial asset loop before the separate preview-status assertion"
+    },
+    {
+      "path": "home/wp-content/uploads/2023/10/Img.png",
+      "sha256": "8a4042ba773168d80d58f79abc36cb3b96f9806202ec43ba79a532c2519c91f1",
+      "bytes": 60198,
+      "result": "PASS; all ten GET/hash assertions completed in initial asset loop before the separate preview-status assertion"
+    }
+  ],
+  "deployment_protection": {
+    "url": "https://lafmat-revisao-dzhhb4ry6-msr-brs-projects.vercel.app/",
+    "unauthenticated_status": 302,
+    "redirect_hostname": "vercel.com",
+    "redirect_path": "/sso-api",
+    "result": "PASS; authentication required; no protection settings changed"
+  },
+  "test_note": "Initial preview assertion omitted valid HTTP 302 login response. Corrected and independently verified login host; asset checks were not repeated."
+}

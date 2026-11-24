@@ -7,4 +7,6 @@
 5. [x] Documentar comando e contrato de atualização recorrente; adicionar bloqueio de HTML obsoleto no manifesto.
 6. [x] Testar 42 páginas por HTTP, paridade, rebuild determinístico, JS bloqueado e layout responsivo.
 7. [x] Registrar evidências e fronteira local no HANDOFF.
-8. [ ] Integrar com SEO/redirects de 004 e autorizar novos caminhos da automação antes de ativação/publicação.
+8. [x] Integrar com SEO/redirects de 004 e autorizar novos caminhos da automação antes de ativação/publicação.
+
+Aceite final: implementação e publicação verificadas em docs/seo/release-validation.md. Cobertura do inventário inclui exceções conservadoras expressamente aceitas, não prova de recuperação de todo o conteúdo antigo.

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-24",
+  "commit": "d45f880c2d5f2c290a9d762cdcce151fa723ae07",
+  "url": "https://lafmat.com/pt/",
+  "result": "PASS",
+  "flows": [
+    "seminars direct route and flyer",
+    "gallery total 273 grouped results from 306 recordings",
+    "year 2023 direct route and reload",
+    "Spanish language switch, no-result search, reset",
+    "conference submenu keyboard and archive link target=_blank; archive opened in separate tool-created tab on same domain",
+    "legacy /#seminars -> localized real route",
+    "member search Mario Reis",
+    "contact draft retained PT -> ES, no submission",
+    "mobile viewport 390x844, menu opens/closes after navigation",
+    "desktop viewport 1280x900, no horizontal overflow or broken loaded images",
+    "canonical and OG follow current route/language; no application console errors"
+  ],
+  "screenshots": [
+    "/Users/marioreis/.codex/visualizations/2026/11/17/01a1eae3-afec-7771-bffa-159658a909da/lafmat-seo-published-2026-11-24.jpg",
+    "/Users/marioreis/.codex/visualizations/2026/11/17/01a1eae3-afec-7771-bffa-159658a909da/lafmat-release-mobile-2026-11-24.jpg"
+  ],
+  "limits": [
+    "No YouTube playback or email delivery claimed",
+    "No Google index claim"
+  ]
+}

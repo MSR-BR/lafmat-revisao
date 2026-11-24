@@ -1,37 +1,32 @@
-# Release integrado SEO 003+004 — preparação 24/11/2026
+# Release SEO 003+004 — concluído em 24/11/2026
 
-Estado: CANDIDATO LOCAL VALIDADO; publicação ainda não executada. Nenhum claim de indexação Google.
+**Estado: PUBLICADO E VALIDADO. Gate PASS.** Site: https://lafmat.com/.
 
-Destino previsto: https://lafmat.com/, Vercel lafmat-revisao, time msr-brs-projects, Git main, Root Directory dist. Projeto confirmado por CLI (conector com 404 na conta desta sessão). Revisão exata e manifesto serão registrados no gate antes do push/deploy.
+Implementação aprovada: commit `d45f880c2d5f2c290a9d762cdcce151fa723ae07`, Vercel `lafmat-revisao`, time `msr-brs-projects`, Git main, Root Directory dist. Implantação READY `dpl_CJWnMJJbfTAbgEnw9CUqzstuoyqg`, URL individual `lafmat-revisao-dzhhb4ry6-msr-brs-projects.vercel.app` (protegida). Manifesto público igual ao candidato: `LAFMAT-20261124-20C36699ED23`, SHA256 `20c36699ed232c98379718c4fa0a9587e11bf08ab3fa34e476dc42affa911aea`, 641 arquivos locais verificados.
 
-## Entrega concreta
+## Comportamento e evidência
 
-- 42 páginas estáticas/idiomas e vídeos por ano, extraídas das fontes atuais; 306 gravações em 273 grupos.
-- Metadados específicos, canonical HTTPS, hreflang recíproco/x-default, Open Graph/Twitter e imagem PNG original.
-- JSON-LD Organization factual; sem Event por falta de página própria e dados completos do evento. Sem afirmação de elegibilidade a rich results.
-- 54 URLs no sitemap: 42 páginas novas + 12 entradas canônicas do arquivo existente. Lastmod significativo nas páginas geradas; omitido para arquivo histórico cuja data original é desconhecida.
-- 121 regras permanentes, com IDs WordPress antes da regra geral /home/. Conferência consolidada conforme autorização explícita, sem alterar seus arquivos/editorial. Canonical de arquivo via cabeçalho HTTP Link.
-- trailingSlash, index.html e 404 explícitos; noindex de previews por host, sem enfraquecer a proteção da Vercel.
+- 42 páginas/idiomas e anos geradas de fonte comum, HTML inicial sem JS. 306 gravações em 273 grupos.
+- Canonical HTTPS, títulos/descrições, idiomas recíprocos/x-default, OG/Twitter/PNG original e Organization factual. Não foi incluído Event sem página própria/dados completos.
+- Sitemap com 54 URLs canônicas: 42 páginas e 12 entradas do arquivo de conferência. Lastmod significativo nas páginas geradas; omitido para o arquivo cuja data original não é comprovada. Robots público aponta ao sitemap.
+- Todos os 121 casos de regras permanentes passaram no servidor: IDs WordPress, index.html, seções, anos, aliases de conferência e mídias idênticas. Destinos equivalentes e estados finais esperados, sem loops. URLs desconhecidas mantêm 404 real.
+- 305 requisições públicas sequenciais com TLS normal: 54 páginas canônicas, hashes exatos dos 42 HTML, canonical HTTP do arquivo, 121 casos de redirects com seguimento, robots/sitemap/imagem/manifesto com bytes iguais, 404 e variantes HTTP/www. Sem erro ou challenge nesse teste final. Recibo: `post-release-http-2026-11-24.json`.
+- Dez arquivos de conferência, incluindo PDF e ZIP, conferem com hashes/bytes preservados. Proteção da URL individual confirmada por HTTP 302 para `vercel.com/sso-api`, sem desativar proteção. Recibo: `post-release-assets-2026-11-24.json`.
+- Navegador real: idiomas, galerias/anos, filtros/busca, recarga, links hash, arquivo, membros, rascunho de contato e menu móvel. Viewports 390/1280 sem overflow nas amostras, imagens da home carregadas, console da aplicação sem erros. Não houve envio de email. Recibo: `post-release-browser-2026-11-24.json`.
+- Testes locais de fonte/paridade/segurança, oito testes de sync, conferência e inventário passaram. Configuração estática validada sem baixar variáveis de produção. `vercel build --prod --yes` foi recusado por auto-review e não foi executado nem contornado; testes de schema/padrões e implantação real aprovada forneceram a evidência necessária.
 
-## Cobertura e exceções
+## Rotina diária
 
-As 1.672 URLs têm decisão registrada em migration-decisions.csv. Há 512 páginas de anexos ausentes, 497 mídias sem binário público comprovado, sete páginas/posts sem equivalente (incluindo templates/formulários antigos), uma referência órfã e sete aliases de ID desses caminhos ausentes. Esses são estados preexistentes mantidos; não se afirma recuperação de todo o WordPress nem se publica o backup. A decisão conservadora é preservar o 403/404 existente sem redirecionar a home ou declarar remoção 410. Resultados HTTP antes/depois distinguirão regressões. Qualquer regressão nova deve impedir conclusão e ser corrigida ou sofrer rollback.
+A rotina antiga `atualizar-v-deos-lafmat` não existia no cadastro (delete retornou not_found). A substituta `atualizar-v-deos-e-seo-lafmat` foi criada e atualizada com sucesso como heartbeat neste chat, ACTIVE, diariamente às 09h no contexto de Brasília, notificationPolicy failed_runs_only. Usuário aprovou expressamente a substituição e a publicação.
 
-## Evidências locais
+Ela consulta os dois canais autorizados, atualiza catálogo/miniaturas, gera o HTML/agenda/destaque por data e sitemap a partir das fontes cadastradas, testa e só então publica diferenças relevantes. Novos seminários não são descobertos ou redigidos automaticamente. Alterações fora do escopo, erro ou limite do YouTube interrompem a publicação. output/ local é preservado e nunca incluído em staging. Requer disponibilidade do Codex/computador; o próximo disparo agendado ainda não ocorreu. Ver `automation-replacement-2026-11-24.json`.
 
-- verify_static_site: PASS 42 páginas, paridade, 3.204 links/assets locais.
-- verify_seo: PASS 42 conjuntos de metadados/idiomas recíprocos, 54 URLs de sitemap, 121 regras, 1.672 decisões.
-- Schema público da Vercel validado localmente (declaração de meta-schema draft-04 omitida apenas para compatibilidade do AJV instalado); SHA do schema e limite no recibo vercel-config-validation-2026-11-24.json. Padrões compilados com path-to-regexp 6.1.0 já no cache da ferramenta, sem dependência nova do projeto. Isso não substitui o teste real do host.
-- Vídeos: 306/273 PASS. Sync: oito testes PASS. Conferência: 22 arquivos/aliases, paridade e dez assets PASS. Inventário 001 preservado PASS.
-- Navegador local: canonical/og/descrição/alternates acompanham navegação e idioma; recarga PT/seminars preserva metadados e conteúdo; console sem erros da aplicação. Candidato visual salvo fora do repositório.
-- Security fast check: PASS; revisão focada em dist/vercel.json, sem proxy, APIs, segredos ou dependências de produção novas.
+## Exceções preservadas e limites
 
-## Publicação e rollback
+As 1.672 URLs têm decisão em migration-decisions.csv. Páginas/anexos/mídias antigos sem equivalente comprovado permanecem explicitamente classificados; não se afirma recuperação integral de WordPress, não foi publicado backup privado nem usado redirect genérico à home. O usuário aprovou publicar mantendo essas exceções. 403 no baseline em lote foram reclassificados como inconclusivos por Vercel Security Checkpoint, não como prova de ausência; os checks finais de páginas/rotas passaram com ritmo reduzido.
 
-Somente dist será entregue à Vercel; backups, output, .env e .vercel não pertencem ao deploy. Push main dispara Git integration e só pode ocorrer após aprovação do candidato exato conforme gate. Verificar READY, manifesto/hash/TLS e status/redirects/canonical/sitemap nos domínios reais; manter a proteção dos endereços individuais. Submissão ao Search Console e GA4 permanecem nas Changes 006/005.
+Nenhum DNS, WordPress, Analytics ou propriedade Google foi alterado neste release. Sitemap ainda não foi enviado ao Search Console; GA4 e submissão/inspeção Google permanecem nas Changes 005/006. Não garantir indexação ou ranking. A conferência mantém conteúdo/arquivos originais; sua consolidação foi de rotas e canonical via cabeçalho.
 
-Rollback conhecido: implantação lafmat-revisao-m3cqnmy2r-msr-brs-projects.vercel.app, commit cd4d110, manifesto LAFMAT-20261123-BCB04519421A. Restaurar domínio para essa implantação sem mudar DNS/certificado; não apagar fontes atuais nem novos dados posteriores. Rollback pode exigir promoção explícita para retomar atribuição automática da Vercel.
+## Rollback
 
-Rotina: usuário autorizou ampliar e preservar horário/notificações em 24/11/2026. Configuração antiga não disponível no arquivo local; tentativa de atualização por ferramenta exige parâmetros completos. Prompt ampliado preparado; pergunta de substituição por rotina de chat pendente. Não declarar sincronização recorrente ativa antes de confirmação real.
-
-Limite observado em 24/11: o cliente HTTP recebeu Vercel Security Checkpoint (x-vercel-mitigated: challenge) após a checagem em lote. 403 não comprova ausência de recurso. Varredura interrompida; repetir somente verificações pontuais quando o acesso normal estiver disponível, sem bypass de challenge nem alteração de firewall. Recibo de baseline marcado PARTIAL.
+Implantação anterior recuperável: `lafmat-revisao-m3cqnmy2r-msr-brs-projects.vercel.app`, commit `cd4d110`, manifesto `LAFMAT-20261123-BCB04519421A`. Usar rollback/promote na Vercel preservando DNS/certificado e novos dados posteriores. Nenhum rollback foi necessário. Atualizações posteriores de documentação podem ter outro commit Git; a revisão de implementação e todos os bytes de dist permanecem os aprovados acima.

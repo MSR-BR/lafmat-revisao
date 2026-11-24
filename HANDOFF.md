@@ -235,3 +235,24 @@ PO_MAGICO_LESSON_CANDIDATE: sondagem de migração deve parar em x-vercel-mitiga
 Divergência do arquivo local/remoto do método previamente registrada continua; não houve sincronização nem declaração de conformidade integral.
 
 Atualização de preparação: arquivos gerados normalizados para LF/sem whitespace de fim de linha; candidato atual LAFMAT-20261124-20C36699ED23, SHA256 20c36699ed232c98379718c4fa0a9587e11bf08ab3fa34e476dc42affa911aea. Navegador público concluiu automaticamente a verificação normal da Vercel e abriu a versão de produção anterior; não houve bypass, mudança de firewall ou CAPTCHA manual. 403 do lote continuam sem provar origem/ausência.
+
+Checkpoint final de preparação 004: commit LOCAL d45f880c2d5f2c290a9d762cdcce151fa723ae07 (164 arquivos; output/ excluído). Nenhum push/deploy. Manifesto 20C36699ED23. Perguntas pendentes no UI: substituir rotina antiga por heartbeat diário 09h e publicar revisão exata no projeto/domínio existentes. Não inferir respostas por tempo. Gate local em docs/seo/release-gate-2026-11-24.json: BLOCKED operacional até respostas/aceite real; verificações locais PASS. Antes de alterar fonte após aprovação, conferir vínculo da autorização à revisão.
+
+
+## Fechamento 24/11/2026 — Changes 003+004 PUBLICADAS E VALIDADAS
+
+Usuário autorizou expressamente publicar d45f880 em lafmat.com e substituir a rotina mantendo 09h/avisos apenas em falha. Push main concluído. Vercel READY dpl_CJWnMJJbfTAbgEnw9CUqzstuoyqg (lafmat-revisao-dzhhb4ry6-msr-brs-projects.vercel.app), implantação Git d45f880. Manifesto público e local idênticos LAFMAT-20261124-20C36699ED23 / SHA256 20c36699ed232c98379718c4fa0a9587e11bf08ab3fa34e476dc42affa911aea / 641 arquivos. Nenhum arquivo dist mudou após o commit aprovado.
+
+Aceite real PASS: 305 requisições públicas pausadas/sequenciais, 54 páginas canônicas, 42 HTML com hash exato, 121 casos de regras permanentes com destinos/status corretos e sem loops, sitemap/robots/PNG/manifesto com bytes iguais, 404 real e HTTPS/www; dez assets incluindo PDF/ZIP com hashes preservados. Proteção individual confirmada por 302 para vercel.com/sso-api, sem desproteger previews. Navegador produção: idiomas, galeria/anos/filtros, recarga, links hash, conferência, membros, rascunho de contato (sem envio), móvel 390/desktop 1280, sem overflow/imagens quebradas observadas nem erro de aplicação. Recibos post-release-*.json e release-gate JSON PASS.
+
+Automação antiga atualizar-v-deos-lafmat não existia no cadastro: delete retornou not_found. Substituta atualizar-v-deos-e-seo-lafmat criada e atualizada pela ferramenta, ACTIVE, heartbeat neste chat, diária 09h de Brasília, notificationPolicy failed_runs_only. Prompt aprovado/registado em .specs/004/automation-prompt.md e recibo automation-replacement-2026-11-24.json. Usa dados de agenda já cadastrados, não descobre novos seminários. Não baixa vídeos, publica só alterações relevantes após testes e preserva fontes/WordPress/DNS/conferência. output/ local não bloqueia por si só, mas nunca é lido/staged. Disparo futuro não observado; depende de disponibilidade local do Codex/computador.
+
+Exceções históricas de mídias/páginas sem equivalente mantidas conforme autorização; não afirmar recuperação integral. 403 do lote inicial continuam inconclusivos por antigo challenge; checagens finais passaram sem challenge, sem bypass ou alteração de firewall. Nenhum GA4 instalado nem sitemap submetido ao Google: próximas Changes 005/006, sem execução automática.
+
+PO_MAGICO_SOURCE: ../po-magico
+PO_MAGICO_VERSION_USED: v20261111.001
+PO_MAGICO_LAST_CHECKED: 2026-11-24
+PO_MAGICO_CHECKPOINT: delivery/closure — 003+004
+PO_MAGICO_DELTA_ADOPTED: yes — fonte comum, gate exato, prova do host e contrato recorrente efetivo
+PO_MAGICO_LESSON_CANDIDATE: aceitar 302 para login como proteção de implantação; parar sondagem em challenge; comprovar rotina real em vez de confiar em memória de cadastro antigo
+Método local/remoto permanece divergente conforme histórico, sem sincronização do arquivo de método. Modelo efetivo Codex, identificador exato/custo/latência não expostos.

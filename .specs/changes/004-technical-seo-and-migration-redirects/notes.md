@@ -15,3 +15,14 @@ APPROVED_REVISION: execução local e escopos específicos autorizados; gate de 
 APPROVED_DESTINATION: projeto/destino previsto lafmat.com / Vercel lafmat-revisao, time msr-brs-projects
 APPROVAL_EVIDENCE: “pode seguir com a Change 004” e respostas explícitas às duas perguntas de escopo
 PUBLICATION_EVIDENCE: nenhuma
+
+## Publicação final
+
+PUBLICATION_STATE: PUBLISHED
+APPROVED_REVISION: d45f880c2d5f2c290a9d762cdcce151fa723ae07
+APPROVED_DESTINATION: https://lafmat.com/ — Vercel lafmat-revisao / msr-brs-projects
+APPROVAL_EVIDENCE: usuário “Pode publicar o commit d45f880 no lafmat.com e substituir a rotina diária, mantendo as 09h e avisos só em caso de falha. Teste tudo e conclua.”
+PUBLICATION_EVIDENCE: docs/seo/release-gate-2026-11-24.json e post-release-*.json; READY, manifesto exato, gate PASS
+AUTOMATION: atualizar-v-deos-e-seo-lafmat ACTIVE; antiga not_found, sem duplicata
+
+As pendências descritas na preparação foram resolvidas; recuperação de recursos históricos e GA4/GSC não pertencem a esse fechamento.

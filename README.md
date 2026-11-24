@@ -1,14 +1,14 @@
 # LAFMAT Web
 
-Para conferir o candidato local da Change 003, execute `python3 scripts/preview_site.py` e abra `http://127.0.0.1:8765/`. A navegação agora usa endereços reais, portanto abrir via `file://` não é mais o modo de prévia suportado. O vídeo institucional e as imagens migradas são arquivos locais. YouTube e Google Scholar precisam de internet. A versão em produção ainda é a anterior; publicação de 003+004 será integrada.
+O site está publicado em https://lafmat.com/. Para conferir uma prévia local, execute `python3 scripts/preview_site.py` e abra `http://127.0.0.1:8765/`. A navegação agora usa endereços reais, portanto abrir via `file://` não é mais o modo de prévia suportado. O vídeo institucional e as imagens migradas são arquivos locais. YouTube e Google Scholar precisam de internet. O release integrado 003+004 foi publicado e validado em 24/11/2026; veja docs/seo/release-validation.md.
 
-## HTML estático e URLs — candidato local
+## HTML estático e URLs
 
 As fontes continuam em `dist/assets/content.js`, `archive.js`, `i18n.js` e `videos.js`. Após alterá-las, execute `node scripts/build_site.cjs`, `node scripts/verify_static_site.cjs`, `python3 scripts/update_manifest.py` e `python3 scripts/verify.py`. Node.js 20+ é usado somente na manutenção, sem dependências novas; o resultado permanece HTML/CSS/JS estático, sem build na hospedagem. Não editar os HTML gerados manualmente.
 
 São 42 páginas com conteúdo inicial, inclusive sem JavaScript: sete seções em três idiomas e sete anos de vídeos em três idiomas. Inglês usa `/members/`, `/videos/`, `/seminars/` etc.; português e espanhol usam `/pt/` e `/es/`. O menu conserva o arquivo de 2023 em outra aba. Links hash antigos continuam compatíveis no navegador. Veja [o contrato de rotas](docs/seo/route-contract.md) para fontes, limitações, QA e preparação da automação.
 
-O comando `python3 scripts/preview_site.py --port 8766 --no-js` serve a mesma saída com scripts bloqueados via CSP para conferir conteúdo e navegação sem JavaScript. A data do HTML é a do build; o navegador com JavaScript atualiza o destaque/agenda pela data corrente. Publicação, SEO técnico e atualização diária desse HTML dependem da integração com a Change 004.
+O comando `python3 scripts/preview_site.py --port 8766 --no-js` serve a mesma saída com scripts bloqueados via CSP para conferir conteúdo e navegação sem JavaScript. A data do HTML é a do build; o navegador com JavaScript atualiza o destaque/agenda pela data corrente. SEO técnico e atualização diária do HTML estão integrados ao release 003+004.
 
 ## SEO técnico e migração — Change 004
 
@@ -63,9 +63,9 @@ python3 scripts/verify.py
 
 Sem `--full`, o coletor consulta os feeds recentes. O modo completo evita depender do limite de 15 itens dos feeds. Não baixa os vídeos, não precisa de chave de API e não altera os canais. Reutiliza o catálogo e o cache para não consultar novamente todas as páginas antigas; em falha ou limite do YouTube, interrompa a publicação e preserve a versão vigente. Não remove gravações antigas automaticamente. O site continua estático; o coletor e sua dependência são ferramentas de manutenção, fora de dist.
 
-A automação Codex **Atualizar vídeos LAFMAT** (`atualizar-v-deos-lafmat`) está ativa diariamente às 09h, no horário local de Brasília, com autorização recorrente para publicar somente catálogo, miniaturas e manifesto após os testes. A execução é local e depende da disponibilidade do Codex/computador; não é um serviço de agendamento da Vercel. A política de notificações informa falhas. Alterações em WordPress, conferências, DNS ou outras seções não fazem parte dessa autorização.
+A automação Codex **Atualizar vídeos e SEO LAFMAT** (`atualizar-v-deos-e-seo-lafmat`) está ativa neste chat, diariamente às 09h de Brasília, autorizada a publicar catálogo, miniaturas, HTML derivados, sitemap, recibo de build e manifesto após os testes. A execução é local e depende da disponibilidade do Codex/computador; não é um serviço de agendamento da Vercel. A política de notificações informa falhas. Alterações em WordPress, conferências, DNS ou outras seções não fazem parte dessa autorização.
 
-**Pendência para publicar 003+004:** a automação não foi alterada nesta Change. Será necessário autorizar especificamente os novos HTML derivados, o recibo de geração e os passos de build/validação antes de ativar esse fluxo em produção. O guard de `update_manifest.py` interrompe o processo quando fontes e HTML divergem; ele não amplia a autorização de publicação.
+A ampliação e a substituição da rotina foram expressamente autorizadas em 24/11/2026. A rotina anterior não existia no cadastro; a substituta está ACTIVE, com avisos apenas em falhas. Ela também recompila a agenda/destaque por data mesmo sem vídeo novo, mas não cadastra novos seminários automaticamente. O guard de `update_manifest.py` interrompe o processo quando fontes e HTML divergem. Artefatos locais output/ e backups permanecem fora do escopo e do Git.
 
 ## Arquivo da conferência de 2023
 

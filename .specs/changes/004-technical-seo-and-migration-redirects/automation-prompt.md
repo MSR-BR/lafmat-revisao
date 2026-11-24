@@ -1,12 +1,10 @@
-# Prompt da rotina ampliada
+# Rotina ampliada — ACTIVE
 
-Preparado em 24/11/2026; autorização do novo escopo recebida. A configuração antiga não está disponível localmente; atualização por ferramenta ainda depende da resolução do cadastro. Não se declara ativa por existência deste documento.
-
-O escopo permitido é catálogo, miniaturas, HTML gerados registrados no recibo, sitemap, recibo e manifesto. Horário 09h de Brasília; notificações apenas em falhas. Nenhuma alteração de conferência, WordPress, regras Vercel, DNS, Analytics ou fontes editoriais além do catálogo. Uma substituição da rotina existente depende da resposta específica do usuário.
+Atualizar vídeos e SEO LAFMAT, id atualizar-v-deos-e-seo-lafmat. Heartbeat neste chat, 09h de Brasília, failed_runs_only. Criação e atualização confirmadas pela ferramenta em 24/11/2026. Rotina antiga not_found. Requer disponibilidade local; disparo futuro ainda não observado.
 
 Mantenha a galeria de vídeos e o HTML indexável da LAFMAT atualizados diariamente no projeto lafmat web, preservando o horário, destino e política de notificações existentes. Use somente este projeto/repositório MSR-BR/lafmat-revisao e a produção https://lafmat.com/ no projeto Vercel lafmat-revisao, time msr-brs-projects.
 
-Antes de mudar arquivos, leia HANDOFF.md, README.md e docs/seo/route-contract.md. Confirme que a branch é main, a integração SEO 003+004 já está publicada e a identidade pública inicial confere com a versão de origem. Se o checkout contiver alterações pendentes de outras tarefas, se os geradores não existirem ou se o release integrado não estiver operacional, preserve tudo e encerre como falha; não publique um candidato parcial. Não baixe variáveis de produção nem leia segredos.
+Antes de mudar arquivos, leia HANDOFF.md, README.md e docs/seo/route-contract.md. Confirme que a branch é main, a integração SEO 003+004 já está publicada e a identidade pública inicial confere com a versão de origem. Se houver alterações rastreadas/staged pendentes de outras tarefas, arquivos novos de implementação não revisados, geradores ausentes ou release integrado não operacional, preserve tudo e encerre como falha; não publique um candidato parcial. Artefatos locais não rastreados em output/ e diretórios já ignorados de backup/cache/ambiente podem permanecer: nunca os leia, altere ou inclua em staging. Não interrompa apenas porque esses artefatos locais existem. Não baixe variáveis de produção nem leia segredos.
 
 Consulte apenas os canais autorizados https://www.youtube.com/@Lafmatnetwork e https://www.youtube.com/@gimatefun5035. Execute .venv-youtube/bin/python scripts/sync_youtube.py --full para atualizar catálogo e miniaturas; não baixe as gravações nem remova vídeos antigos automaticamente. Em erro ou limitação do YouTube, preserve a publicação vigente e pare, sem ciclo de tentativas.
 

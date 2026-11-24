@@ -17,3 +17,7 @@ Resultado: PASS para implementação local. Release integrado com 004: NOT_RUN.
 - `git diff --check`: PASS.
 
 Produção observada intacta: LAFMAT-20261123-BCB04519421A. Não foram validados redirects/canonical/hreflang/robots/sitemap na Vercel (004), Google index (006) ou expansão da automação. A prévia Python não é evidência de TLS/regras da Vercel. Conteúdo sem JS acompanha a data do build; atualização diária será integrada antes do release.
+
+## Validação pública final
+
+PASS: 305 requisições sequenciais, 54 páginas canônicas, 121 regras permanentes, artefatos com bytes exatos, 404 real, HTTPS/www e dez assets. Deployment dpl_CJWnMJJbfTAbgEnw9CUqzstuoyqg READY, proteção de URL individual preservada (302 login). Navegador/rotina ACTIVE comprovados. Estado pendente/local acima descreve preparação histórica; estado atual em release-validation.md.

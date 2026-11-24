@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-24",
+  "old_automation": {
+    "id": "atualizar-v-deos-lafmat",
+    "delete_status": "not_found",
+    "evidence": "automation_update delete confirmed Automation already does not exist in the app"
+  },
+  "replacement": {
+    "id": "atualizar-v-deos-e-seo-lafmat",
+    "kind": "heartbeat",
+    "destination": "current thread",
+    "name": "Atualizar vídeos e SEO LAFMAT",
+    "status": "ACTIVE",
+    "schedule": "daily 09:00",
+    "client_timezone": "America/Sao_Paulo",
+    "notificationPolicy": "failed_runs_only",
+    "evidence": "automation_update create and update both returned success with ACTIVE"
+  },
+  "scope": [
+    "two authorized YouTube channels, catalog and thumbnails",
+    "derived HTML from existing canonical sources",
+    "date-based schedule and next-seminar highlight",
+    "sitemap, build receipt and verification manifest",
+    "validate before commit/push; no publish on failure",
+    "ignore local output/ artifacts but never stage them"
+  ],
+  "excluded": [
+    "WordPress",
+    "DNS",
+    "conference editorial content",
+    "GA4/Search Console property mutations",
+    "new seminar content not supplied in canonical data"
+  ],
+  "runtime_limit": "Local Codex/computer availability; future 09:00 trigger has not occurred yet"
+}

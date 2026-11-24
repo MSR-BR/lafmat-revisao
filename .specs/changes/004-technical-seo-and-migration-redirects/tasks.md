@@ -6,6 +6,8 @@
 4. [x] Validar localmente fontes, HTML, metadados, padrões, conferência, vídeos e segurança.
 5. [x] Registrar baseline público por HEAD; reclassificar como PARTIAL onde há Vercel challenge, sem tratar 403 como ausência.
 6. [x] Preparar ampliação da rotina; autorização do escopo recebida. Ferramenta exige cadastro completo antigo indisponível; substituição solicitada.
-7. [ ] Finalizar rotina operacional sem alterar horário/notificações autorizados.
-8. [ ] Preparar revisão exata, solicitar/aplicar gate de publicação previsto no plano, publicar no destino correto.
-9. [ ] Validar implantação real READY, HTTPS, canonical/sitemap/redirects/downloads/404, identidade e rollback.
+7. [x] Finalizar rotina operacional sem alterar horário/notificações autorizados.
+8. [x] Preparar revisão exata, solicitar/aplicar gate de publicação previsto no plano, publicar no destino correto.
+9. [x] Validar implantação real READY, HTTPS, canonical/sitemap/redirects/downloads/404, identidade e rollback.
+
+Aceite final: implementação e publicação verificadas em docs/seo/release-validation.md. Cobertura do inventário inclui exceções conservadoras expressamente aceitas, não prova de recuperação de todo o conteúdo antigo.

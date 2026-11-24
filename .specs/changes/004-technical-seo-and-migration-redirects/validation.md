@@ -12,3 +12,7 @@ PASS_LOCAL para implementação. Aceite de produção: PENDING; baseline HTTP: P
 - verify.py: LAFMAT-20261124-20C36699ED23, SHA256 20c36699ed232c98379718c4fa0a9587e11bf08ab3fa34e476dc42affa911aea, 641 arquivos.
 
 Nada foi publicado; callbacks de proteção, equivalência real de URLs com query e precedência no servidor continuam exigindo prova do candidato real. Não alegar indexação, GA4 ou recuperação integral de WordPress. Gate final deve citar commit e destino aprovados.
+
+## Validação pública final
+
+PASS: 305 requisições sequenciais, 54 páginas canônicas, 121 regras permanentes, artefatos com bytes exatos, 404 real, HTTPS/www e dez assets. Deployment dpl_CJWnMJJbfTAbgEnw9CUqzstuoyqg READY, proteção de URL individual preservada (302 login). Navegador/rotina ACTIVE comprovados. Estado pendente/local acima descreve preparação histórica; estado atual em release-validation.md.

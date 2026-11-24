@@ -11,3 +11,7 @@
 Não aceitar risco em nome do usuário. Resultado final de gate será registrado para revisão e destino exatos. Nenhum segredo ou conteúdo privado foi usado na imagem de compartilhamento.
 
 Limite observado em 24/11: o cliente HTTP recebeu Vercel Security Checkpoint (x-vercel-mitigated: challenge) após a checagem em lote. 403 não comprova ausência de recurso. Varredura interrompida; repetir somente verificações pontuais quando o acesso normal estiver disponível, sem bypass de challenge nem alteração de firewall. Recibo de baseline marcado PARTIAL.
+
+## Fechamento verificado — 24/11/2026
+
+SEO-SYNC: rotina substituta ACTIVE e escopo autorizado; execução futura depende do ambiente local. SEO-ROUTES: 305 checks reais PASS, cobrindo 54 páginas e 121 regras. SEO-PREVIEW: 302 para vercel.com/sso-api confirmado, sem modificar proteção. SEO-OLD: exceções conservadoras aceitas pelo usuário, sem recuperação de conteúdo não comprovado. SEO-DATE: build diário configurado; não se afirma disparo futuro já observado. Gate de release final PASS em docs/seo/release-gate-2026-11-24.json.
