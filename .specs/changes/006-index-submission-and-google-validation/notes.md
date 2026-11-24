@@ -1,16 +1,16 @@
 # Decisões, riscos e reversão
 
-Falha de acesso deixa somente esta operação pendente; não bloquear correções técnicas locais por ausência de conta. Dependência 005 é para vínculo; submissão pode ocorrer após 002+004.
+PUBLICATION_STATE: EXTERNAL_GOOGLE_OPERATIONS_COMPLETED
+REVIEW_CANDIDATE: Search Console sc-domain:lafmat.com + GA4 565753617 / stream 16408359562
+APPROVED_DESTINATION: propriedades LAFMAT sob mario.reis.junior@gmail.com
+APPROVAL_EVIDENCE: pedido explícito de execução 006 e confirmação final da associação SC/GA4
+PUBLICATION_EVIDENCE: recibo google-validation-2026-11-24.json e screenshots da sessão
+SITE_PUBLICATION_STATE: sem alteração do site; base c3177e1, dist equivalente a 5c69d78, manifesto9CB50AF756EB
 
-Rollback: Corrigir/remover sitemap incorreto e desfazer vínculo incorreto; evitar pedidos de remoção de URLs para tentar reverter indexação.
+Sitemap submetido uma vez; processamento Success e57 páginas descobertas. O primeiro Couldn't fetch foi transitório. Cinco prioridades estruturais receberam testes ao vivo e pedidos aceitos; sem métricas históricas disponíveis para priorização quantitativa. Não repetir pedidos: Google informa que isso não acelera a fila.
 
-Não marcar como concluída por criação destes documentos. Preservar output/, backups privados e alterações de outras tarefas. Nenhuma senha/token deve entrar no Git.
+Associação final foi submetida somente após confirmação do usuário sobre fluxo de dados entre as propriedades e registro do email de autoria. Vínculo correto confirmado. Nenhuma inclusão de novo usuário, chave, anúncio ou coleta extra. Coleção Search Console já publicada; não duplicada. Relatório Queries sem dados, não interpretado como zero.
 
-## Estado de publicação
+Amostras inicialmente fora do índice; inclusão efetiva e relatórios continuam pendentes do Google. Isso não invalida a configuração concluída e não pode ser forçado pelo agente. Próxima Change007 de acompanhamento depende de solicitação; nenhuma automação nova criada.
 
-PUBLICATION_STATE: NOT_IN_SCOPE (planejamento; avaliar novamente na execução)
-REVIEW_CANDIDATE: ainda não produzido
-APPROVED_REVISION: nenhuma para este Change
-APPROVED_DESTINATION: destino previsto lafmat.com/Vercel ou propriedade Google confirmada; sem operação aplicada
-APPROVAL_EVIDENCE: pedido de criação das Changes, não de execução neste turno
-PUBLICATION_EVIDENCE: nenhuma
+Rollback: remover/corrigir sitemap incorreto ou desfazer vínculo incorreto, preservando propriedade e histórico; não usar remoção de URLs para tentar reverter indexação. Nenhum rollback necessário nesta Change. output/ e backups preservados.

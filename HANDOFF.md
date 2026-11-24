@@ -302,3 +302,25 @@ PO_MAGICO_CHECKPOINT: delivery — 005
 PO_MAGICO_VERSION: v20261111.001; divergência de origem documentada, sem alegar sincronização integral
 ACTUAL_MODEL: Codex, identificador específico não exposto
 ADOPTED_DELTA: publicar configuração mínima, corrigir inicialização Google, provar consentimento/ingestão e registrar rollback
+
+## 24/11/2026 — Change 006: configuração e submissão concluídas; índice em processamento
+
+Usuário pediu executar006 e confirmou a associação final. Sem mudança de dist: base c3177e1 / implementação5c69d78 / manifesto LAFMAT-20261124-9CB50AF756EB. Sitemap/robots/manifesto públicos HTTP200 e bytes iguais ao local. Sitemap submetido uma vez a sc-domain:lafmat.com; primeiro Couldn't fetch resolveu para Sitemap processed successfully e tabela Success,57 páginas descobertas, leitura24nov. Não confundir descoberta com indexação.
+
+Vínculo criado sob mario.reis.junior@gmail.com: domínio lafmat.com, GA4 LAFMAT — lafmat.com565753617, fluxo LAFMATwebsite16408359562/https://lafmat.com. Link created successfully e linha observados após confirmação específica do usuário. Coleção Search Console já Published to all, Queries e Google organic search traffic no menu; Queries sem dados ainda. Nenhuma mudança de coleta, consentimento ou filtro.
+
+Cinco testes ao vivo do Google Inspection Tool smartphone passaram, todos com fetchSuccessful/crawlYes/indexYes/canonical próprio: /, /pt/seminars/, /es/videos/, /videos/2026/, /conferences/2023/. Cinco pedidos Indexing requested aceitos na fila prioritária. Home teve HTML (metadata/canonical/hreflang) e screenshot renderizados verificados. Consultas iniciais não mostravam indexação: home desconhecida, quatro demais Discovered-currently not indexed via sitemap. Isso não mede cobertura total do domínio. Canonical definitivo Google só após indexação.
+
+Alias /home/program/ inicialmente desconhecido; teste ao vivo seguiu o destino e reconheceu canonical /conferences/2023/program/. Não foi solicitado indexar o alias. Não repetir pedidos nem usar Change of Address (domínio igual), Indexing API para páginas comuns ou remoção de URLs. Sem WordPress/DNS/Ads/automação nova. Relatórios Performance/Pages iniciais ainda processam; HTTPS histórico14/1 não é falhaTLS atual. Nenhuma garantia de prazo ou ranking.
+
+Evidência: docs/seo/google-validation.md e google-validation-2026-11-24.json; screenshots lafmat-google-sitemap-success, lafmat-search-console-analytics-linked, lafmat-google-indexing-requested, lafmat-google-rendered-home, lafmat-google-legacy-redirect de24nov na pasta de visualizações da sessão. Chrome4, scTab1519142409 (sitemaps), gaTab1519142394 (Queries); tabs marcadas como deliverable. Não tomar abas de outras sessões.
+
+Próxima Change007: acompanhamento da indexação/linha de base, ainda não solicitada. Rotina09h de vídeos/SEO mantém o escopo anterior e não altera propriedades Google. output/ e backups preservados. Documentação final não muda a árvore pública.
+
+PO_MAGICO_SOURCE: ../po-magico
+PO_MAGICO_VERSION_USED: v20261111.001; divergência de origem já documentada, sem alegar sincronização integral
+PO_MAGICO_LAST_CHECKED: 2026-11-24
+PO_MAGICO_CHECKPOINT: delivery —006
+PO_MAGICO_DELTA_ADOPTED: sim; submissão comprovada, integração confirmada e limites de indexação explícitos
+PO_MAGICO_LESSON_CANDIDATE: distinguir estado transitório do envio de sitemap do processamento final; não repetir submissão de imediato
+ACTUAL_MODEL: Codex, identificador específico não exposto

@@ -6,10 +6,10 @@ PLANNED_REASONING: medium; high se houver ambiguidade material de rotas/privacid
 RATIONALE: implementação e validação com dependências entre publicação, rastreamento e medição
 ALLOWED_FALLBACK: modelo do mesmo tier ou superior se disponível, sem reduzir critérios
 ESCALATION_TRIGGERS: perda de URLs/conteúdo, falha repetida, PII ou consentimento incorreto, divergência de destino/canonical
-ACTUAL_MODEL: não aplicável; Change ainda não executada
+ACTUAL_MODEL: Codex; identificador específico não exposto
 ACTUAL_REASONING: not exposed
 FALLBACK_OBSERVED: nenhum
 TOKENS: not measured
 LATENCY: not measured
 COST: not measured
-EVIDENCE_SOURCE: plano criado por Codex; modelo específico não exposto neste registro
+EVIDENCE_SOURCE: execução em painéis Google e verificações locais, 24/11/2026; sem telemetria de custo/tokens

@@ -58,3 +58,7 @@ Concluído: candidato autorizado/publicado; rede204 de pageview único eURLlimpa
 Plano técnico, sem declaração de conformidade legal universal ou garantia de indexação.
 
 A configuração na UI de inicialização é dependência operacional do release. Não restaurar o container Google versão1: reintroduz auto-pageview. Restaurar site anterior remove a integração, mas não apaga dados já recebidos. Referência adicional: https://support.google.com/analytics/answer/18411054 .
+
+## Associação Search Console — Change 006
+
+Em 24/11/2026, usuário confirmou e a UI comprovou o vínculo entre sc-domain:lafmat.com e o fluxo LAFMAT website 16408359562 da propriedade GA4 565753617. Coleção Search Console já Published to all, com Queries e Google organic search traffic. O relatório Queries abriu e informa No data available; aguardar processamento, sem tratar como zero visitas. Recibo google-validation-2026-11-24.json. Não alteradas coleta, consentimento, filtros ou configuração da tag.

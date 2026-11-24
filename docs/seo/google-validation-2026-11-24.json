@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-24",
+  "state": "CONFIGURED_AND_SUBMITTED_GOOGLE_PROCESSING_PENDING",
+  "sourceRevision": "c3177e15f7b09503da5c422638ebbc97e59fe5a0",
+  "publicManifest": "LAFMAT-20261124-9CB50AF756EB",
+  "searchConsoleProperty": "sc-domain:lafmat.com",
+  "googleAccount": "mario.reis.junior@gmail.com",
+  "sitemap": {
+    "url": "https://lafmat.com/sitemap.xml",
+    "publicHttpStatus": 200,
+    "uniqueCanonicalUrls": 57,
+    "submitted": true,
+    "processedSuccessfully": true,
+    "lastRead": "2026-11-24",
+    "discoveredPages": 57,
+    "discoveredVideos": 0,
+    "note": "Initial Couldn't fetch immediately after submission resolved to success in detail, without resubmission. Discovery is not indexing.",
+    "finalTableStatus": "Success"
+  },
+  "analyticsLink": {
+    "userConfirmedFinalLink": true,
+    "propertyId": "565753617",
+    "streamId": "16408359562",
+    "streamName": "LAFMAT website",
+    "streamUrl": "https://lafmat.com",
+    "searchConsoleDomain": "lafmat.com",
+    "result": "Link created successfully",
+    "collection": "Search Console Published to all already present; no new publication needed",
+    "reports": [
+      "Queries",
+      "Google organic search traffic"
+    ],
+    "queryReport": "Opened successfully; No data available"
+  },
+  "inspections": [
+    {
+      "url": "https://lafmat.com/",
+      "indexStatus": "URL is unknown to Google; not indexed",
+      "lastCrawl": null,
+      "liveStatus": "URL is available to Google / Page can be indexed",
+      "crawlAllowed": true,
+      "fetch": "Successful",
+      "indexingAllowed": true,
+      "tool": "Google Inspection Tool smartphone",
+      "declaredCanonical": "https://lafmat.com/",
+      "googleCanonical": "Only determined after indexing",
+      "renderedHtml": "Title, description, canonical and reciprocal EN/PT/ES alternate links observed in tested HTML",
+      "renderedScreenshot": "Google Inspection Tool smartphone screenshot view opened",
+      "indexingRequest": "Indexing requested; added to priority crawl queue"
+    },
+    {
+      "url": "https://lafmat.com/pt/seminars/",
+      "indexStatus": "Discovered - currently not indexed",
+      "referringSitemap": "https://lafmat.com/sitemap.xml",
+      "lastCrawl": null,
+      "liveStatus": "URL is available to Google / Page can be indexed",
+      "crawlAllowed": true,
+      "fetch": "Successful",
+      "indexingAllowed": true,
+      "tool": "Google Inspection Tool smartphone",
+      "declaredCanonical": "https://lafmat.com/pt/seminars/",
+      "googleCanonical": "Only determined after indexing",
+      "indexingRequest": "Indexing requested; added to priority crawl queue"
+    },
+    {
+      "url": "https://lafmat.com/es/videos/",
+      "indexStatus": "Discovered - currently not indexed",
+      "referringSitemap": "https://lafmat.com/sitemap.xml",
+      "lastCrawl": null,
+      "liveStatus": "URL is available to Google / Page can be indexed",
+      "crawlAllowed": true,
+      "fetch": "Successful",
+      "indexingAllowed": true,
+      "tool": "Google Inspection Tool smartphone",
+      "declaredCanonical": "https://lafmat.com/es/videos/",
+      "googleCanonical": "Only determined after indexing",
+      "indexingRequest": "Indexing requested; added to priority crawl queue"
+    },
+    {
+      "url": "https://lafmat.com/videos/2026/",
+      "indexStatus": "Discovered - currently not indexed",
+      "referringSitemap": "https://lafmat.com/sitemap.xml",
+      "lastCrawl": null,
+      "liveStatus": "URL is available to Google / Page can be indexed",
+      "crawlAllowed": true,
+      "fetch": "Successful",
+      "indexingAllowed": true,
+      "tool": "Google Inspection Tool smartphone",
+      "declaredCanonical": "https://lafmat.com/videos/2026/",
+      "googleCanonical": "Only determined after indexing",
+      "indexingRequest": "Indexing requested; added to priority crawl queue"
+    },
+    {
+      "url": "https://lafmat.com/conferences/2023/",
+      "indexStatus": "Discovered - currently not indexed",
+      "referringSitemap": "https://lafmat.com/sitemap.xml",
+      "lastCrawl": null,
+      "liveStatus": "URL is available to Google / Page can be indexed",
+      "crawlAllowed": true,
+      "fetch": "Successful",
+      "indexingAllowed": true,
+      "tool": "Google Inspection Tool smartphone",
+      "declaredCanonical": "https://lafmat.com/conferences/2023/",
+      "googleCanonical": "Only determined after indexing",
+      "indexingRequest": "Indexing requested; added to priority crawl queue"
+    }
+  ],
+  "baseline": {
+    "performance": "Processing data, please check again in a day or so",
+    "pageIndexingReport": "Processing data, please check again in a day or so",
+    "coreWebVitals": "No data",
+    "httpsHistoricalReport": {
+      "httpsUrls": 14,
+      "nonHttpsUrls": 1,
+      "note": "Historical report, not current TLS failure evidence"
+    }
+  },
+  "boundaries": [
+    "No Change of Address because domain unchanged",
+    "No Indexing API for ordinary pages",
+    "No URL removals, DNS, WordPress or Ads changes",
+    "No guarantees of indexing or ranking",
+    "GSC Wizard prior subscription limitation; used official free UI"
+  ],
+  "priorityRequestsAccepted": 5,
+  "indexedAtInspection": 0,
+  "indexedAtInspectionScope": "Only the five inspected canonical samples; not an assertion of total domain coverage",
+  "technicalAcceptance": "PASS",
+  "actualIndexingComplete": false,
+  "legacyInspection": {
+    "url": "https://lafmat.com/home/program/",
+    "indexStatus": "URL is unknown to Google; not indexed",
+    "liveStatus": "URL is available to Google after following redirect",
+    "fetch": "Successful",
+    "crawlAllowed": true,
+    "indexingAllowed": true,
+    "declaredCanonical": "https://lafmat.com/conferences/2023/program/",
+    "googleCanonical": "Only determined after indexing",
+    "requestIndexing": false,
+    "reason": "Retired alias should consolidate into canonical destination, not be separately promoted"
+  },
+  "pendingExternal": [
+    "Google crawl/index selection for submitted canonical pages",
+    "Initial Search Console performance/indexing reports",
+    "Search Console metrics in linked Analytics reports"
+  ],
+  "evidenceScreenshots": [
+    "lafmat-google-sitemap-success-2026-11-24.jpg",
+    "lafmat-search-console-analytics-linked-2026-11-24.jpg",
+    "lafmat-google-indexing-requested-2026-11-24.jpg",
+    "lafmat-google-rendered-home-2026-11-24.jpg",
+    "lafmat-google-legacy-redirect-2026-11-24.jpg"
+  ]
+}

@@ -59,3 +59,9 @@ Relatórios disponíveis consultados:
 Baseline estruturada em search-console-baseline-2026-11-24.json; prova DNS/web em search-console-dns-2026-11-24.json. Screenshot da conta com Owner Verified salvo na pasta de visualizações do projeto. A tentativa de exportação CSV do relatório HTTPS pelo navegador não retornou arquivo; sessão de controle reiniciou. Não se afirma que CSV foi baixado. Valores observados foram registrados no recibo JSON, sem métricas inventadas. Exportações de desempenho/indexação ficam pendentes de o Google concluir processamento e serão retomadas no acompanhamento, sem impedir a preparação local do Change 003.
 
 Não usada a ferramenta Change of Address, não instalada tag GA4 e não feitas mudanças no WordPress/conferência de 2023. Arquivos de produção permanecem no manifesto LAFMAT-20261123-BCB04519421A. Nenhum commit/push/deploy neste turno. Próxima Change: 003-indexable-static-routes; submissão do sitemap só após geração e publicação das rotas finais.
+
+## Change 006 — 24/11/2026
+
+Sitemap https://lafmat.com/sitemap.xml submetido à propriedade sc-domain:lafmat.com e processado com sucesso; 57 páginas descobertas, leitura em 24/11/2026. Associação ao GA4 565753617 e fluxo LAFMAT website 16408359562 concluída após confirmação do usuário. Coleção Search Console já publicada no Analytics, Queries disponível mas sem dados processados.
+
+Inspeções ao vivo e pedidos prioritários em docs/seo/google-validation-2026-11-24.json. O relatório indexado inicialmente ainda não contém as novas páginas: descoberta e fila de rastreamento não equivalem a indexação concluída. A página inicial foi renderizada corretamente pelo Google Inspection Tool smartphone, inclusive identidade visual e conteúdo principal. Não realizar Change of Address ou Indexing API para estas páginas comuns.
