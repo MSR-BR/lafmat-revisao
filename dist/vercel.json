@@ -865,6 +865,16 @@
       "permanent": true
     },
     {
+      "source": "/home/galeria-videos/",
+      "destination": "/videos/",
+      "permanent": true
+    },
+    {
+      "source": "/home/galeria-videos/index.html",
+      "destination": "/videos/",
+      "permanent": true
+    },
+    {
       "source": "/home/important-dates/",
       "destination": "/conferences/2023/important-dates/",
       "permanent": true

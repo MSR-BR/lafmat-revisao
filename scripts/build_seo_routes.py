@@ -20,6 +20,8 @@ destinations = {
     '/home/': '/', '/home/know-us/': '/members/', '/home/about-us/': '/',
     '/home/contacts/': '/contact/', '/home/seminars/': '/seminars/',
     '/home/video-gallery/': '/videos/', '/home/__trashed/': '/news/',
+    # Legacy gallery alias reported by Search Console on 26/11/2026.
+    '/home/galeria-videos/': '/videos/',
     '/home/conferences/': '/conferences/',
     '/home/video-galery-2022/': '/videos/2022/',
     '/home/video-gallery-2023/': '/videos/2023/',

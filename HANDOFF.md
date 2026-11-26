@@ -350,3 +350,17 @@ PO_MAGICO_CHECKPOINT: change —007, primeira observação e agendamento
 PO_MAGICO_DELTA_ADOPTED: scheduled-follow-up aplicado; agenda ACTIVE não equivale a janela observada
 PO_MAGICO_LESSON_CANDIDATE: coorte pode avançar antes dos rollups; não extrapolar amostra ou QA
 ACTUAL_MODEL: Codex, identificador específico não exposto
+
+## 26/11/2026 — Change 008, correção local após alerta Search Console
+
+Conta/propriedade corretas confirmadas no Chrome oficial. Relatório:34 indexadas/35 excluídas (9 redirects,2 404,1 noindex,3 duplicadas,20 rastreadas sem índice). Inspeção individual: home, /pt/seminars/ e /videos/ indexadas eHTTPS; home canonical escolhido=Inspected URL. Grupos históricos estão defasados. /home/seminars/ e 3 duplicadas antigas já redirecionam corretamente, destinos200 self canonical. Validações noindex/duplicadas iniciadas26/11, não concluídas. 404 /home/video-galery-2024/ já corrigido; /home/galeria-videos/ ainda404 público e é a única correção nova confirmada.
+
+Candidato local adiciona somente duas regras permanentes (rota e index.html) para /videos/. Generator atualizado; demais regras/headers idênticos. Manifesto LAFMAT-20261126-00F8065F385E,649 arquivos. PASS SEO45/57/123/1672, estático3570 refs, integridade, Analytics mocks, vídeos306/273, conferência22/dezassets, gate focado. Não publicar sem aprovação exata do candidato; produção permanece9CB50AF756EB. Recibo docs/seo/search-console-review-2026-11-26.json e specs008. Após release: conferir ambos aliases308->200/TLS/manifesto e então validar grupo404 no Google. Rotinas semanais de vídeos e SEO preservadas; output/ intocado.
+
+PO_MAGICO_SOURCE: ../po-magico
+PO_MAGICO_VERSION_USED: v20261111.001; divergência de origem já documentada, sincronização remota não revalidada
+PO_MAGICO_LAST_CHECKED:2026-11-26
+PO_MAGICO_CHECKPOINT: change008 / candidato local
+PO_MAGICO_DELTA_ADOPTED: preservar inventário histórico, acrescentar alias observado e distinguir índice individual de relatório defasado
+ACTUAL_MODEL: Codex, identificador/reasoning específicos não expostos
+PUBLICATION_STATE: APPROVAL_PENDING

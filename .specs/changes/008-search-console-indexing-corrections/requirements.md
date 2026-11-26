@@ -1,0 +1,1 @@
+Preserve content, consent, existing canonical routes, sitemap, historical exceptions and all existing redirects. Keep the 1672-URL historical inventory immutable; the newly observed alias is supplementary evidence.

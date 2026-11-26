@@ -1,6 +1,6 @@
 {
-  "code": "LAFMAT-20261124-9CB50AF756EB",
-  "sha256": "9cb50af756eb207b9f8b831ab404e331c9cb9cfbf17327a53dc9391d9685c915",
+  "code": "LAFMAT-20261126-00F8065F385E",
+  "sha256": "00f8065f385e615294e7f66b6e1cd58c29bc378d080ed29a691191e6b9388be2",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "404.html": "4f957b68e2a83279b8c2e1908cdb8b873f3440bb4cc3d476ff09d22e8dcb65b6",
@@ -642,7 +642,7 @@
     "robots.txt": "da4383f8ded09f1badc5c33210de5fa28d56027f56910bbf88a6c669004c4f28",
     "seminars/index.html": "61b4f841406ae524d5c5338d57cdefb7a8a8dc58fc3977aa8e7111386cc788bd",
     "sitemap.xml": "62100795e83f403badfc572f1880a2dc6af905a2708012a05e5de00c971b6be0",
-    "vercel.json": "9e64f8d0f10162ebe1b36047a466088e45cd7c1d2cd5afb34bfc8e7232f978cc",
+    "vercel.json": "8479febdb22014755fe979156a8fba6a9b11f3c0aa1fa7ae209edf376f40ac0e",
     "videos/2020/index.html": "03748e8886e23004d7176a17421a0501cc81134538ba35f7330d44214242f74d",
     "videos/2021/index.html": "6473897bec41d85b5c55dff43da9f65ecdb6c37d7d849248f7e5a970b41d672f",
     "videos/2022/index.html": "bdf4b0b1d66bcf67f39a0b8db50cc1bd8e1dee9352dabb7d2f0fb1b43822b56f",

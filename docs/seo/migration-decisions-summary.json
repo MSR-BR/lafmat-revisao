@@ -11,7 +11,7 @@
     "REDIRECT_TO_EXISTING_MISSING_PATH": 7,
     "EXCEPTION_KEEP_UNMIGRATED_MEDIA": 497
   },
-  "redirect_rules": 121,
+  "redirect_rules": 123,
   "canonical_archive_pages": 12,
   "limits": [
     "Exception means an explicitly retained pre-existing missing resource, not recovered content.",

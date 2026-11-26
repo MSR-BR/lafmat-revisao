@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-26",
+  "property": "sc-domain:lafmat.com",
+  "source": "Official Search Console UI under authorized Mario account; public HTTP with normal TLS",
+  "overview": {
+    "indexed": 34,
+    "notIndexed": 35,
+    "displayedLastUpdate": "2026-11-22",
+    "caution": "Header predates some crawl examples; report is asynchronous. Counts are historical all-known URLs, not 57-current-sitemap coverage."
+  },
+  "groups": {
+    "pageWithRedirect": [
+      "https://lafmat.com/home",
+      "https://lafmat.com/home/",
+      "https://www.lafmat.com/home",
+      "http://www.lafmat.com/home/",
+      "https://lafmat.com/index.html",
+      "https://lafmat.com/home/video-galery-2024/",
+      "http://lafmat.com/conferences/2023/event-home/index.html",
+      "http://www.lafmat.com/",
+      "https://www.lafmat.com/"
+    ],
+    "notFound": [
+      "https://www.lafmat.com/home/video-galery-2024/",
+      "https://www.lafmat.com/home/galeria-videos/"
+    ],
+    "noindex": [
+      "https://lafmat.com/home/seminars/"
+    ],
+    "duplicate": [
+      "http://www.lafmat.com/home/__trashed/",
+      "http://www.lafmat.com/home/video-gallery-2023/",
+      "http://www.lafmat.com/home/seminars/"
+    ],
+    "crawledNotIndexed": [
+      "/conferences/2023/poster-2/",
+      "/pt/videos/2024/",
+      "/",
+      "/es/privacy/",
+      "/es/news/",
+      "/pt/privacy/",
+      "/conferences/2023/publications/",
+      "/videos/2025/",
+      "/pt/videos/",
+      "/pt/news/",
+      "/pt/seminars/",
+      "/seminars/",
+      "/es/",
+      "/pt/",
+      "/conferences/",
+      "/news/",
+      "/privacy/",
+      "/conferences/2023/",
+      "/videos/2024/",
+      "/home/event-home/"
+    ]
+  },
+  "currentIndividualInspections": {
+    "https://lafmat.com/": {
+      "indexed": true,
+      "https": true,
+      "crawl": "2026-11-25 02:58:36 as displayed",
+      "fetch": "Successful",
+      "crawlAllowed": true,
+      "indexingAllowed": true,
+      "declaredCanonical": "https://lafmat.com/",
+      "googleCanonical": "Inspected URL"
+    },
+    "https://lafmat.com/pt/seminars/": {
+      "indexed": true,
+      "https": true
+    },
+    "https://lafmat.com/videos/": {
+      "indexed": true,
+      "https": true
+    }
+  },
+  "publicHttp": {
+    "oldSeminars": "308 to /seminars/ then 200 self canonical; no noindex",
+    "oldVideo2024": "www normalization then 308 to /videos/2024/ then 200 self canonical",
+    "oldGaleriaVideos": "www normalization then 404; confirmed new repair",
+    "duplicateAliases": "HTTP -> HTTPS -> canonical host -> equivalent /news/, /videos/2023/ or /seminars/, all 200 self canonical",
+    "canonicalSamples": [
+      "/videos/",
+      "/pt/videos/2024/",
+      "/conferences/2023/poster-2/",
+      "/es/privacy/",
+      "/pt/news/"
+    ],
+    "canonicalSamplesResult": "All 200, self canonical (archive via HTTP Link), no noindex; no challenge or TLS bypass"
+  },
+  "googleMutations": {
+    "noindexValidation": "Validation started 2026-11-26, observed UI",
+    "duplicateValidation": "Validation started 2026-11-26, observed UI",
+    "notFoundValidation": "NOT_REQUESTED: one real 404 remains pending release",
+    "redirectValidation": "NOT_REQUESTED: expected exclusions",
+    "indexRequests": "NONE; indexed priority samples require no repeat"
+  },
+  "findings": [
+    {
+      "priority": "P2",
+      "url": "https://lafmat.com/home/galeria-videos/",
+      "status": "LOCAL_FIX_VALIDATED_NOT_PUBLISHED",
+      "correction": "Two explicit permanent aliases to existing indexed /videos/; no wildcard fallback"
+    },
+    {
+      "priority": "observation",
+      "status": "ASYNCHRONOUS_REPORT",
+      "detail": "Home and PT seminars appear in crawled-not-indexed historical group but individual inspection confirms indexed. Do not force canonical/translation changes based only on stale group."
+    }
+  ],
+  "candidate": {
+    "manifest": "LAFMAT-20261126-00F8065F385E",
+    "sha256": "00f8065f385e615294e7f66b6e1cd58c29bc378d080ed29a691191e6b9388be2",
+    "publication": "APPROVAL_PENDING",
+    "releaseGate": "PASS (focused bounded-routing checks)"
+  },
+  "limits": [
+    "Remaining crawled-not-indexed pages require observation; no proof of new technical block in tested sample.",
+    "35 group URLs read in UI; public HTTP checks were targeted, not a full-domain crawl.",
+    "No Ads, GA settings, DNS, WordPress, content or automation changed.",
+    "No claim that Google validations have passed."
+  ]
+}
